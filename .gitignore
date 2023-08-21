@@ -1,3 +1,6 @@
+# For PCBs designed using KiCad: https://www.kicad.org/
+# Format documentation: https://kicad.org/help/file-formats/
+
 # Temporary files
 *.000
 *.bak
@@ -9,7 +12,6 @@
 *.sch-bak
 *~
 _autosave-*
-*auto_saved_files*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
@@ -25,6 +27,3 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
-
-# Gerbers (zip them instead)
-gerbers/*
