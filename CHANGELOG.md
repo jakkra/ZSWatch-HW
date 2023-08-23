@@ -17,6 +17,7 @@
 - Move BTN_2 from J9 (P0.31) to H9 (P1.11)
 - Move BTN_3 from H9 (P1.11) to H8 (P0.30)
 - Move CHG from H8 (P0.30) to G9 (P1.13)
+- Remove pin header as dock connector with magnetic contact
 
 **Removed:**
 
