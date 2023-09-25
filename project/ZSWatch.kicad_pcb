@@ -7,7 +7,7 @@
   (paper "A4")
   (title_block
     (title "ZSWatch v2")
-    (date "2023-08-19")
+    (date "2023-09-25")
     (rev "3")
     (company "github.com/jakkra/ZSWatch-HW")
   )
@@ -4675,11 +4675,10 @@
     (property "Order Number" "")
     (property "Sheetfile" "ZSWatch.kicad_sch")
     (property "Sheetname" "")
-    (property "exclude_from_bom" "")
     (property "ki_description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/b0b10a50-f84e-47ca-9936-990bc9d25c44")
-    (attr smd exclude_from_bom)
+    (attr smd)
     (fp_text reference "X1" (at 0 0.5 unlocked) (layer "B.SilkS") hide
         (effects (font (size 1 1) (thickness 0.1)) (justify mirror))
       (tstamp 0c61ea0a-e9cf-4e43-a965-8ffe4b81d587)
