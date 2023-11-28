@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.09999999999999999,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.127
         }
       },
       "diff_pair_dimensions": [
@@ -490,6 +490,18 @@
     "subpart_id_separator": 0
   },
   "sheets": [
+    [
+      "cee9a3a2-28cd-4e6c-b23d-337f115f39e8",
+      "Power Management"
+    ],
+    [
+      "82af773f-8c39-43b9-baa2-3658da6c8bb2",
+      "Sensors"
+    ],
+    [
+      "8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7",
+      "MCU"
+    ],
     [
       "d5742f03-3b1a-42e5-a384-018bd4b919aa",
       ""
