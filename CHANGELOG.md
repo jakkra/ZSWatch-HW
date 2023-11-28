@@ -1,5 +1,21 @@
 # CHANGELOG
 
+## [2.0.4] - 29.10.2023
+
+**Added:**
+
+- Add revision variable for PCB revision in copper
+
+**Changed:**
+
+- Move DISPLAY_CS from P0.11 to P0.12
+- Move DISPLAY_DC from P0.12 to P0.11
+- Move DISPLAY_EN from P0.15 to P1.01
+- Move SENSOR_SCL from P0.18 to P0.07
+- Move SENSOR_SDA from P0.17 to P0.10
+- Move INT2_LIS from P0.14 to P0.19
+- Move Flash to to dedicated QSPI pins on nRF5340
+
 ## [2.0.3] - 25.09.2023
 
 **Added:**
