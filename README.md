@@ -1,8 +1,4 @@
 # ZSWatch Hardware
-
-> :warning: **ZSWatch v3 uses external flash on normal SPI. ZSWatch v4 switches it to QSPI. This improves performance significantly when having LVGL resources in the external flash. If this is important please wait for us to validate ZSWatch v4, you can find the untested design here https://github.com/jakkra/ZSWatch-HW/tree/move_flash_to_qspi. The new design have been ordered and expected to arrive around ~25 November 2023. Once it's been verified to work it will be merged to main.**:
-
-
 ## Table of Contents
 
 - [ZSWatch Hardware](#zswatch-hardware)
