@@ -450,7 +450,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "../cad/ZSWatch.step",
+      "step": "../cad/PCB.step",
       "vrml": ""
     },
     "page_layout_descr_file": "default.kicad_wks"
