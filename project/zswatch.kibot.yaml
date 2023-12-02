@@ -5,19 +5,18 @@ variants:
   - name: "Watch"
     comment: "Regular Watch PCB"
     type: kibom
-  - name: "Sensor board"
+  - name: "Sensor"
     comment: "Reduced Watch PCB for sensing applications"
     type: kibom
-    file_id: _Env
     variant: Env
 
 global:
   out_dir: "../production/Export-%D"
   date_format: "%Y-%m-%d"
-  environment:
-    extra_os:
-      - name: KICAD_LIBRARY
-        value: "/home/daniel/KiCad"
+#  environment:
+#    extra_os:
+#      - name: KICAD_LIBRARY
+#        value: "/home/daniel/KiCad"
 
 outputs:
   - name: "Generate IBOM"
