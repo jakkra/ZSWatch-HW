@@ -13,10 +13,6 @@ variants:
 global:
   out_dir: "../production/Export-%D"
   date_format: "%Y-%m-%d"
-#  environment:
-#    extra_os:
-#      - name: KICAD_LIBRARY
-#        value: "/home/daniel/KiCad"
 
 outputs:
   - name: "Generate IBOM"
