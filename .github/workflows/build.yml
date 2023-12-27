@@ -1,0 +1,57 @@
+name: Build
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+
+    env:
+      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/ZSWatch-HW/library
+    strategy:
+      matrix:
+        device_type: [Watch, Sensor]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+        with:
+          path: ZSWatch-HW
+          submodules: recursive
+
+      - name: Dependencies
+        run: |
+          wget https://github.com/INTI-CMNB/KiBot/releases/download/v1.6.3/kibot_1.6.3-1_all.deb
+          sudo apt install ./kibot*_all.deb
+
+          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.7.0-1/interactivehtmlbom.inti-cmnb_2.7.0-1_all.deb
+          sudo apt install ./interactivehtmlbom.inti-cmnb_2.7.0-1_all.deb
+
+          wget https://github.com/INTI-CMNB/KiAuto/releases/download/v2.2.8/kiauto_2.2.8-1_all.deb
+          sudo apt install ./kiauto_2.2.8-1_all.deb
+
+          sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
+          sudo apt update
+          sudo apt install --install-recommends kicad
+
+      - name: Initialize
+        working-directory: ZSWatch-HW
+        run: |
+          mkdir production
+          git clone https://github.com/Kampi/KiCad.git library
+          cd library
+          echo ${PWD}
+
+      - name: Generate files
+        run: |
+          cd ZSWatch-HW/project
+          kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
+      
+      - name: Upload Results
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ matrix.device_type }}
+          path: |
+            ZSWatch-HW/production
+          if-no-files-found: ignore
