@@ -45,6 +45,20 @@ outputs:
       bottom: true
       output: "PCB_Bottom.%x"
 
+  - name: "Generate Drill"
+    comment: "Generate drill files"
+    type: excellon
+    dir: gerber
+    options:
+      metric_units: true
+      mirror_y_axis: false
+      pth_and_npth_single_file: false
+      left_digits: 0
+      minimal_header: false
+      use_aux_axis_as_origin: true
+      route_mode_for_oval_holes: true
+      zeros_format: "DECIMAL_FORMAT"
+
   - name: "Generate Gerbers"
     comment: "Generate Gerbers"
     type: gerber
@@ -207,7 +221,7 @@ outputs:
     options:
       format: ZIP
       files:
-        - source: gerber
+        - source: gerber/**
       output: "Gerber_%D.%x"
 
   - name: "ZIP Centroid"
@@ -217,7 +231,7 @@ outputs:
     options:
       format: ZIP
       files:
-        - source: centroid
+        - source: centroid/**
       output: "Centroid_%D.%x"
 
   - name: "Step file"
