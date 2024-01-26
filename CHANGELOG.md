@@ -12,6 +12,7 @@
 - Add USB support (experimental)
 - Add marker for display cable orientation
 - Add markers for better IC placements
+- Add PCB cutout for BME688 sensor
 
 **Changed:**
 
@@ -30,6 +31,7 @@
 
 - Remove GPIO pads
 - Remove BMP581 INT
+- Remove copper under BME688 sensor
 
 ## [2.0.4] - 29.10.2023
 

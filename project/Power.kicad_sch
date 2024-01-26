@@ -6,7 +6,7 @@
 
   (title_block
     (title "ZSWatch v2")
-    (date "2023-12-06")
+    (date "2024-01-27")
     (rev "5")
     (company "github.com/jakkra/ZSWatch-HW")
   )
@@ -646,7 +646,7 @@
   (junction (at 193.04 87.63) (diameter 0) (color 0 0 0 0)
     (uuid 15bc8e99-ed47-4ad0-8ccf-ad31d432a44b)
   )
-  (junction (at 127 40.64) (diameter 0) (color 0 0 0 0)
+  (junction (at 128.27 40.64) (diameter 0) (color 0 0 0 0)
     (uuid 47e78a0e-0c66-4523-b8dd-281bc01f7d40)
   )
   (junction (at 115.57 40.64) (diameter 0) (color 0 0 0 0)
@@ -779,7 +779,7 @@
     (stroke (width 0) (type default))
     (uuid 33dade34-d146-4ff3-9209-f7637742be6c)
   )
-  (wire (pts (xy 111.76 40.64) (xy 111.76 41.91))
+  (wire (pts (xy 113.03 40.64) (xy 113.03 41.91))
     (stroke (width 0) (type default))
     (uuid 37bda572-994f-4b78-83a5-aaec2cd673fc)
   )
@@ -843,7 +843,7 @@
     (stroke (width 0) (type default))
     (uuid 56ecb004-de91-4b72-a9ca-5afe512eadf5)
   )
-  (wire (pts (xy 127 46.99) (xy 127 48.26))
+  (wire (pts (xy 128.27 46.99) (xy 128.27 48.26))
     (stroke (width 0) (type default))
     (uuid 572b18c8-dea6-471b-8e40-9c4e6ff2710e)
   )
@@ -855,7 +855,7 @@
     (stroke (width 0) (type default))
     (uuid 5b8a9410-acfd-43db-9ba9-8ab7964b2a67)
   )
-  (wire (pts (xy 111.76 46.99) (xy 111.76 48.26))
+  (wire (pts (xy 113.03 46.99) (xy 113.03 48.26))
     (stroke (width 0) (type default))
     (uuid 5c3de2f6-23a0-4b7e-b4f9-595bd36e75a1)
   )
@@ -931,7 +931,7 @@
     (stroke (width 0) (type default))
     (uuid 8b77f141-4301-4f80-8b73-cac9d181e1a0)
   )
-  (wire (pts (xy 111.76 40.64) (xy 115.57 40.64))
+  (wire (pts (xy 113.03 40.64) (xy 115.57 40.64))
     (stroke (width 0) (type default))
     (uuid 8bdf1cfd-5031-440a-9009-44600eeae8f6)
   )
@@ -971,7 +971,7 @@
     (stroke (width 0) (type default))
     (uuid 9c6cfeff-8f32-41bf-a241-0a6de2841e94)
   )
-  (wire (pts (xy 127 39.37) (xy 127 40.64))
+  (wire (pts (xy 128.27 39.37) (xy 128.27 40.64))
     (stroke (width 0) (type default))
     (uuid a0a98e87-24f5-48e3-ab1d-2a0f75701e20)
   )
@@ -999,7 +999,7 @@
     (stroke (width 0) (type default))
     (uuid bffa01be-2429-4976-a49f-5d7179178d15)
   )
-  (wire (pts (xy 127 41.91) (xy 127 40.64))
+  (wire (pts (xy 128.27 41.91) (xy 128.27 40.64))
     (stroke (width 0) (type default))
     (uuid c13e4bdc-9616-4f61-ad3e-473d11f870eb)
   )
@@ -1055,7 +1055,7 @@
     (stroke (width 0) (type default))
     (uuid e06c918c-29a4-4099-81aa-39f741ea71a8)
   )
-  (wire (pts (xy 127 40.64) (xy 130.81 40.64))
+  (wire (pts (xy 128.27 40.64) (xy 130.81 40.64))
     (stroke (width 0) (type default))
     (uuid e0c66de7-9231-4cfe-996d-95ead4e7c956)
   )
@@ -1171,10 +1171,10 @@
   (symbol (lib_id "Device:C_Small") (at 218.44 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 03cfecf6-c11a-4c4d-b5da-a534c194ec1f)
-    (property "Reference" "C?" (at 220.98 90.8113 0)
+    (property "Reference" "C10" (at 220.98 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1u" (at 220.98 93.3513 0)
+    (property "Value" "1u" (at 220.98 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 218.44 91.44 0)
@@ -1202,9 +1202,6 @@
     (pin "2" (uuid e755b06b-9dba-4d87-9939-b10301b052cf))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C10") (unit 1)
         )
@@ -1215,7 +1212,7 @@
   (symbol (lib_id "power:GND") (at 184.15 114.3 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08a40fb5-5a9c-4c49-8b7e-0d8607ce2c3d)
-    (property "Reference" "#PWR?" (at 184.15 120.65 0)
+    (property "Reference" "#PWR012" (at 184.15 120.65 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 119.38 0)
@@ -1242,9 +1239,6 @@
     (pin "1" (uuid 6ff0db71-b2ef-4a93-bb32-af71da689e31))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR012") (unit 1)
         )
@@ -1255,10 +1249,10 @@
   (symbol (lib_id "Device:L") (at 173.99 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08e7a198-02b2-4f4c-bbb1-361fc894d09c)
-    (property "Reference" "L?" (at 175.26 106.045 0)
+    (property "Reference" "L1" (at 175.26 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2u2" (at 175.26 108.585 0)
+    (property "Value" "2u2" (at 175.26 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Inductor_SMD_Kampi:L_0806_2016" (at 173.99 106.68 0)
@@ -1286,9 +1280,6 @@
     (pin "2" (uuid 8e27feb9-abd6-4bc1-98a4-9d61a39b36c4))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "L?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "L1") (unit 1)
         )
@@ -1296,43 +1287,40 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 111.76 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Device:C_Small") (at 113.03 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0f86fcbe-c89a-4b08-baed-2057f2cdec85)
-    (property "Reference" "C?" (at 109.22 43.8213 0)
+    (property "Reference" "C1" (at 110.49 43.1863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "1u" (at 109.22 46.3613 0)
+    (property "Value" "1u" (at 110.49 45.7263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 111.76 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 44.45 0)
+    (property "Datasheet" "~" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr." "KYOCERA AVX" (at 111.76 44.45 0)
+    (property "Mfr." "KYOCERA AVX" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "0603YC105JAT2A" (at 111.76 44.45 0)
+    (property "Mfr. No." "0603YC105JAT2A" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Distributor" "Mouser" (at 111.76 44.45 0)
+    (property "Distributor" "Mouser" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Order Number" "581-0603YC105JAT2A" (at 111.76 44.45 0)
+    (property "Order Number" "581-0603YC105JAT2A" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "CONFIG" "" (at 111.76 44.45 0)
+    (property "CONFIG" "" (at 113.03 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 580c312e-d47c-49e8-ba44-aa561c890115))
     (pin "2" (uuid 51756d32-da77-4e81-becd-25d2855bc87f))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C1") (unit 1)
         )
@@ -1343,10 +1331,10 @@
   (symbol (lib_id "Device:C_Small") (at 184.15 109.22 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 10141337-eb0c-40a3-90f0-5efac755f045)
-    (property "Reference" "C?" (at 186.69 108.5913 0)
+    (property "Reference" "C5" (at 186.69 107.9563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 186.69 111.1313 0)
+    (property "Value" "10u" (at 186.69 110.4963 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 184.15 109.22 0)
@@ -1374,9 +1362,6 @@
     (pin "2" (uuid d5b0087e-e260-44e2-99c1-f7b0adcbabd6))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C5") (unit 1)
         )
@@ -1385,12 +1370,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 82.55 134.62 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18743cfe-9c1d-44ae-87b8-60eea41e377f)
-    (property "Reference" "R?" (at 85.09 133.985 0)
+    (property "Reference" "R2" (at 85.09 133.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "150k" (at 85.09 136.525 0)
+    (property "Value" "150k" (at 85.09 135.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 82.55 134.62 0)
@@ -1418,9 +1403,6 @@
     (pin "2" (uuid bb20760d-66f7-4b9d-bd4a-8d33b2416d76))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "R?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "R2") (unit 1)
         )
@@ -1431,7 +1413,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 200.66 125.73 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 19271afb-bfe8-4cf0-8109-964a783e2f14)
-    (property "Reference" "TP?" (at 203.2 121.793 0)
+    (property "Reference" "TP1" (at 203.2 121.793 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V3" (at 203.2 124.333 0)
@@ -1461,9 +1443,6 @@
     (pin "1" (uuid 395b96aa-6719-48bb-9405-abc98688c043))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "TP?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "TP1") (unit 1)
         )
@@ -1471,27 +1450,24 @@
     )
   )
 
-  (symbol (lib_id "power:+1V8") (at 127 39.37 0) (unit 1)
+  (symbol (lib_id "power:+1V8") (at 128.27 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 20cf25ec-070e-4b47-95c5-59569fb95aeb)
-    (property "Reference" "#PWR?" (at 127 43.18 0)
+    (property "Reference" "#PWR04" (at 128.27 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+1V8" (at 127 35.56 0)
+    (property "Value" "+1V8" (at 128.27 35.56 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 127 39.37 0)
+    (property "Footprint" "" (at 128.27 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 127 39.37 0)
+    (property "Datasheet" "" (at 128.27 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 18511920-2939-4683-b8b4-6fc80b63050b))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR04") (unit 1)
         )
@@ -1502,10 +1478,10 @@
   (symbol (lib_id "Device:C_Small") (at 193.04 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26acfb06-5cc5-4b56-bd13-6fada4843d06)
-    (property "Reference" "C?" (at 195.58 90.8113 0)
+    (property "Reference" "C7" (at 195.58 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 195.58 93.3513 0)
+    (property "Value" "10u" (at 195.58 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 193.04 91.44 0)
@@ -1533,9 +1509,6 @@
     (pin "2" (uuid 8aa4690c-4f9a-46f8-938c-00be1f1d8416))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C7") (unit 1)
         )
@@ -1546,7 +1519,7 @@
   (symbol (lib_id "power:GND") (at 191.77 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2fc9dede-a09f-4d46-8cd8-b02460952a51)
-    (property "Reference" "#PWR?" (at 191.77 73.66 0)
+    (property "Reference" "#PWR013" (at 191.77 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 191.77 72.39 0)
@@ -1573,9 +1546,6 @@
     (pin "1" (uuid 57c9d164-e0b4-43b1-9391-063135d0d58a))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR013") (unit 1)
         )
@@ -1584,12 +1554,12 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 80.01 134.62 0) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 372eed9d-925c-4f11-8f3d-4bc6e45e0e05)
-    (property "Reference" "R?" (at 77.47 133.985 0)
+    (property "Reference" "R1" (at 77.47 133.35 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "47k" (at 77.47 136.525 0)
+    (property "Value" "47k" (at 77.47 135.89 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Resistor_SMD:R_0603_1608Metric" (at 80.01 134.62 0)
@@ -1617,9 +1587,6 @@
     (pin "2" (uuid dc39d88e-1438-46e7-89ec-718b50c9aa6c))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "R?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "R1") (unit 1)
         )
@@ -1630,7 +1597,7 @@
   (symbol (lib_id "Nordic:nPM1300-QEXX") (at 132.08 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3a814bb8-dec5-4449-9e7b-7701173fed68)
-    (property "Reference" "IC?" (at 102.87 71.12 0) (do_not_autoplace)
+    (property "Reference" "IC1" (at 102.87 71.12 0) (do_not_autoplace)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "nPM1300-QEXX" (at 109.22 144.78 0) (do_not_autoplace)
@@ -1692,9 +1659,6 @@
     (pin "9" (uuid ccd1dffe-4d56-4903-953b-df51b1e9a690))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "IC?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "IC1") (unit 1)
         )
@@ -1705,7 +1669,7 @@
   (symbol (lib_id "power:+3V0") (at 184.15 104.14 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ca8e16b-4157-446b-8b57-5236cb9c33d9)
-    (property "Reference" "#PWR?" (at 184.15 107.95 0)
+    (property "Reference" "#PWR011" (at 184.15 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 184.15 100.33 0)
@@ -1720,9 +1684,6 @@
     (pin "1" (uuid cd5b97b2-d5df-42c3-ae21-53c0635553e1))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR011") (unit 1)
         )
@@ -1731,12 +1692,12 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 191.77 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e8391d9-dcc1-4cf1-b9be-affad3ad3a4d)
-    (property "Reference" "C?" (at 189.23 62.8713 0)
+    (property "Reference" "C6" (at 189.23 62.2363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 189.23 65.4113 0)
+    (property "Value" "10u" (at 189.23 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 191.77 63.5 0)
@@ -1764,9 +1725,6 @@
     (pin "2" (uuid e592d139-2cba-4933-8f88-823c4faaef4e))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C6") (unit 1)
         )
@@ -1777,7 +1735,7 @@
   (symbol (lib_id "power:GND") (at 152.4 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5d29ff04-ac8e-44ef-8380-4538b4c2f776)
-    (property "Reference" "#PWR?" (at 152.4 54.61 0)
+    (property "Reference" "#PWR08" (at 152.4 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 152.4 53.34 0)
@@ -1792,9 +1750,6 @@
     (pin "1" (uuid 3ea7a2b8-c045-479d-8090-8b6a8e8cf478))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR08") (unit 1)
         )
@@ -1805,7 +1760,7 @@
   (symbol (lib_id "power:GND") (at 201.93 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6fb253df-49f4-4244-a620-7c25a7a9c64c)
-    (property "Reference" "#PWR?" (at 201.93 73.66 0)
+    (property "Reference" "#PWR017" (at 201.93 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 201.93 72.39 0)
@@ -1832,9 +1787,6 @@
     (pin "1" (uuid 8e8f7c46-7263-45a9-8e9e-c027e3638eb0))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR017") (unit 1)
         )
@@ -1845,10 +1797,10 @@
   (symbol (lib_id "Device:L") (at 182.88 88.9 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75f3a760-522b-437c-aae9-d902aa26e953)
-    (property "Reference" "L?" (at 184.15 88.265 0)
+    (property "Reference" "L2" (at 184.15 87.63 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "2u2" (at 184.15 90.805 0)
+    (property "Value" "2u2" (at 184.15 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Inductor_SMD_Kampi:L_0806_2016" (at 182.88 88.9 0)
@@ -1876,9 +1828,6 @@
     (pin "2" (uuid d98cb30f-7f83-413f-a089-c1800dfda33c))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "L?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "L2") (unit 1)
         )
@@ -1889,10 +1838,10 @@
   (symbol (lib_id "Connector_Generic:Conn_01x02") (at 158.75 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78e6b67a-c9a8-47f8-a05d-6dc74c691477)
-    (property "Reference" "X?" (at 161.29 41.275 0)
+    (property "Reference" "X1" (at 161.29 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "BATTERY" (at 161.29 43.815 0)
+    (property "Value" "BATTERY" (at 161.29 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Molex:78171-0002" (at 158.75 40.64 0)
@@ -1920,9 +1869,6 @@
     (pin "2" (uuid adcd2879-0f3e-4a31-8b85-15c79d2c253b))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "X?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "X1") (unit 1)
         )
@@ -1933,7 +1879,7 @@
   (symbol (lib_id "power:GND") (at 132.08 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a5ca6e1-dd8a-41d9-ac91-4f3b5d8a81b4)
-    (property "Reference" "#PWR?" (at 132.08 154.94 0)
+    (property "Reference" "#PWR06" (at 132.08 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 153.67 0)
@@ -1960,9 +1906,6 @@
     (pin "1" (uuid 3e305365-61b4-4541-9afd-c0a01fa40f32))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR06") (unit 1)
         )
@@ -1970,39 +1913,36 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 111.76 48.26 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 113.03 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 809db4fd-2dd3-436c-8a28-f681e9406acb)
-    (property "Reference" "#PWR?" (at 111.76 54.61 0)
+    (property "Reference" "#PWR02" (at 113.03 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 111.76 53.34 0)
+    (property "Value" "GND" (at 113.03 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 111.76 48.26 0)
+    (property "Footprint" "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 111.76 48.26 0)
+    (property "Datasheet" "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr." "" (at 111.76 48.26 0)
+    (property "Mfr." "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "" (at 111.76 48.26 0)
+    (property "Mfr. No." "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Distributor" "" (at 111.76 48.26 0)
+    (property "Distributor" "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Order Number" "" (at 111.76 48.26 0)
+    (property "Order Number" "" (at 113.03 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a44d266-d806-4057-a92c-86e325f79754))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR02") (unit 1)
         )
@@ -2013,10 +1953,10 @@
   (symbol (lib_id "Jumper:Jumper_2_Bridged") (at 135.89 63.5 270) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81438d3e-e804-441c-8aea-02b632c8ef9a)
-    (property "Reference" "R?" (at 138.43 62.865 90)
+    (property "Reference" "J1" (at 138.43 62.865 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "~" (at 138.43 65.405 90)
+    (property "Value" "CURRENT" (at 138.43 65.405 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_Pad1.0x1.5mm" (at 135.89 63.5 0)
@@ -2044,9 +1984,6 @@
     (pin "2" (uuid cde95303-afe2-4785-b051-feccb39fa682))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "R?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "J1") (unit 1)
         )
@@ -2055,12 +1992,12 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 181.61 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 87837e07-75c0-477c-8f09-a572e9459c52)
-    (property "Reference" "C?" (at 179.07 62.8713 0)
+    (property "Reference" "C4" (at 179.07 62.2363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 179.07 65.4113 0)
+    (property "Value" "10u" (at 179.07 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 181.61 63.5 0)
@@ -2088,9 +2025,6 @@
     (pin "2" (uuid 8fbdaedd-158c-424c-9c86-7bb40040019a))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C4") (unit 1)
         )
@@ -2101,10 +2035,10 @@
   (symbol (lib_id "Device:C_Small") (at 144.78 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 93546abb-c4af-464d-9ec2-5521f5e20bca)
-    (property "Reference" "C1" (at 147.32 43.8213 0)
+    (property "Reference" "C3" (at 147.32 43.1863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "2u2" (at 147.32 46.3613 0)
+    (property "Value" "2u2" (at 147.32 45.7263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 144.78 44.45 0)
@@ -2132,9 +2066,6 @@
     (pin "2" (uuid 6835b2a3-4b79-4f38-b681-df404d9f776d))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C1") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C3") (unit 1)
         )
@@ -2145,7 +2076,7 @@
   (symbol (lib_id "power:GND") (at 181.61 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97a39a7f-410b-427f-a0eb-6b7711b2ecfb)
-    (property "Reference" "#PWR?" (at 181.61 73.66 0)
+    (property "Reference" "#PWR010" (at 181.61 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 181.61 72.39 0)
@@ -2172,9 +2103,6 @@
     (pin "1" (uuid 3c59f9c0-d629-4cf9-83dd-6399622a8189))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR010") (unit 1)
         )
@@ -2185,7 +2113,7 @@
   (symbol (lib_id "power:GND") (at 200.66 137.16 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a66ce3ce-f42a-4260-a991-90c2cb77a874)
-    (property "Reference" "#PWR?" (at 200.66 143.51 0)
+    (property "Reference" "#PWR016" (at 200.66 143.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 200.66 142.24 0)
@@ -2212,9 +2140,6 @@
     (pin "1" (uuid d6dfa442-7d72-47e1-b060-a7f3c641f074))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR016") (unit 1)
         )
@@ -2225,10 +2150,10 @@
   (symbol (lib_id "Device:C_Small") (at 200.66 132.08 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a79e7036-2ff7-4787-994a-4c3d6639b364)
-    (property "Reference" "C?" (at 203.2 131.4513 0)
+    (property "Reference" "C8" (at 203.2 130.8163 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 203.2 133.9913 0)
+    (property "Value" "10u" (at 203.2 133.3563 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 200.66 132.08 0)
@@ -2256,9 +2181,6 @@
     (pin "2" (uuid 909628ea-63b5-4ad4-b922-fca6268d0ae8))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C8") (unit 1)
         )
@@ -2269,7 +2191,7 @@
   (symbol (lib_id "power:+1V8") (at 193.04 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ae315889-37b7-4498-b7f5-fa40d2d03e05)
-    (property "Reference" "#PWR?" (at 193.04 90.17 0)
+    (property "Reference" "#PWR014" (at 193.04 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 193.04 82.55 0)
@@ -2284,9 +2206,6 @@
     (pin "1" (uuid b1c453f4-e73a-428b-ab6d-2991005267d1))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR014") (unit 1)
         )
@@ -2297,7 +2216,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 200.66 104.14 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c181b2a2-731d-49c5-ad78-1b56c21a3215)
-    (property "Reference" "TP?" (at 203.2 100.203 0)
+    (property "Reference" "TP3" (at 203.2 100.203 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "3V0" (at 203.2 102.743 0)
@@ -2327,9 +2246,6 @@
     (pin "1" (uuid d49b7a49-96c1-4336-8e3f-07b7dd0faac7))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "TP?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "TP3") (unit 1)
         )
@@ -2340,7 +2256,7 @@
   (symbol (lib_id "power:GND") (at 218.44 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c36d7481-a38c-41ba-b2dc-d8ee78a880b4)
-    (property "Reference" "#PWR?" (at 218.44 102.87 0)
+    (property "Reference" "#PWR018" (at 218.44 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 218.44 101.6 0)
@@ -2367,9 +2283,6 @@
     (pin "1" (uuid f4af620f-9220-406e-a400-8a188cf6e3fc))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR018") (unit 1)
         )
@@ -2380,7 +2293,7 @@
   (symbol (lib_id "power:VBUS") (at 115.57 39.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d068978c-bd8f-4016-89c7-acfea277ac8c)
-    (property "Reference" "#PWR?" (at 115.57 43.18 0)
+    (property "Reference" "#PWR03" (at 115.57 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VBUS" (at 115.57 35.6616 0)
@@ -2407,9 +2320,6 @@
     (pin "1" (uuid b72cbe69-6384-49c9-b608-48bc98adeb6d))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR03") (unit 1)
         )
@@ -2417,43 +2327,40 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Small") (at 127 44.45 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+  (symbol (lib_id "Device:C_Small") (at 128.27 44.45 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e262cf8a-52fa-4671-926b-aa4f0fc5e293)
-    (property "Reference" "C?" (at 124.46 43.8213 0)
+    (property "Reference" "C2" (at 125.73 43.1863 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "100n" (at 124.46 46.3613 0)
+    (property "Value" "100n" (at 125.73 45.7263 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 127 44.45 0)
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 127 44.45 0)
+    (property "Datasheet" "~" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr." "KYOCERA AVX" (at 127 44.45 0)
+    (property "Mfr." "KYOCERA AVX" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "06035C104KAT2A" (at 127 44.45 0)
+    (property "Mfr. No." "06035C104KAT2A" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Distributor" "Mouser" (at 127 44.45 0)
+    (property "Distributor" "Mouser" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Order Number" "581-06035C104KAT2A" (at 127 44.45 0)
+    (property "Order Number" "581-06035C104KAT2A" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "CONFIG" "" (at 127 44.45 0)
+    (property "CONFIG" "" (at 128.27 44.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d62ea75c-3591-4462-961e-6747bf94df0f))
     (pin "2" (uuid f81ab6f7-0b31-429e-9f00-7bb92004dc52))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C2") (unit 1)
         )
@@ -2462,12 +2369,12 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 201.93 63.5 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4648c30-036c-40cd-a72a-b1f637c1d4bf)
-    (property "Reference" "C?" (at 199.39 62.8713 0)
+    (property "Reference" "C9" (at 199.39 62.2363 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "10u" (at 199.39 65.4113 0)
+    (property "Value" "10u" (at 199.39 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 201.93 63.5 0)
@@ -2495,9 +2402,6 @@
     (pin "2" (uuid ce22b638-ca35-433c-9238-28f2ad4574b0))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "C?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "C9") (unit 1)
         )
@@ -2508,7 +2412,7 @@
   (symbol (lib_id "power:GND") (at 166.37 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5b1f583-ae70-4858-80ea-94180742b041)
-    (property "Reference" "#PWR?" (at 166.37 154.94 0)
+    (property "Reference" "#PWR09" (at 166.37 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 166.37 153.67 0)
@@ -2535,9 +2439,6 @@
     (pin "1" (uuid df1056e1-3119-4e2c-9edd-82c8a0d60bb4))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR09") (unit 1)
         )
@@ -2548,7 +2449,7 @@
   (symbol (lib_id "power:GND") (at 144.78 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ec431f57-e62e-4af4-aa5c-38ee32e47eae)
-    (property "Reference" "#PWR?" (at 144.78 54.61 0)
+    (property "Reference" "#PWR07" (at 144.78 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 53.34 0)
@@ -2563,9 +2464,6 @@
     (pin "1" (uuid 6d8d5d7d-37c1-4536-b53a-180fd914e1d0))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR07") (unit 1)
         )
@@ -2576,7 +2474,7 @@
   (symbol (lib_id "Connector:TestPoint") (at 200.66 86.36 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ed9db73e-178a-4d25-afce-e7f726f9fc70)
-    (property "Reference" "TP?" (at 203.2 82.423 0)
+    (property "Reference" "TP2" (at 203.2 82.423 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1V8" (at 203.2 84.963 0)
@@ -2606,9 +2504,6 @@
     (pin "1" (uuid f22b99e3-25b8-403c-8865-598f0855baf3))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "TP?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "TP2") (unit 1)
         )
@@ -2619,7 +2514,7 @@
   (symbol (lib_id "power:GND") (at 193.04 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0064dd5-16b3-40db-ba35-7d9ed2955c60)
-    (property "Reference" "#PWR?" (at 193.04 102.87 0)
+    (property "Reference" "#PWR015" (at 193.04 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 193.04 101.6 0)
@@ -2646,9 +2541,6 @@
     (pin "1" (uuid 1cec550a-ecfb-4831-bf08-59b39df658c2))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR015") (unit 1)
         )
@@ -2656,39 +2548,36 @@
     )
   )
 
-  (symbol (lib_id "power:GND") (at 127 48.26 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 128.27 48.26 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa6fa0b7-19c4-4b5e-a045-7545f6aee601)
-    (property "Reference" "#PWR?" (at 127 54.61 0)
+    (property "Reference" "#PWR05" (at 128.27 54.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 127 53.34 0)
+    (property "Value" "GND" (at 128.27 53.34 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 127 48.26 0)
+    (property "Footprint" "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 127 48.26 0)
+    (property "Datasheet" "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr." "" (at 127 48.26 0)
+    (property "Mfr." "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "" (at 127 48.26 0)
+    (property "Mfr. No." "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Distributor" "" (at 127 48.26 0)
+    (property "Distributor" "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Order Number" "" (at 127 48.26 0)
+    (property "Order Number" "" (at 128.27 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 28e16470-f894-4f79-97a0-c324c242caee))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR05") (unit 1)
         )
@@ -2699,7 +2588,7 @@
   (symbol (lib_id "power:GND") (at 81.28 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd6ff0f9-67c8-496c-953b-dc39baeeff99)
-    (property "Reference" "#PWR?" (at 81.28 154.94 0)
+    (property "Reference" "#PWR01" (at 81.28 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 153.67 0)
@@ -2726,9 +2615,6 @@
     (pin "1" (uuid 28602bfa-0ac0-426b-91a6-6ec473ce6950))
     (instances
       (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa"
-          (reference "#PWR?") (unit 1)
-        )
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/cee9a3a2-28cd-4e6c-b23d-337f115f39e8"
           (reference "#PWR01") (unit 1)
         )
