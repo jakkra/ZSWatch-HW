@@ -10,6 +10,8 @@
 
 ## About
 
+![Badge](https://github.com/jakkra/zswatch-hw/actions/workflows/build.yml/badge.svg?color=yellow)
+
 Hardware repository for the [ZSWatch](https://github.com/jakkra/ZSWatch).
 
 ![PCB Top side](/docs/images/Preview.png)
