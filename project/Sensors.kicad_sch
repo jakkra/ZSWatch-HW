@@ -464,14 +464,14 @@
         )
       )
     )
-    (symbol "Knowles:SPH0645LM4H-B" (in_bom yes) (on_board yes)
-      (property "Reference" "MK" (at -6.35 7.62 0)
+    (symbol "Knowles:SPK0641HT4H-1" (in_bom yes) (on_board yes)
+      (property "Reference" "MK" (at -7.62 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "SPH0645LM4H-B" (at 0.635 -7.62 0)
+      (property "Value" "SPK0641HT4H-1" (at -1.27 -7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "Knowles:SPH0645LM4H-6_3.5x2.65mm" (at 0 0 0)
+      (property "Footprint" "Knowles:SPK0641HT4H-1" (at 1.27 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf" (at 0 0 0)
@@ -480,52 +480,64 @@
       (property "ki_keywords" "Microphone MEMS" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "Digital MEMS Microphone, LGA-5" (at 0 0 0)
+      (property "ki_description" "Digital MEMS Microphone" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "Knowles*LGA*3.5x2.65mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "SPH0645LM4H-B_1_1"
-        (rectangle (start -7.62 6.35) (end 7.62 -6.35)
+      (symbol "SPK0641HT4H-1_1_1"
+        (rectangle (start -8.89 6.35) (end 8.89 -6.35)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
-        (circle (center -3.81 0) (radius 1.27)
+        (circle (center -6.35 0) (radius 1.27)
           (stroke (width 0.254) (type default))
           (fill (type none))
         )
         (polyline
           (pts
-            (xy -5.08 1.27)
-            (xy -5.08 -1.27)
+            (xy -7.62 1.27)
+            (xy -7.62 -1.27)
           )
           (stroke (width 0.381) (type default))
           (fill (type none))
         )
-        (pin output line (at 10.16 -3.81 180) (length 2.54)
+        (pin output line (at 11.43 -1.27 180) (length 2.54)
+          (name "DATA" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin output line (at 11.43 -3.81 180) (length 2.54)
           (name "WS" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin input line (at 10.16 3.81 180) (length 2.54)
-          (name "SEL" (effects (font (size 1.27 1.27))))
+        (pin input line (at 11.43 1.27 180) (length 2.54)
+          (name "CLK" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin power_in line (at 0 -8.89 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
+        (pin input line (at 11.43 3.81 180) (length 2.54)
+          (name "SEL" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 1.27 180) (length 2.54)
-          (name "BCLK" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
         )
         (pin power_in line (at 0 8.89 270) (length 2.54)
           (name "VDD" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at -1.27 -8.89 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin output line (at 10.16 -1.27 180) (length 2.54)
-          (name "DATA" (effects (font (size 1.27 1.27))))
+        (pin power_in line (at -1.27 -8.89 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 1.27 -8.89 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin power_in line (at 1.27 -8.89 90) (length 2.54) hide
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -911,8 +923,8 @@
   (junction (at 120.65 33.02) (diameter 0) (color 0 0 0 0)
     (uuid e4b13951-080f-4940-8a63-f4e4953b80ea)
   )
-  (junction (at 83.82 157.48) (diameter 0) (color 0 0 0 0)
-    (uuid ee9b86ce-8e8a-425c-ad52-0b541d96983c)
+  (junction (at 80.01 189.23) (diameter 0) (color 0 0 0 0)
+    (uuid ecdb8d6a-9888-4437-bb93-962df9b187ea)
   )
   (junction (at 121.92 33.02) (diameter 0) (color 0 0 0 0)
     (uuid f703eaca-ad33-4c0a-9ac9-db610c4a9b12)
@@ -937,6 +949,10 @@
     (uuid 074755d2-0973-456e-8f15-27666d4c9adb)
   )
 
+  (wire (pts (xy 78.74 189.23) (xy 80.01 189.23))
+    (stroke (width 0) (type default))
+    (uuid 079f142e-f1a0-4b7c-87f7-03531116a500)
+  )
   (wire (pts (xy 238.76 114.3) (xy 238.76 129.54))
     (stroke (width 0) (type default))
     (uuid 083b2127-34af-418f-b721-70d2b424e130)
@@ -956,6 +972,10 @@
   (wire (pts (xy 46.99 81.28) (xy 48.26 81.28))
     (stroke (width 0) (type default))
     (uuid 0e1cab1f-46a4-41fb-80a6-a0ecd23e690f)
+  )
+  (wire (pts (xy 81.28 189.23) (xy 81.28 187.96))
+    (stroke (width 0) (type default))
+    (uuid 0e504248-c00f-4baf-90ec-96b5115d697a)
   )
   (wire (pts (xy 60.96 63.5) (xy 66.04 63.5))
     (stroke (width 0) (type default))
@@ -1041,6 +1061,10 @@
     (stroke (width 0) (type default))
     (uuid 292bfe49-e472-44db-b3e5-8ff4aee5d7c2)
   )
+  (wire (pts (xy 80.01 189.23) (xy 81.28 189.23))
+    (stroke (width 0) (type default))
+    (uuid 2a055870-8b3a-45ec-bceb-e6343b1662c6)
+  )
   (wire (pts (xy 62.23 67.31) (xy 60.96 67.31))
     (stroke (width 0) (type default))
     (uuid 2a72e32c-457d-46f9-95e1-816c4ba700a2)
@@ -1058,7 +1082,7 @@
     (uuid 2ce8ff60-1c54-46c8-9a2a-8e0b55b56b09)
   )
 
-  (wire (pts (xy 90.17 180.34) (xy 91.44 180.34))
+  (wire (pts (xy 91.44 180.34) (xy 92.71 180.34))
     (stroke (width 0) (type default))
     (uuid 3182b9ab-02ff-4342-b18d-6110fa5321ba)
   )
@@ -1086,11 +1110,15 @@
     (stroke (width 0) (type default))
     (uuid 3d865763-d366-4fb9-b416-6614ecac9abf)
   )
-  (wire (pts (xy 90.17 175.26) (xy 91.44 175.26))
+  (wire (pts (xy 78.74 187.96) (xy 78.74 189.23))
+    (stroke (width 0) (type default))
+    (uuid 40a1c8db-938c-42cd-a80a-20e68da192a9)
+  )
+  (wire (pts (xy 91.44 175.26) (xy 92.71 175.26))
     (stroke (width 0) (type default))
     (uuid 42559590-4855-4fb0-92ab-ffdbe1a919a8)
   )
-  (wire (pts (xy 90.17 177.8) (xy 91.44 177.8))
+  (wire (pts (xy 91.44 177.8) (xy 92.71 177.8))
     (stroke (width 0) (type default))
     (uuid 460ac86c-a917-4c47-9b73-dcb34800b867)
   )
@@ -1136,7 +1164,7 @@
     (stroke (width 0) (type default))
     (uuid 5405c193-ae2e-41d5-99e7-1fa25f4642e9)
   )
-  (wire (pts (xy 91.44 182.88) (xy 91.44 190.5))
+  (wire (pts (xy 92.71 182.88) (xy 92.71 190.5))
     (stroke (width 0) (type default))
     (uuid 54ecfe8f-00dc-4a7a-8bb7-b09c29639479)
   )
@@ -1168,10 +1196,6 @@
   (wire (pts (xy 34.29 50.8) (xy 31.75 50.8))
     (stroke (width 0) (type default))
     (uuid 5ff03c55-98ba-44cc-96bc-49a74779d2b5)
-  )
-  (wire (pts (xy 90.17 182.88) (xy 91.44 182.88))
-    (stroke (width 0) (type default))
-    (uuid 602ad3f6-16cf-4df1-9aaa-418fcaff696f)
   )
   (wire (pts (xy 34.29 58.42) (xy 34.29 50.8))
     (stroke (width 0) (type default))
@@ -1305,6 +1329,10 @@
     (uuid 9674e756-8c88-4f51-b889-ca44d92b03de)
   )
 
+  (wire (pts (xy 80.01 189.23) (xy 80.01 190.5))
+    (stroke (width 0) (type default))
+    (uuid 99da738f-443e-4092-bee3-3631c48da079)
+  )
   (wire (pts (xy 34.29 181.61) (xy 36.83 181.61))
     (stroke (width 0) (type default))
     (uuid 9b07b1dd-a4ec-4d4d-b9f2-631df27a697b)
@@ -1312,10 +1340,6 @@
   (wire (pts (xy 31.75 50.8) (xy 31.75 52.07))
     (stroke (width 0) (type default))
     (uuid 9f24edae-534a-4236-b4bf-12a1d006af0a)
-  )
-  (wire (pts (xy 92.71 163.83) (xy 92.71 165.1))
-    (stroke (width 0) (type default))
-    (uuid a060cca6-b7a8-446b-82a2-a5c61f1ad389)
   )
   (wire (pts (xy 120.65 33.02) (xy 118.11 33.02))
     (stroke (width 0) (type default))
@@ -1366,10 +1390,6 @@
     (uuid ae73dcd9-41c6-4c11-9c8c-ffce3ea0c84c)
   )
 
-  (wire (pts (xy 92.71 157.48) (xy 92.71 158.75))
-    (stroke (width 0) (type default))
-    (uuid aea049e9-bb74-47f7-bd80-9a9f1adbf03e)
-  )
   (wire (pts (xy 49.53 81.28) (xy 48.26 81.28))
     (stroke (width 0) (type default))
     (uuid b04d8880-5c7f-4b50-bbe4-cd6229ba4bae)
@@ -1377,10 +1397,6 @@
   (wire (pts (xy 241.3 154.94) (xy 241.3 156.21))
     (stroke (width 0) (type default))
     (uuid b05d50b7-2ad3-45db-86a6-05dcaf154335)
-  )
-  (wire (pts (xy 80.01 187.96) (xy 80.01 190.5))
-    (stroke (width 0) (type default))
-    (uuid b191a49a-2c8e-4590-bf13-2f53768518df)
   )
   (wire (pts (xy 121.92 80.01) (xy 121.92 81.28))
     (stroke (width 0) (type default))
@@ -1521,13 +1537,13 @@
     (stroke (width 0) (type default))
     (uuid ebfd9809-eb5a-4412-be45-a707abe3e143)
   )
-  (wire (pts (xy 83.82 157.48) (xy 92.71 157.48))
-    (stroke (width 0) (type default))
-    (uuid f138ec8c-8e4e-4dc9-898b-95c6c2dda94b)
-  )
   (wire (pts (xy 71.12 139.7) (xy 71.12 140.97))
     (stroke (width 0) (type default))
     (uuid f4b2e083-1b27-48e1-8c4b-912cc7e494cf)
+  )
+  (wire (pts (xy 92.71 182.88) (xy 91.44 182.88))
+    (stroke (width 0) (type default))
+    (uuid f816d66b-ff7b-4d28-840f-fd8860192b95)
   )
   (polyline (pts (xy 193.04 12.7) (xy 193.04 71.12))
     (stroke (width 0) (type dash_dot))
@@ -1585,7 +1601,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0e45ffad-ca3c-47fc-aab9-15b5c46994d4)
   )
-  (hierarchical_label "MIC-DATA" (shape output) (at 91.44 180.34 0) (fields_autoplaced)
+  (hierarchical_label "MIC-DATA" (shape output) (at 92.71 180.34 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 0eff27e9-1ae0-4988-9ef8-700922996f81)
   )
@@ -1613,7 +1629,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 871261ba-fc3e-44d4-8d46-fb6f7ed091e9)
   )
-  (hierarchical_label "MIC-SEL" (shape input) (at 91.44 175.26 0) (fields_autoplaced)
+  (hierarchical_label "MIC-SEL" (shape input) (at 92.71 175.26 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 8cad66a0-7510-446e-951f-f5c377653c2a)
   )
@@ -1633,7 +1649,7 @@
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d3735a9c-1060-4a98-9d46-9a2700213265)
   )
-  (hierarchical_label "MIC-BCLK" (shape input) (at 91.44 177.8 0) (fields_autoplaced)
+  (hierarchical_label "MIC-CLK" (shape input) (at 92.71 177.8 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid d74d3f71-abf5-4973-8773-cc8f994edfef)
   )
@@ -1649,7 +1665,7 @@
   (symbol (lib_id "power:GND") (at 234.95 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03431546-aa1c-4a78-8cf5-18d12192dd2b)
-    (property "Reference" "#PWR042" (at 234.95 38.1 0)
+    (property "Reference" "#PWR0224" (at 234.95 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 234.95 36.83 0)
@@ -1665,7 +1681,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR0224") (unit 1)
         )
       )
     )
@@ -1674,7 +1690,7 @@
   (symbol (lib_id "power:GND") (at 238.76 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 041203ba-2770-49e2-9774-db82d45dbcf3)
-    (property "Reference" "#PWR045" (at 238.76 69.85 0)
+    (property "Reference" "#PWR0227" (at 238.76 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 68.58 0)
@@ -1690,7 +1706,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR0227") (unit 1)
         )
       )
     )
@@ -1699,7 +1715,7 @@
   (symbol (lib_id "power:GND") (at 223.52 133.35 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 14a6ce7e-6a02-477f-84a2-8726f62a28b4)
-    (property "Reference" "#PWR041" (at 223.52 139.7 0)
+    (property "Reference" "#PWR0223" (at 223.52 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 223.52 138.43 0)
@@ -1715,7 +1731,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR0223") (unit 1)
         )
       )
     )
@@ -1724,7 +1740,7 @@
   (symbol (lib_id "Device:C_Small") (at 242.57 27.94 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1718f657-b263-4aa8-a007-c6c1ebb55c58)
-    (property "Reference" "C21" (at 245.11 26.6763 0)
+    (property "Reference" "C211" (at 245.11 26.6763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 245.11 29.2163 0)
@@ -1756,7 +1772,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C21") (unit 1)
+          (reference "C211") (unit 1)
         )
       )
     )
@@ -1765,7 +1781,7 @@
   (symbol (lib_id "power:+1V8") (at 256.54 140.97 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 18005b0f-e38d-458e-8372-86f14208d8df)
-    (property "Reference" "#PWR050" (at 256.54 144.78 0)
+    (property "Reference" "#PWR0232" (at 256.54 144.78 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 256.54 135.89 0)
@@ -1781,32 +1797,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR050") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 92.71 165.1 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1dc9ecc5-438b-4c66-b2d7-9ef55a2c2d78)
-    (property "Reference" "#PWR032" (at 92.71 171.45 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 92.71 170.18 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 92.71 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 92.71 165.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 94f51bb5-d611-4cac-a4b2-464ce10c5dd9))
-    (instances
-      (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR0232") (unit 1)
         )
       )
     )
@@ -1815,7 +1806,7 @@
   (symbol (lib_id "power:GND") (at 83.82 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 248fe514-3e05-4159-a6ed-b84a137844d6)
-    (property "Reference" "#PWR030" (at 83.82 171.45 0)
+    (property "Reference" "#PWR0212" (at 83.82 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 170.18 0)
@@ -1831,7 +1822,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR0212") (unit 1)
         )
       )
     )
@@ -1840,7 +1831,7 @@
   (symbol (lib_id "power:GND") (at 26.67 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2ee04a37-79cf-4d69-ba28-95bf2f180f3f)
-    (property "Reference" "#PWR020" (at 26.67 196.85 0)
+    (property "Reference" "#PWR0202" (at 26.67 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 26.67 195.58 0)
@@ -1856,7 +1847,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR0202") (unit 1)
         )
       )
     )
@@ -1865,7 +1856,7 @@
   (symbol (lib_id "Device:C_Small") (at 118.11 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2f99a992-e354-4583-b254-5944f4906bd8)
-    (property "Reference" "C16" (at 115.57 35.5536 0)
+    (property "Reference" "C206" (at 115.57 35.5536 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 115.57 38.0936 0)
@@ -1897,7 +1888,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C16") (unit 1)
+          (reference "C206") (unit 1)
         )
       )
     )
@@ -1906,7 +1897,7 @@
   (symbol (lib_id "power:GND") (at 52.07 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 38e4bfe5-22cf-43a1-b019-54ad14e6355a)
-    (property "Reference" "#PWR026" (at 52.07 46.99 0)
+    (property "Reference" "#PWR0208" (at 52.07 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 52.07 45.72 0)
@@ -1922,7 +1913,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR0208") (unit 1)
         )
       )
     )
@@ -1931,7 +1922,7 @@
   (symbol (lib_id "power:+1V8") (at 240.03 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d2db226-fdb7-4878-83fe-804b1002562d)
-    (property "Reference" "#PWR046" (at 240.03 116.84 0)
+    (property "Reference" "#PWR0228" (at 240.03 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 240.03 107.95 0)
@@ -1947,7 +1938,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR0228") (unit 1)
         )
       )
     )
@@ -1956,7 +1947,7 @@
   (symbol (lib_id "Device:C_Small") (at 243.84 118.11 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 42b14a86-ebd1-43d4-bb4a-941d337646c1)
-    (property "Reference" "C22" (at 246.38 116.8336 0)
+    (property "Reference" "C212" (at 246.38 116.8336 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 246.38 119.3736 0)
@@ -1988,7 +1979,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C22") (unit 1)
+          (reference "C212") (unit 1)
         )
       )
     )
@@ -1997,7 +1988,7 @@
   (symbol (lib_id "Device:C_Small") (at 217.17 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 441246d9-bd74-4288-ab2b-02b040e72e0c)
-    (property "Reference" "C18" (at 214.63 57.7913 0)
+    (property "Reference" "C208" (at 214.63 57.7913 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "220n" (at 214.63 60.3313 0)
@@ -2029,7 +2020,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C18") (unit 1)
+          (reference "C208") (unit 1)
         )
       )
     )
@@ -2038,7 +2029,7 @@
   (symbol (lib_id "power:+1V8") (at 138.43 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 444be8a4-d97c-4899-88a5-79038e025974)
-    (property "Reference" "#PWR038" (at 138.43 63.5 0)
+    (property "Reference" "#PWR0220" (at 138.43 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 138.43 54.61 0)
@@ -2054,7 +2045,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR0220") (unit 1)
         )
       )
     )
@@ -2063,7 +2054,7 @@
   (symbol (lib_id "power:GND") (at 243.84 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 44d5cccc-0ee9-4aab-891b-1f352ea7a807)
-    (property "Reference" "#PWR049" (at 243.84 128.27 0)
+    (property "Reference" "#PWR0231" (at 243.84 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 243.84 127 0)
@@ -2079,7 +2070,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR0231") (unit 1)
         )
       )
     )
@@ -2088,7 +2079,7 @@
   (symbol (lib_id "power:GND") (at 125.73 40.64 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 484619ea-3fcc-4f81-908b-5cf253582ae4)
-    (property "Reference" "#PWR037" (at 125.73 46.99 0)
+    (property "Reference" "#PWR0219" (at 125.73 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 125.73 45.72 0)
@@ -2104,7 +2095,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR0219") (unit 1)
         )
       )
     )
@@ -2113,7 +2104,7 @@
   (symbol (lib_id "Bosch_Kampi:BMI270") (at 48.26 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 48bfe2c5-d8d7-4c92-a75e-738d779cd208)
-    (property "Reference" "IC3" (at 38.1 48.26 0)
+    (property "Reference" "IC202" (at 38.1 48.26 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BMI270" (at 38.1 78.74 0)
@@ -2157,7 +2148,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "IC3") (unit 1)
+          (reference "IC202") (unit 1)
         )
       )
     )
@@ -2166,7 +2157,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 36.83 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c5e640f-fe5b-4fb4-9d9d-09c2c6117a3b)
-    (property "Reference" "C17" (at 128.27 35.5663 0)
+    (property "Reference" "C207" (at 128.27 35.5663 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 128.27 38.1063 0)
@@ -2198,7 +2189,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C17") (unit 1)
+          (reference "C207") (unit 1)
         )
       )
     )
@@ -2207,7 +2198,7 @@
   (symbol (lib_id "Diodes Incorporated:DMG1013UW-7") (at 80.01 147.32 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5208aa61-29fb-4073-8c53-69e09733f627)
-    (property "Reference" "Q1" (at 83.82 146.685 0)
+    (property "Reference" "Q201" (at 83.82 146.685 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMG1013UW-7" (at 83.82 149.225 0)
@@ -2240,7 +2231,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "Q1") (unit 1)
+          (reference "Q201") (unit 1)
         )
       )
     )
@@ -2249,7 +2240,7 @@
   (symbol (lib_id "Sensor_Optical:APDS-9306-065") (at 24.13 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 599b6d90-9858-4791-a8b8-094e62b5eaf4)
-    (property "Reference" "IC2" (at 19.685 175.26 0)
+    (property "Reference" "IC201" (at 21.59 175.26 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "APDS-9306-065" (at 33.02 187.96 0)
@@ -2285,32 +2276,32 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "IC2") (unit 1)
+          (reference "IC201") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "power:GND") (at 91.44 190.5 0) (unit 1)
+  (symbol (lib_id "power:GND") (at 92.71 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 615bcd3d-7f9b-4dc2-8278-ccfc499a1bf9)
-    (property "Reference" "#PWR031" (at 91.44 196.85 0)
+    (property "Reference" "#PWR0214" (at 92.71 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "GND" (at 91.44 195.58 0)
+    (property "Value" "GND" (at 92.71 195.58 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 91.44 190.5 0)
+    (property "Footprint" "" (at 92.71 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "" (at 91.44 190.5 0)
+    (property "Datasheet" "" (at 92.71 190.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 06d7327d-0708-430e-b75c-08844d1d709f))
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR0214") (unit 1)
         )
       )
     )
@@ -2319,7 +2310,7 @@
   (symbol (lib_id "Device:C_Small") (at 44.45 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 66c0e0bc-8194-404e-85c0-e2bf8fe1793e)
-    (property "Reference" "C12" (at 41.91 35.5663 0)
+    (property "Reference" "C202" (at 41.91 35.5663 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 41.91 38.1063 0)
@@ -2351,48 +2342,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C12") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 83.82 161.29 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 67efcc63-5c65-443c-b697-a88344b44377)
-    (property "Reference" "C14" (at 86.36 160.0136 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "1u" (at 86.36 162.5536 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "KYOCERA AVX" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No." "0603YC105JAT2A" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Distributor" "Mouser" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Order Number" "581-0603YC105JAT2A" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "CONFIG" "-ENV" (at 83.82 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid aaa5f51b-aa62-4e78-abf7-c27ff1318e79))
-    (pin "2" (uuid 5d46439d-9681-47c4-8809-352e6c6db53d))
-    (instances
-      (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C14") (unit 1)
+          (reference "C202") (unit 1)
         )
       )
     )
@@ -2401,7 +2351,7 @@
   (symbol (lib_id "power:GND") (at 217.17 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6af44b48-6142-4ea4-a8b5-ff3f6045da35)
-    (property "Reference" "#PWR040" (at 217.17 69.85 0)
+    (property "Reference" "#PWR0222" (at 217.17 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 217.17 68.58 0)
@@ -2417,7 +2367,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR0222") (unit 1)
         )
       )
     )
@@ -2426,7 +2376,7 @@
   (symbol (lib_id "Device:C_Small") (at 236.22 118.11 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c86733f-b94f-4bb2-9496-91fed3b9c28d)
-    (property "Reference" "C20" (at 233.68 116.8463 0)
+    (property "Reference" "C210" (at 233.68 116.8463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 233.68 119.3863 0)
@@ -2458,7 +2408,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C20") (unit 1)
+          (reference "C210") (unit 1)
         )
       )
     )
@@ -2467,7 +2417,7 @@
   (symbol (lib_id "power:GND") (at 121.92 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f18b58c-f9e3-4d39-9f9d-46c9c2b0cc91)
-    (property "Reference" "#PWR036" (at 121.92 88.9 0)
+    (property "Reference" "#PWR0218" (at 121.92 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 87.63 0)
@@ -2483,7 +2433,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR0218") (unit 1)
         )
       )
     )
@@ -2492,7 +2442,7 @@
   (symbol (lib_id "power:GND") (at 30.48 170.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6f730d30-72b6-48aa-b96c-8925c6136e6c)
-    (property "Reference" "#PWR021" (at 30.48 176.53 0)
+    (property "Reference" "#PWR0203" (at 30.48 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 30.48 175.26 0)
@@ -2508,7 +2458,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR0203") (unit 1)
         )
       )
     )
@@ -2517,7 +2467,7 @@
   (symbol (lib_id "power:GND") (at 240.03 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 72529998-5a32-4699-8973-1956195d0e53)
-    (property "Reference" "#PWR047" (at 240.03 163.83 0)
+    (property "Reference" "#PWR0229" (at 240.03 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 240.03 162.56 0)
@@ -2533,7 +2483,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR0229") (unit 1)
         )
       )
     )
@@ -2542,7 +2492,7 @@
   (symbol (lib_id "Device:C_Small") (at 30.48 166.37 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 798cf1c8-d1ff-475e-915e-4f4d768a9bd2)
-    (property "Reference" "C11" (at 33.02 165.1063 0)
+    (property "Reference" "C201" (at 33.02 165.1063 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 33.02 167.6463 0)
@@ -2574,7 +2524,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C11") (unit 1)
+          (reference "C201") (unit 1)
         )
       )
     )
@@ -2583,7 +2533,7 @@
   (symbol (lib_id "ST:LIS2MDLTR") (at 238.76 50.8 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fb098cd-233f-44ab-a92a-299057a912f0)
-    (property "Reference" "IC5" (at 222.25 39.37 0)
+    (property "Reference" "IC204" (at 223.52 39.37 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LIS2MDLTR" (at 226.06 59.69 0)
@@ -2625,7 +2575,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "IC5") (unit 1)
+          (reference "IC204") (unit 1)
         )
       )
     )
@@ -2634,7 +2584,7 @@
   (symbol (lib_id "power:+1V8") (at 121.92 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85a4e9ba-743b-469a-8be4-243cf104c074)
-    (property "Reference" "#PWR035" (at 121.92 35.56 0)
+    (property "Reference" "#PWR0217" (at 121.92 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 121.92 26.67 0)
@@ -2650,7 +2600,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR0217") (unit 1)
         )
       )
     )
@@ -2659,7 +2609,7 @@
   (symbol (lib_id "power:+1V8") (at 107.95 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8a513f73-f298-446e-be51-ac84edc86cb7)
-    (property "Reference" "#PWR033" (at 107.95 63.5 0)
+    (property "Reference" "#PWR0215" (at 107.95 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 107.95 54.61 0)
@@ -2675,7 +2625,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR0215") (unit 1)
         )
       )
     )
@@ -2684,7 +2634,7 @@
   (symbol (lib_id "power:GND") (at 31.75 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 913e2776-d2c6-4a96-9002-d567e3910c48)
-    (property "Reference" "#PWR022" (at 31.75 58.42 0)
+    (property "Reference" "#PWR0204" (at 31.75 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 31.75 57.15 0)
@@ -2700,48 +2650,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR022") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "Device:C_Small") (at 92.71 161.29 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9148417a-ccc9-414a-8eef-c47bd33e6739)
-    (property "Reference" "C15" (at 95.25 160.0136 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Value" "200p" (at 95.25 162.5536 0)
-      (effects (font (size 1.27 1.27)) (justify right))
-    )
-    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr." "Kemet" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Mfr. No." "C0603X201M4HACTU" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Distributor" "Mouser" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Order Number" "80-C0603X201M4HACTU" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "CONFIG" "-ENV" (at 92.71 161.29 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid fc0ba6a6-1154-4973-8571-7af54068d207))
-    (pin "2" (uuid 5d036ea5-50ff-4cf0-89f7-f901ed0c37f7))
-    (instances
-      (project "ZSWatch"
-        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C15") (unit 1)
+          (reference "#PWR0204") (unit 1)
         )
       )
     )
@@ -2750,7 +2659,7 @@
   (symbol (lib_id "Device:R_Small") (at 71.12 143.51 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 92ab6aee-4f2f-4f88-9666-2baf0c081741)
-    (property "Reference" "R4" (at 68.58 142.24 0)
+    (property "Reference" "R201" (at 68.58 142.24 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "150k" (at 68.58 144.78 0)
@@ -2782,7 +2691,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "R4") (unit 1)
+          (reference "R201") (unit 1)
         )
       )
     )
@@ -2791,7 +2700,7 @@
   (symbol (lib_id "power:GND") (at 44.45 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 93c09cd3-d982-4f9c-86f7-93c29c28db2b)
-    (property "Reference" "#PWR023" (at 44.45 46.99 0)
+    (property "Reference" "#PWR0205" (at 44.45 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 44.45 45.72 0)
@@ -2807,7 +2716,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR0205") (unit 1)
         )
       )
     )
@@ -2816,7 +2725,7 @@
   (symbol (lib_id "power:+1V8") (at 48.26 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 999ca81f-58ef-47dd-9eec-a1ad54a522c7)
-    (property "Reference" "#PWR024" (at 48.26 35.56 0)
+    (property "Reference" "#PWR0206" (at 48.26 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 48.26 27.94 0)
@@ -2832,7 +2741,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR0206") (unit 1)
         )
       )
     )
@@ -2841,7 +2750,7 @@
   (symbol (lib_id "power:GND") (at 80.01 190.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a029506d-662b-47a6-b26d-0aa0c99d1bac)
-    (property "Reference" "#PWR029" (at 80.01 196.85 0)
+    (property "Reference" "#PWR0211" (at 80.01 196.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 80.01 195.58 0)
@@ -2857,7 +2766,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR0211") (unit 1)
         )
       )
     )
@@ -2866,7 +2775,7 @@
   (symbol (lib_id "power:GND") (at 236.22 121.92 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a8382887-9a38-4735-a0f3-a8b6c81e4422)
-    (property "Reference" "#PWR043" (at 236.22 128.27 0)
+    (property "Reference" "#PWR0225" (at 236.22 128.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 236.22 127 0)
@@ -2882,7 +2791,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR0225") (unit 1)
         )
       )
     )
@@ -2891,7 +2800,7 @@
   (symbol (lib_id "Bosch_Kampi:BME688") (at 240.03 142.24 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ad006e0d-be8b-416a-a3a3-36cdcb93208a)
-    (property "Reference" "IC6" (at 231.14 130.81 0)
+    (property "Reference" "IC205" (at 232.41 130.81 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BME688" (at 233.68 153.67 0)
@@ -2929,7 +2838,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "IC6") (unit 1)
+          (reference "IC205") (unit 1)
         )
       )
     )
@@ -2938,7 +2847,7 @@
   (symbol (lib_id "power:+1V8") (at 26.67 161.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad843751-498f-4314-8ab4-042e463abcaf)
-    (property "Reference" "#PWR019" (at 26.67 165.1 0)
+    (property "Reference" "#PWR0201" (at 26.67 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 26.67 157.48 0)
@@ -2954,7 +2863,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR0201") (unit 1)
         )
       )
     )
@@ -2963,7 +2872,7 @@
   (symbol (lib_id "power:GND") (at 48.26 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aed521fe-92eb-4dba-a930-69c5bf63f772)
-    (property "Reference" "#PWR025" (at 48.26 88.9 0)
+    (property "Reference" "#PWR0207" (at 48.26 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 48.26 87.63 0)
@@ -2979,7 +2888,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR0207") (unit 1)
         )
       )
     )
@@ -2988,7 +2897,7 @@
   (symbol (lib_id "power:+1V8") (at 80.01 138.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b56c554c-c947-4779-a7a8-794f815272bf)
-    (property "Reference" "#PWR028" (at 80.01 142.24 0)
+    (property "Reference" "#PWR0210" (at 80.01 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 80.01 134.62 0)
@@ -3004,37 +2913,37 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR0210") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "Knowles:SPH0645LM4H-B") (at 80.01 179.07 0) (unit 1)
+  (symbol (lib_id "Knowles:SPK0641HT4H-1") (at 80.01 179.07 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bf9ce5f3-a078-4f6f-9475-0e21201387ab)
-    (property "Reference" "MK1" (at 76.2 171.45 0)
+    (property "Reference" "MK201" (at 77.47 171.45 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "SPH0645LM4H-B" (at 88.9 186.69 0)
+    (property "Value" "SPH0645LM4H-B" (at 87.63 186.69 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Knowles:SPH0645LM4H-6_3.5x2.65mm" (at 80.01 179.07 0)
+    (property "Footprint" "Knowles:SPK0641HT4H-1" (at 81.28 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.knowles.com/docs/default-source/default-document-library/sph0645lm4h-1-datasheet.pdf" (at 80.01 179.07 0)
+    (property "Datasheet" "https://www.mouser.de/datasheet/2/218/pk0641ht4h-1-rev-a-1519664.pdf" (at 80.01 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Mfr." "Knowles" (at 80.01 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "SPH0645LM4H-B" (at 80.01 179.07 0)
+    (property "Mfr. No." "SPK0641HT4H-1" (at 80.01 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Distributor" "Mouser" (at 80.01 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Order Number" "721-SPH0645LM4H-B" (at 80.01 179.07 0)
+    (property "Order Number" "721-SPK0641HT4H-1" (at 80.01 179.07 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "CONFIG" "-ENV" (at 80.01 179.07 0)
@@ -3046,10 +2955,13 @@
     (pin "4" (uuid 35e3e635-3aae-4b44-a5df-4d906758f497))
     (pin "5" (uuid 906c4d3a-6470-41d2-bed4-8834d71054d9))
     (pin "6" (uuid 9a51cc29-9cff-4ee9-b25c-644be14e1e0c))
+    (pin "8" (uuid 0844ff23-32d7-4fe8-864f-4d925b38188c))
+    (pin "1" (uuid f2f851a1-2f8c-41f4-9330-f9f514cc832f))
+    (pin "7" (uuid b05f8ae6-3207-46fd-8457-44df93c70aad))
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "MK1") (unit 1)
+          (reference "MK201") (unit 1)
         )
       )
     )
@@ -3058,7 +2970,7 @@
   (symbol (lib_id "power:GND") (at 118.11 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c34c50ef-f670-4b6a-94aa-bb741371360f)
-    (property "Reference" "#PWR034" (at 118.11 46.99 0)
+    (property "Reference" "#PWR0216" (at 118.11 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 118.11 45.72 0)
@@ -3074,7 +2986,48 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR0216") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:C_Small") (at 83.82 161.29 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cdc5b82d-a066-4aba-8efb-723cd4f2abff)
+    (property "Reference" "C204" (at 86.36 160.0263 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Value" "100n" (at 86.36 162.5663 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0603_1608Metric" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr." "KYOCERA AVX" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Mfr. No." "06035C104KAT2A" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Distributor" "Mouser" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Order Number" "581-06035C104KAT2A" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "CONFIG" "" (at 83.82 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 71b28d7c-64e7-47d4-8523-0cf657cb7b23))
+    (pin "2" (uuid 3d6013bd-d070-4b83-bac9-f9f9d83b8c94))
+    (instances
+      (project "ZSWatch"
+        (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
+          (reference "C204") (unit 1)
         )
       )
     )
@@ -3083,7 +3036,7 @@
   (symbol (lib_id "power:+1V8") (at 198.12 49.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e65b7dfe-e39a-4a40-8572-333827e9606b)
-    (property "Reference" "#PWR039" (at 198.12 53.34 0)
+    (property "Reference" "#PWR0221" (at 198.12 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 198.12 44.45 0)
@@ -3099,7 +3052,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR0221") (unit 1)
         )
       )
     )
@@ -3108,7 +3061,7 @@
   (symbol (lib_id "power:+1V8") (at 66.04 59.69 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e93bb3f2-09f4-4feb-a5c9-fe86f299659a)
-    (property "Reference" "#PWR027" (at 66.04 63.5 0)
+    (property "Reference" "#PWR0209" (at 66.04 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 66.04 55.88 0)
@@ -3124,7 +3077,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR0209") (unit 1)
         )
       )
     )
@@ -3133,7 +3086,7 @@
   (symbol (lib_id "Bosch_Kampi:BMP581") (at 121.92 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ee60d560-c4ce-4b4a-b08f-2f6863782e81)
-    (property "Reference" "IC4" (at 113.03 48.26 0)
+    (property "Reference" "IC203" (at 114.3 48.26 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BMP581" (at 115.57 78.74 0)
@@ -3173,7 +3126,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "IC4") (unit 1)
+          (reference "IC203") (unit 1)
         )
       )
     )
@@ -3182,7 +3135,7 @@
   (symbol (lib_id "power:GND") (at 242.57 31.75 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid eebe816c-f492-4641-9cd2-c167d3d4d13f)
-    (property "Reference" "#PWR048" (at 242.57 38.1 0)
+    (property "Reference" "#PWR0230" (at 242.57 38.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 242.57 36.83 0)
@@ -3198,7 +3151,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR0230") (unit 1)
         )
       )
     )
@@ -3207,7 +3160,7 @@
   (symbol (lib_id "Device:C_Small") (at 52.07 36.83 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1f9f893-158e-4894-8d99-17f33d025ed7)
-    (property "Reference" "C13" (at 54.61 35.5536 0)
+    (property "Reference" "C203" (at 54.61 35.5536 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100n" (at 54.61 38.0936 0)
@@ -3239,7 +3192,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C13") (unit 1)
+          (reference "C203") (unit 1)
         )
       )
     )
@@ -3248,7 +3201,7 @@
   (symbol (lib_id "power:+1V8") (at 238.76 22.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f43d6925-993e-4249-a176-b42153d71fc2)
-    (property "Reference" "#PWR044" (at 238.76 26.67 0)
+    (property "Reference" "#PWR0226" (at 238.76 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 238.76 17.78 0)
@@ -3264,7 +3217,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR0226") (unit 1)
         )
       )
     )
@@ -3273,7 +3226,7 @@
   (symbol (lib_id "Device:C_Small") (at 234.95 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f509dc1e-03c6-4a55-af70-0a604f74c42e)
-    (property "Reference" "C19" (at 232.41 26.6763 0)
+    (property "Reference" "C209" (at 232.41 26.6763 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "10u" (at 232.41 29.2163 0)
@@ -3305,7 +3258,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/82af773f-8c39-43b9-baa2-3658da6c8bb2"
-          (reference "C19") (unit 1)
+          (reference "C209") (unit 1)
         )
       )
     )
