@@ -18,7 +18,7 @@ outputs:
   - name: "Naviagation results"
     comment: "Create navigation results page"
     type: navigate_results
-    dir: "./"
+    dir: "overview"
 
   - name: "Download datasheets"
     comment: "Download component datasheets"
@@ -30,11 +30,13 @@ outputs:
     comment: "Interactive Bill of Materials"
     type: ibom
     dir: docs
+    category: "documentation"
 
   - name: "Print Schematics"
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: docs
+    category: "documentation"
     options:
       output: Schematic.%x
 
@@ -42,6 +44,7 @@ outputs:
     comment: "Top layer view"
     type: pcbdraw
     dir: docs/images
+    category: "documentation"
     options:
       format: png
       bottom: false
@@ -51,6 +54,7 @@ outputs:
     comment: "Bottom layer view"
     type: pcbdraw
     dir: docs/images
+    category: "documentation"
     options:
       format: png
       bottom: true
@@ -60,6 +64,7 @@ outputs:
     comment: "Generate drill files"
     type: excellon
     dir: gerber
+    category: "production"
     options:
       metric_units: true
       mirror_y_axis: false
@@ -74,6 +79,7 @@ outputs:
     comment: "Generate Gerbers"
     type: gerber
     dir: gerber
+    category: "production"
     options:
       exclude_edge_layer: false
       exclude_pads_from_silkscreen: false
@@ -146,6 +152,7 @@ outputs:
     comment: "Pick & Place"
     type: position
     dir: centroid
+    category: "production"
     options:
       format: ASCII
       only_smd: false
@@ -154,6 +161,7 @@ outputs:
     comment: "PCB Specifications"
     type: pcb_print
     dir: docs
+    category: "production"
     options:
       output: "PCB.pdf"
       format: PDF
@@ -168,6 +176,7 @@ outputs:
     comment: "Ref Top"
     type: pcb_print
     dir: docs
+    category: "purchasing"
     options:
       output: "Ref_Top.%x"
       format: PDF
@@ -182,6 +191,7 @@ outputs:
     comment: "Ref Bottom"
     type: pcb_print
     dir: docs
+    category: "purchasing"
     options:
       output: "Ref_Bot.%x"
       format: PDF
@@ -197,6 +207,7 @@ outputs:
     comment: "BOM for PCBWay"
     type: bom
     dir: docs
+    category: "purchasing"
     options:
       format: XLSX
       count_smd_tht: true
@@ -228,8 +239,9 @@ outputs:
 
   - name: "ZIP Gerber"
     comment: "ZIP Gerber"
-    dir: .
     type: compress
+    dir: .
+    category: "purchasing"
     options:
       format: ZIP
       files:
@@ -238,8 +250,9 @@ outputs:
 
   - name: "ZIP Centroid"
     comment: "ZIP Centroid"
-    dir: .
     type: compress
+    dir: .
+    category: "purchasing"
     options:
       format: ZIP
       files:
@@ -250,11 +263,13 @@ outputs:
     comment: "STEP file generation"
     type: step
     dir: cad
+    category: "mechanical"
 
   - name: "3D rendering"
     comment: "3D rendering"
     type: render_3d
     dir: docs/images
+    category: "documentation"
     options:
       ray_tracing: true
       rotate_x: 3
