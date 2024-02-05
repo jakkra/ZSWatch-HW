@@ -15,10 +15,16 @@ global:
   date_format: "%Y-%m-%d"
 
 outputs:
+  - name: "Naviagation results"
+    comment: "Create navigation results page"
+    type: navigate_results
+    dir: "./"
+
   - name: "Download datasheets"
-    comment: "Download the components datasheets"
+    comment: "Download component datasheets"
     type: download_datasheets
     dir: docs/datasheets
+    category: "documentation"
 
   - name: "Generate IBOM"
     comment: "Interactive Bill of Materials"
