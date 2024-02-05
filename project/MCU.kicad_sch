@@ -3144,7 +3144,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b035ec5b-c1fb-4627-bf57-422d31b7f6f4)
   )
-  (text "NOTE: Bridge is only for testing" (at 234.95 158.75 0)
+  (text "NOTE: Bridges are only for testing" (at 234.95 158.75 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b94130aa-a968-4e79-a7cb-fcb57eeefe7c)
   )
@@ -3792,7 +3792,7 @@
   (symbol (lib_id "power:GND") (at 55.88 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0247550a-709a-4089-b7de-eba65f10fc50)
-    (property "Reference" "#PWR052" (at 55.88 171.45 0)
+    (property "Reference" "#PWR057" (at 55.88 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 58.42 166.37 0)
@@ -3808,7 +3808,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -3817,7 +3817,7 @@
   (symbol (lib_id "Device:R_Small") (at 109.22 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 054891b2-9614-4c11-912b-e12eda09e557)
-    (property "Reference" "R6" (at 111.76 41.91 0)
+    (property "Reference" "R8" (at 111.76 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 111.76 44.45 0)
@@ -3849,7 +3849,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R6") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -3895,7 +3895,7 @@
   (symbol (lib_id "power:+1V8") (at 58.42 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0ddf61f9-65da-44aa-b366-67ca557a3436)
-    (property "Reference" "#PWR053" (at 58.42 248.92 0)
+    (property "Reference" "#PWR058" (at 58.42 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 58.42 241.3 0)
@@ -3911,7 +3911,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -3920,7 +3920,7 @@
   (symbol (lib_id "power:+1V8") (at 46.99 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 11862e46-bba9-40a2-9e88-50faa63e5b55)
-    (property "Reference" "#PWR049" (at 46.99 78.74 0)
+    (property "Reference" "#PWR055" (at 46.99 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 46.99 71.12 0)
@@ -3936,7 +3936,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -4051,7 +4051,7 @@
   (symbol (lib_id "Device:R_Small") (at 237.49 179.07 0) (mirror y) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 26ceab5f-9377-43cb-aa43-588c82e635b0)
-    (property "Reference" "R12" (at 240.03 177.8 0)
+    (property "Reference" "R13" (at 240.03 177.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 240.03 180.34 0)
@@ -4083,7 +4083,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -4092,7 +4092,7 @@
   (symbol (lib_id "power:+1V8") (at 93.98 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b3cd97f-38a8-4845-9c97-f86bebcfd7ba)
-    (property "Reference" "#PWR057" (at 93.98 49.53 0)
+    (property "Reference" "#PWR064" (at 93.98 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 93.98 41.91 0)
@@ -4108,7 +4108,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -4238,7 +4238,7 @@
   (symbol (lib_id "Device:R_Small") (at 58.42 250.19 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3381be32-e853-4783-aa10-90ead6179a20)
-    (property "Reference" "R4" (at 55.88 248.92 0)
+    (property "Reference" "R6" (at 55.88 248.92 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 55.88 251.46 0)
@@ -4270,7 +4270,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R4") (unit 1)
+          (reference "R6") (unit 1)
         )
       )
     )
@@ -4457,7 +4457,7 @@
   (symbol (lib_id "power:GND") (at 96.52 176.53 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b7a70db-4908-4355-a87b-743ebb445b66)
-    (property "Reference" "#PWR064" (at 96.52 182.88 0)
+    (property "Reference" "#PWR066" (at 96.52 182.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 96.52 181.61 0)
@@ -4473,7 +4473,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR064") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -4482,7 +4482,7 @@
   (symbol (lib_id "Device:R_Small") (at 234.95 179.07 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 55baa68c-a5bc-42e3-8f1a-ae3b91e3d3d1)
-    (property "Reference" "R11" (at 232.41 177.8 0)
+    (property "Reference" "R12" (at 232.41 177.8 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 232.41 180.34 0)
@@ -4514,7 +4514,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -4605,7 +4605,7 @@
   (symbol (lib_id "power:GND") (at 342.9 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5ddb57fb-52ea-4b77-bc05-50d7acc8bcb3)
-    (property "Reference" "#PWR081" (at 342.9 201.93 0)
+    (property "Reference" "#PWR074" (at 342.9 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 342.9 200.66 0)
@@ -4621,7 +4621,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR081") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -4630,7 +4630,7 @@
   (symbol (lib_id "power:GND") (at 81.28 276.86 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6998a691-a730-4374-93d6-6556a905569a)
-    (property "Reference" "#PWR056" (at 81.28 283.21 0)
+    (property "Reference" "#PWR061" (at 81.28 283.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 81.28 281.94 0)
@@ -4646,7 +4646,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4776,7 +4776,7 @@
   (symbol (lib_id "Device:R_Small") (at 238.76 209.55 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 709aba2b-b16d-4bd3-aec7-49860d358ca8)
-    (property "Reference" "R13" (at 236.22 208.28 0)
+    (property "Reference" "R14" (at 236.22 208.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 236.22 210.82 0)
@@ -4808,7 +4808,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -4817,7 +4817,7 @@
   (symbol (lib_id "power:+3V0") (at 250.19 172.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70a4ac0e-c936-4150-93d2-508f164aac0b)
-    (property "Reference" "#PWR073" (at 250.19 176.53 0)
+    (property "Reference" "#PWR071" (at 250.19 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 250.19 168.91 0)
@@ -4833,7 +4833,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -4842,7 +4842,7 @@
   (symbol (lib_id "power:GND") (at 91.44 247.65 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 70de52b0-274b-408d-8e78-7a9f7f6d55ce)
-    (property "Reference" "#PWR058" (at 91.44 254 0)
+    (property "Reference" "#PWR062" (at 91.44 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 91.44 252.73 0)
@@ -4858,7 +4858,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -4867,7 +4867,7 @@
   (symbol (lib_id "power:GND") (at 40.64 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71470e6e-6290-4c4d-921e-8379ee542d81)
-    (property "Reference" "#PWR048" (at 40.64 232.41 0)
+    (property "Reference" "#PWR053" (at 40.64 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 231.14 0)
@@ -4883,7 +4883,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -4981,7 +4981,7 @@
   (symbol (lib_id "power:GND") (at 250.19 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7f9f6baf-6fcf-41af-a67f-bf30de412ed2)
-    (property "Reference" "#PWR074" (at 250.19 220.98 0)
+    (property "Reference" "#PWR072" (at 250.19 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 250.19 219.71 0)
@@ -4997,7 +4997,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -5006,7 +5006,7 @@
   (symbol (lib_id "power:GND") (at 53.34 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8248e221-3bf1-4b2c-bfc2-3c69525c630e)
-    (property "Reference" "#PWR051" (at 53.34 191.77 0)
+    (property "Reference" "#PWR056" (at 53.34 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 53.34 190.5 0)
@@ -5022,7 +5022,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -5031,7 +5031,7 @@
   (symbol (lib_id "power:+3V0") (at 388.62 213.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8c6602cd-5f01-430e-853d-a44b37ef0f9c)
-    (property "Reference" "#PWR068" (at 388.62 217.17 0)
+    (property "Reference" "#PWR083" (at 388.62 217.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 388.62 209.55 0)
@@ -5047,7 +5047,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR068") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5056,7 +5056,7 @@
   (symbol (lib_id "power:GND") (at 95.25 146.05 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95598af3-7e12-44b2-9c50-772c50df774d)
-    (property "Reference" "#PWR059" (at 95.25 152.4 0)
+    (property "Reference" "#PWR065" (at 95.25 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 151.13 0)
@@ -5084,7 +5084,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -5093,7 +5093,7 @@
   (symbol (lib_id "power:+3V0") (at 204.47 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 96bade1e-ad5e-4262-bf1f-9637ddf1989e)
-    (property "Reference" "#PWR070" (at 204.47 195.58 0)
+    (property "Reference" "#PWR068" (at 204.47 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 204.47 187.96 0)
@@ -5109,7 +5109,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -5118,7 +5118,7 @@
   (symbol (lib_id "Transistor_BJT:BC817W") (at 386.08 233.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 986540f4-c046-43b1-8397-da9e7fbd8686)
-    (property "Reference" "Q1" (at 391.16 232.41 0)
+    (property "Reference" "Q2" (at 391.16 232.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BC817W" (at 391.16 234.95 0)
@@ -5151,7 +5151,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "Q1") (unit 1)
+          (reference "Q2") (unit 1)
         )
       )
     )
@@ -5160,7 +5160,7 @@
   (symbol (lib_id "power:GND") (at 388.62 243.84 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9ea2f2b8-0c83-49c2-9501-65031713bae9)
-    (property "Reference" "#PWR069" (at 388.62 250.19 0)
+    (property "Reference" "#PWR084" (at 388.62 250.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 388.62 248.92 0)
@@ -5176,7 +5176,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR069") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -5267,7 +5267,7 @@
   (symbol (lib_id "power:GND") (at 64.77 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a6210dbb-fb65-4288-92db-137daca44072)
-    (property "Reference" "#PWR054" (at 64.77 232.41 0)
+    (property "Reference" "#PWR059" (at 64.77 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 64.77 231.14 0)
@@ -5283,7 +5283,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -5365,6 +5365,12 @@
     (property "CONFIG" "-ENV" (at 386.08 219.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Sim.Device" "D" (at 386.08 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Sim.Pins" "1=K 2=A" (at 386.08 219.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 8099f7a8-0540-4fb6-b689-9d416505fbbc))
     (pin "2" (uuid ba17fd11-adb7-4535-bf84-eb7d80f84595))
     (instances
@@ -5379,7 +5385,7 @@
   (symbol (lib_id "power:GND") (at 92.71 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b008bd44-0cce-4330-aa05-3dc3fec812c7)
-    (property "Reference" "#PWR060" (at 92.71 232.41 0)
+    (property "Reference" "#PWR063" (at 92.71 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 92.71 231.14 0)
@@ -5395,7 +5401,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -5404,7 +5410,7 @@
   (symbol (lib_id "Device:R_Small") (at 228.6 209.55 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b0720f1a-bf7e-4820-9df5-e22a4139e81b)
-    (property "Reference" "R10" (at 226.06 208.28 0)
+    (property "Reference" "R11" (at 226.06 208.28 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 226.06 210.82 0)
@@ -5436,7 +5442,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -5530,7 +5536,7 @@
   (symbol (lib_id "power:GND") (at 361.95 163.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bbcd96b7-5e61-4f60-8b14-7850d631551d)
-    (property "Reference" "#PWR084" (at 361.95 170.18 0)
+    (property "Reference" "#PWR080" (at 361.95 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 361.95 168.91 0)
@@ -5546,7 +5552,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -5555,7 +5561,7 @@
   (symbol (lib_id "power:+3V0") (at 219.71 210.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bdcc7eca-e2c7-41c7-a272-72bd05a26869)
-    (property "Reference" "#PWR071" (at 219.71 214.63 0)
+    (property "Reference" "#PWR069" (at 219.71 214.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V0" (at 219.71 207.01 0)
@@ -5571,7 +5577,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -5580,7 +5586,7 @@
   (symbol (lib_id "power:GND") (at 43.18 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c18c213d-0979-4bd2-b2d3-f5047215bc25)
-    (property "Reference" "#PWR050" (at 43.18 46.99 0)
+    (property "Reference" "#PWR054" (at 43.18 46.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 43.18 45.72 0)
@@ -5596,7 +5602,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -5788,7 +5794,7 @@
   (symbol (lib_id "power:+1V8") (at 364.49 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cdd42ded-c215-4623-91bd-560d843f8a9f)
-    (property "Reference" "#PWR080" (at 364.49 76.2 0)
+    (property "Reference" "#PWR081" (at 364.49 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 364.49 68.58 0)
@@ -5816,7 +5822,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR080") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -5825,7 +5831,7 @@
   (symbol (lib_id "Device:R_Small") (at 38.1 179.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2423ec0-a255-469d-a7c7-cc4b007f02fb)
-    (property "Reference" "R3" (at 38.1 173.99 90)
+    (property "Reference" "R5" (at 38.1 173.99 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "12k" (at 38.1 176.53 90)
@@ -5857,7 +5863,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R3") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -5907,7 +5913,7 @@
   (symbol (lib_id "power:GND") (at 252.73 181.61 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d6dc5afa-ba14-4b7f-89fb-df05305aa2ea)
-    (property "Reference" "#PWR075" (at 252.73 187.96 0)
+    (property "Reference" "#PWR073" (at 252.73 187.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 252.73 186.69 0)
@@ -5935,7 +5941,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR075") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -5944,7 +5950,7 @@
   (symbol (lib_id "power:GND") (at 355.6 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d79d60c0-e6d2-4ab0-bdff-3e31559990b1)
-    (property "Reference" "#PWR079" (at 355.6 43.18 0)
+    (property "Reference" "#PWR078" (at 355.6 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 355.6 41.91 0)
@@ -5960,7 +5966,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR079") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -5969,7 +5975,7 @@
   (symbol (lib_id "power:GND") (at 238.76 214.63 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7d35736-48f4-4603-a3a2-6a9188e42034)
-    (property "Reference" "#PWR072" (at 238.76 220.98 0)
+    (property "Reference" "#PWR070" (at 238.76 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 238.76 219.71 0)
@@ -5985,7 +5991,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -5994,7 +6000,7 @@
   (symbol (lib_id "Device:R_Small") (at 214.63 196.85 0) (mirror x) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d92ee938-7f4c-4768-a805-9b6195a8006a)
-    (property "Reference" "R9" (at 212.09 195.58 0)
+    (property "Reference" "R10" (at 212.09 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0R" (at 212.09 198.12 0)
@@ -6026,7 +6032,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -6035,7 +6041,7 @@
   (symbol (lib_id "power:+1V8") (at 350.52 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d93ef6ac-64e6-48d3-9d2d-b7d14c1c037f)
-    (property "Reference" "#PWR077" (at 350.52 29.21 0)
+    (property "Reference" "#PWR076" (at 350.52 29.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 350.52 21.59 0)
@@ -6051,7 +6057,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR077") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -6060,7 +6066,7 @@
   (symbol (lib_id "Device:R_Small") (at 377.19 233.68 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db5a1026-b9b3-41c8-a622-ca1e89bee37e)
-    (property "Reference" "R7" (at 377.19 228.6 90)
+    (property "Reference" "R15" (at 377.19 228.6 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "180R" (at 377.19 231.14 90)
@@ -6092,7 +6098,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R7") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -6101,7 +6107,7 @@
   (symbol (lib_id "power:GND") (at 33.02 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ded3eec4-405f-4ef4-bc69-ba99a14853ca)
-    (property "Reference" "#PWR047" (at 33.02 191.77 0)
+    (property "Reference" "#PWR052" (at 33.02 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 33.02 190.5 0)
@@ -6117,7 +6123,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -6126,7 +6132,7 @@
   (symbol (lib_id "Device:R_Small") (at 99.06 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dffb08ca-da38-46cf-bfd4-b036e8142599)
-    (property "Reference" "R5" (at 101.6 41.91 0)
+    (property "Reference" "R7" (at 101.6 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4k7" (at 101.6 44.45 0)
@@ -6158,7 +6164,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R5") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -6167,7 +6173,7 @@
   (symbol (lib_id "power:GND") (at 16.51 226.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e364e159-8421-44ab-af91-7bce80a1f0cf)
-    (property "Reference" "#PWR046" (at 16.51 232.41 0)
+    (property "Reference" "#PWR051" (at 16.51 232.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 16.51 231.14 0)
@@ -6183,7 +6189,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -6192,7 +6198,7 @@
   (symbol (lib_id "Device:C_Small") (at 55.88 161.29 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e5188f64-72b3-4fd0-861f-2676bf210a4a)
-    (property "Reference" "C21" (at 58.42 160.0136 0)
+    (property "Reference" "C23" (at 58.42 160.0136 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1u" (at 58.42 162.5536 0)
@@ -6224,7 +6230,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "C21") (unit 1)
+          (reference "C23") (unit 1)
         )
       )
     )
@@ -6233,7 +6239,7 @@
   (symbol (lib_id "power:GND") (at 359.41 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e8a214f0-b3a5-47c7-bb5c-2ce6f5623d99)
-    (property "Reference" "#PWR083" (at 359.41 201.93 0)
+    (property "Reference" "#PWR079" (at 359.41 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 359.41 200.66 0)
@@ -6249,7 +6255,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -6258,7 +6264,7 @@
   (symbol (lib_id "power:GND") (at 351.79 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e9796954-05ad-471e-bebc-797b0546fe4d)
-    (property "Reference" "#PWR078" (at 351.79 73.66 0)
+    (property "Reference" "#PWR077" (at 351.79 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 351.79 72.39 0)
@@ -6274,7 +6280,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -6283,7 +6289,7 @@
   (symbol (lib_id "power:GND") (at 347.98 36.83 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f65e3539-3f22-461f-a4a0-15ffeb735cf4)
-    (property "Reference" "#PWR076" (at 347.98 43.18 0)
+    (property "Reference" "#PWR075" (at 347.98 43.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 347.98 41.91 0)
@@ -6299,7 +6305,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR076") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -6308,7 +6314,7 @@
   (symbol (lib_id "Device:C_Small") (at 87.63 246.38 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f7f8716e-3e65-46e0-9180-593b52f144c4)
-    (property "Reference" "C22" (at 87.6363 240.03 90)
+    (property "Reference" "C24" (at 87.6363 240.03 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100n" (at 87.6363 242.57 90)
@@ -6340,7 +6346,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "C22") (unit 1)
+          (reference "C24") (unit 1)
         )
       )
     )
@@ -6349,7 +6355,7 @@
   (symbol (lib_id "Device:R_Small") (at 204.47 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f9f6d3f4-b768-4f34-aba1-47242080981d)
-    (property "Reference" "R8" (at 201.93 195.58 0)
+    (property "Reference" "R9" (at 201.93 195.58 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "100k" (at 201.93 198.12 0)
@@ -6381,7 +6387,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -6390,7 +6396,7 @@
   (symbol (lib_id "power:+1V8") (at 81.28 245.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fa9774d3-1b22-4ea1-b489-e3c1479b3113)
-    (property "Reference" "#PWR055" (at 81.28 248.92 0)
+    (property "Reference" "#PWR060" (at 81.28 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+1V8" (at 81.28 241.3 0)
@@ -6406,7 +6412,7 @@
     (instances
       (project "ZSWatch"
         (path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
