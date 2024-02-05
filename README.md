@@ -1,6 +1,6 @@
 # ZSWatch Hardware
 
-![Badge](https://github.com/jakkra/zswatch-hw/actions/workflows/build.yml/badge.svg?color=yellow)
+![Badge](https://github.com/kampi/zswatch-hw/actions/workflows/build.yml/badge.svg?color=yellow)
 
 ## Table of Contents
 
