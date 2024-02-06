@@ -9,6 +9,7 @@
   - [About](#about)
   - [Dock connector](#dock-connector)
   - [Directory structure](#directory-structure)
+  - [Purchasing](#purchasing)
   - [Maintainer](#maintainer)
 
 ## About
@@ -67,9 +68,11 @@ The pinout for the dock connector is shown below.
 - `docs`: All kind of project documentation like schematics, BOM, etc.
   - `drawings`: 2D drawings for subcomponents, etc.
   - `images`
-- `production`: Production files for the PCB
-  - `PCBWay`: Ordering instructions and production files ready for ordering at [PCBWay](https://www.pcbway.com/)
 - `project`: KiCad project for the PCB
+
+## Purchasing
+
+Please open `ZSWatch-HW-navigate.html` and use the files listed under `purchasing` for ordering a PCB.
 
 ## Maintainer
 
