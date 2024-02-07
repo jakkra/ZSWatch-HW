@@ -8,20 +8,29 @@ jobs:
   build:
     runs-on: ubuntu-22.04
 
+    permissions:
+      contents: write
+
     env:
-      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/ZSWatch-HW/library
+      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/library
+
     strategy:
       matrix:
         device_type: [Watch, Sensor]
+        include:
+          - device_type: Watch
+            NewImage: 1
+
     steps:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          path: ZSWatch-HW
+          path: .
           submodules: recursive
 
       - name: Dependencies
         run: |
+          sudo apt update
           wget https://github.com/INTI-CMNB/KiBot/releases/download/v1.6.3/kibot_1.6.3-1_all.deb
           sudo apt install ./kibot*_all.deb
 
@@ -32,26 +41,40 @@ jobs:
           sudo apt install ./kiauto_2.2.8-1_all.deb
 
           sudo add-apt-repository --yes ppa:kicad/kicad-7.0-releases
-          sudo apt update
           sudo apt install --install-recommends kicad
 
+          git clone https://github.com/Kampi/KiCad.git library
+
+      - name: Extract branch name
+        shell: bash
+        run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
+        id: extract_branch
+
       - name: Initialize
-        working-directory: ZSWatch-HW
         run: |
           mkdir production
-          git clone https://github.com/Kampi/KiCad.git library
-          cd library
-          echo ${PWD}
 
       - name: Generate files
         run: |
-          cd ZSWatch-HW/project
+          cd project
           kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
-      
+
       - name: Upload Results
         uses: actions/upload-artifact@v3
         with:
           name: ${{ matrix.device_type }}
           path: |
-            ZSWatch-HW/production
+            production
           if-no-files-found: ignore
+
+      - if: ${{ matrix.NewImage }}
+        name: Update image
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          cp production/Full/docs/images/PCB_Rendering.png docs/images/Dock_Complete.jpg
+          git add docs/images/Dock_Complete.jpg
+          git commit -m "Add image from CI/CD action"
+          git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git push origin ${{ steps.extract_branch.outputs.branch }}
