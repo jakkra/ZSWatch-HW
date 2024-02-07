@@ -17,7 +17,7 @@
 
 Hardware repository for the [ZSWatch](https://github.com/jakkra/ZSWatch).
 
-![PCB Top side](/docs/images/Image_Complete.png)
+![PCB Top side](/docs/images/Image_Complete.jpg)
 
 Please check the [wiki](https://github.com/jakkra/ZSWatch/wiki) for more information about the project.
 
