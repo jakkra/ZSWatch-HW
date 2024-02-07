@@ -66,14 +66,14 @@ The pinout for the dock connector is shown below.
 ## Directory structure
 
 - `cad`: 3D model of the complete PCB
-- `docs`: All kind of project documentation like schematics, BOM, etc.
+- `docs`: All kinds of project documentation like schematics, BOM, etc.
   - `drawings`: 2D drawings for subcomponents, etc.
   - `images`
 - `project`: KiCad project for the PCB
 
 ## Purchasing
 
-Please open `ZSWatch-HW-navigate.html` and use the files listed under `purchasing` for ordering a PCB.
+Please open `ZSWatch-navigate.html` and use the files listed under `purchasing` for ordering a PCB.
 
 ## Maintainer
 
