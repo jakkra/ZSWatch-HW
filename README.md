@@ -1,6 +1,6 @@
 # ZSWatch Hardware
 
-[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 ![Badge](https://github.com/kampi/zswatch-hw/actions/workflows/build.yml/badge.svg?color=yellow)
 
 ## Table of Contents
