@@ -561,7 +561,7 @@
       "netlist": "",
       "specctra_dsn": "",
       "step": "../cad/PCB.step",
-      "vrml": ""
+      "vrml": "../cad/ZSWatch.wrl"
     },
     "page_layout_descr_file": "default.kicad_wks"
   },
