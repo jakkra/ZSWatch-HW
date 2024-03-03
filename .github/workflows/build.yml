@@ -72,8 +72,8 @@ jobs:
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          cp production/${{ matrix.device_type }}/docs/images/PCB_Rendering.png docs/images/Image_Complete.jpg
-          git add docs/images/Image_Complete.jpg
+          cp production/${{ matrix.device_type }}/docs/images/PCB_Rendering.png docs/images/Image_Complete.png
+          git add docs/images/Image_Complete.png
           git commit -m "Add image from CI/CD action"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
