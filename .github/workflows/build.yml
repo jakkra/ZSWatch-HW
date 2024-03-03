@@ -52,6 +52,7 @@ jobs:
 
       - name: Initialize
         run: |
+          mkdir -p docs/images/
           mkdir production
 
       - name: Generate files
