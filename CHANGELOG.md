@@ -13,6 +13,7 @@
 - Add marker for display cable orientation
 - Add markers for better IC placements
 - Add PCB cutout for BME688 sensor
+- Add MX25L51245GZ2I flash memory
 
 **Changed:**
 
