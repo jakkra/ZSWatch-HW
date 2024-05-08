@@ -13,7 +13,8 @@
 - Add marker for display cable orientation
 - Add markers for better IC placements
 - Add PCB cutout for BME688 sensor
-- Add MX25L51245GZ2I flash memory
+- Add MX25L51245GZ2I Flash memory
+- Add RV-8263-C8 RTC
 
 **Changed:**
 
