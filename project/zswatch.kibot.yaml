@@ -103,10 +103,10 @@ outputs:
         suffix: F_Cu
         description: Front copper
       - layer: Inner1
-        suffix: Layer1
+        suffix: Inner1
         description: 'Inner cooper layer'
       - layer: Inner2
-        suffix: Layer2
+        suffix: Inner2
         description: 'Inner copper layer'
       - layer: B.Cu
         suffix: B_Cu

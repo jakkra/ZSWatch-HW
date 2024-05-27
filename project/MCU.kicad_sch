@@ -4393,7 +4393,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 215.9 212.09 90) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 25ca481c-5823-407f-a026-bef5beaa13ef)
     (property "Reference" "JP301" (at 213.36 212.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -5381,7 +5381,7 @@
   )
 
   (symbol (lib_id "Jumper:Jumper_2_Open") (at 218.44 212.09 270) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp no)
     (uuid 7a376718-ee1b-4668-ac50-1f07a86b661e)
     (property "Reference" "JP302" (at 220.98 212.09 90)
       (effects (font (size 1.27 1.27)) (justify left))
