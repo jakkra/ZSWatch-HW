@@ -3380,7 +3380,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b035ec5b-c1fb-4627-bf57-422d31b7f6f4)
   )
-  (text "NOTE: You can disable USB permanently by removing the voltage divider and bridge SWD\nby closing the jumper fields.\nThe voltage switch should only be active when a dock is connected and \nthe switch need ~30 uA of current so we can not use a Z-Diode for the power supply.\nVoltage stability doesn´t care because the IC can work from 2.3 to 5.5 V. We set the\n\"normal\" voltage to 3.6 V to add a bit safety against voltage drops.\n"
+  (text "NOTE: You can disable USB permanently by removing the voltage divider, bridge SWD\nby closing the jumper fields and assemble the resistor on the RESETn line.\nThe voltage switch should only be active when a dock is connected and \nthe switch need ~30 uA of current so we can not use a Z-Diode for the power supply.\nVoltage stability doesn´t care because the IC can work from 2.3 to 5.5 V. We set the\n\"normal\" voltage to 3.6 V to add a bit safety against voltage drops.\n"
     (at 160.02 283.21 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid b94130aa-a968-4e79-a7cb-fcb57eeefe7c)
@@ -5180,7 +5180,7 @@
     (property "Mfr." "Bourns" (at 219.71 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "CR0603-J/-000ELF" (at 219.71 248.92 0)
+    (property "Mfr. No." "CR0402-J/-000GLF" (at 219.71 248.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Order Number" "652-CR0603-J/-000ELF" (at 219.71 248.92 0)
@@ -6453,7 +6453,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 195.58 236.22 0) (mirror x) (unit 1)
-    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid d92ee938-7f4c-4768-a805-9b6195a8006a)
     (property "Reference" "R306" (at 193.04 234.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
@@ -6473,7 +6473,7 @@
     (property "Mfr." "Bourns" (at 195.58 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mfr. No." "CR0603-J/-000ELF" (at 195.58 236.22 0)
+    (property "Mfr. No." "CR0402-J/-000GLF" (at 195.58 236.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Order Number" "652-CR0603-J/-000ELF" (at 195.58 236.22 0)
@@ -6858,7 +6858,7 @@
   )
 
   (symbol (lib_id "Device:R_Small") (at 185.42 236.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid f9f6d3f4-b768-4f34-aba1-47242080981d)
     (property "Reference" "R305" (at 182.88 234.95 0)
       (effects (font (size 1.27 1.27)) (justify right))
