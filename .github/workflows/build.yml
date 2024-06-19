@@ -61,7 +61,7 @@ jobs:
           kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
 
       - name: Upload Results
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.device_type }}
           path: |
@@ -78,4 +78,5 @@ jobs:
           git commit -m "Add image from CI/CD action"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
+          git pull origin
           git push origin ${{ steps.extract_branch.outputs.branch }}
