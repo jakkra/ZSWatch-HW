@@ -1,5 +1,40 @@
 # CHANGELOG
 
+## [2.0.5] - 
+
+**Added:**
+
+- Add nPM1300 as power management solution
+- Add QR code with projects GitHub URL
+- Add solder bridge for current measuring
+- Add I2S microphone
+- Add buzzer
+- Add USB support (experimental)
+- Add marker for display cable orientation
+- Add markers for better IC placements
+- Add PCB cutout for BME688 sensor
+- Add MX25L51245GZ2I Flash memory
+- Add RV-8263-C8 RTC
+
+**Changed:**
+
+- Change value for ISET resistor from 10k to 12k
+- Move BTN_2 from P0.30 to P1.10
+- Move BTN_3 from P1.12 to P0.31
+- Move DRV_VIB_EN from P1.14 to P1.05
+- Move BMI270_IN1 from P0.21 to P1.08
+- Move BMI270_IN2 from P0.19 to P1.04
+- Move DRV_VIB_PWM from P1.15 to P1.05
+- Move DRV_VIB_EN from P1.05 to P1.15
+- Move BTN_4 from P1.06 to P0.26
+- Replace ESDALC6V1W5 with ESDALC6V1P5
+
+**Removed:**
+
+- Remove GPIO pads
+- Remove BMP581 INT
+- Remove copper under BME688 sensor
+
 ## [2.0.4] - 29.10.2023
 
 **Added:**
