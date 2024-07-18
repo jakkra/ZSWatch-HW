@@ -3,8 +3,6 @@ name: Build
 on:
   push:
   pull_request:
-    types:
-      [closed]
 
 jobs:
   build:
@@ -72,7 +70,7 @@ jobs:
             production
           if-no-files-found: ignore
 
-      - if: ${{ matrix.NewImage && (github.event.pull_request.merged == true) }}
+      - if: ${{ matrix.NewImage && (github.event_name == 'pull_request') && (github.event.action == 'closed') && (github.event.pull_request.merged == true) }}
         name: Update image
         run: |
           git config --local user.name "github-actions[bot]"
