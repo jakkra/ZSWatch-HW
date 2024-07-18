@@ -81,4 +81,4 @@ jobs:
           git commit -m "Add image from CI/CD action"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push origin ${{ steps.extract_branch.outputs.branch }}
+          git push origin ${{ github.base_ref }}
