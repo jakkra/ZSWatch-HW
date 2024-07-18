@@ -70,7 +70,7 @@ jobs:
             production
           if-no-files-found: ignore
 
-      - if: ${{ matrix.NewImage }}
+      - if: ${{ matrix.NewImage && (github.event.pull_request.merged == true) }}
         name: Update image
         run: |
           git config --local user.name "github-actions[bot]"
@@ -80,4 +80,4 @@ jobs:
           git commit -m "Add image from CI/CD action"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          git push origin ${{ steps.extract_branch.outputs.branch }}
+          git push origin ${{ github.base_ref }}
