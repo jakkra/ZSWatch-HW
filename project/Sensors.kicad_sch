@@ -7,7 +7,7 @@
 	(title_block
 		(title "ZSWatch v2")
 		(date "2024-07-23")
-		(rev "5")
+		(rev "6")
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
 	(lib_symbols
@@ -7484,7 +7484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/447/YAGEO_PYu_RC_Group_51_RoHS_L_12-3313492.pdf"
 			(at 71.12 142.24 0)
 			(effects
 				(font

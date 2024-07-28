@@ -2,6 +2,11 @@
 
 ## [2.0.5] - 
 
+**Fixed:**
+
+- Wrong address for BMP581 in documentation
+- Fix non ideal footprint for NTS0104GU12
+
 **Added:**
 
 - Add nPM1300 as power management solution
