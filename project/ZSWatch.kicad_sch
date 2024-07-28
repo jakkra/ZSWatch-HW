@@ -7,7 +7,7 @@
 	(title_block
 		(title "ZSWatch v2")
 		(date "2024-07-23")
-		(rev "5")
+		(rev "6")
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
 	(lib_symbols)
@@ -463,7 +463,7 @@
 		)
 		(uuid "f53c9ce5-5f62-4f5f-91bf-f54d9587167a")
 	)
-	(text "I2C addresses\n----------------\nBMI270			0x68\nBMP581			0x46\nBME688			0x76\nLIS2MDLTR		0x1E\nAPDS-9306-065	0x52\nnPM1300			0x6B\nRV-8263-C8		0x51"
+	(text "I2C addresses\n----------------\nBMP581			0x46\nRV-8263-C8		0x51\nAPDS-9306-065	0x52\nBMI270			0x68\nnPM1300			0x6B\nBME688			0x76\nLIS2MDLTR		0x1E"
 		(exclude_from_sim no)
 		(at 222.25 162.56 0)
 		(effects
