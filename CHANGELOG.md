@@ -1,6 +1,19 @@
 # CHANGELOG
 
-## [2.0.5] - 
+## [2.0.6]
+
+**Fixed:**
+
+**Added:**
+
+**Changed:**
+
+- Move DISPLAY-CLK from P0.08 to P0.09
+- Move DISPLAY-DATA from P0.09 to P0.08
+
+**Removed:**
+
+## [2.0.5] - 29.07.2024
 
 **Fixed:**
 
@@ -14,7 +27,7 @@
 - Add solder bridge for current measuring
 - Add I2S microphone
 - Add buzzer
-- Add USB support (experimental)
+- Add USB support
 - Add marker for display cable orientation
 - Add markers for better IC placements
 - Add PCB cutout for BME688 sensor

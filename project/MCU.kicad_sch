@@ -6694,7 +6694,7 @@
 	)
 	(polyline
 		(pts
-			(xy 316.23 12.954) (xy 219.71 12.7)
+			(xy 316.23 12.7) (xy 219.71 12.7)
 		)
 		(stroke
 			(width 0)
@@ -10957,7 +10957,7 @@
 	)
 	(global_label "DISPLAY-DATA"
 		(shape bidirectional)
-		(at 119.38 118.11 0)
+		(at 119.38 120.65 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10967,7 +10967,7 @@
 		)
 		(uuid "7316297c-4f07-4f69-8f00-7192c4370596")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.0233 118.11 0)
+			(at 137.0233 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11353,7 +11353,7 @@
 	)
 	(global_label "DISPLAY-CLK"
 		(shape output)
-		(at 119.38 120.65 0)
+		(at 119.38 118.11 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11363,7 +11363,7 @@
 		)
 		(uuid "ac65dabd-da7f-4f8c-b4b3-8e8c9b65866c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 135.0653 120.65 0)
+			(at 135.0653 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
