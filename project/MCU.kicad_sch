@@ -12774,8 +12774,7 @@
 	)
 	(symbol
 		(lib_id "Nexperia:PMZ550UNEYL")
-		(at 250.19 36.83 90)
-		(mirror x)
+		(at 250.19 36.83 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12799,7 +12798,7 @@
 			)
 		)
 		(property "Footprint" "Package_SOT_SMD:SOT-883"
-			(at 252.095 41.91 0)
+			(at 248.285 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12810,7 +12809,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMZ550UNE.pdf"
-			(at 254 41.91 0)
+			(at 246.38 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20800,8 +20799,7 @@
 	)
 	(symbol
 		(lib_id "Nexperia:PMZ550UNEYL")
-		(at 250.19 62.23 90)
-		(mirror x)
+		(at 250.19 62.23 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20825,7 +20823,7 @@
 			)
 		)
 		(property "Footprint" "Package_SOT_SMD:SOT-883"
-			(at 252.095 67.31 0)
+			(at 248.285 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20836,7 +20834,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMZ550UNE.pdf"
-			(at 254 67.31 0)
+			(at 246.38 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
