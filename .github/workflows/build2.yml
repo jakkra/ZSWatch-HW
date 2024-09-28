@@ -47,7 +47,8 @@ jobs:
 
       - name: Generate files
         uses: INTI-CMNB/KiBot@v2
-        variant: 'Watch'
+        with:
+          variant: 'Watch'
 
       - name: Upload Results
         uses: actions/upload-artifact@v4
