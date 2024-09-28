@@ -41,6 +41,7 @@ jobs:
       - name: Generate files
         uses: INTI-CMNB/KiBot@v2
         with:
+          config: project/zswatch.kibot.yaml
           variant: 'Watch; Sensor'
 
       - name: Upload Results
