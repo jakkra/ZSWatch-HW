@@ -4,11 +4,11 @@ kibot:
 variants:
   - name: "Watch"
     comment: "Regular Watch PCB"
-    dir: 'Watch'
+    out_dir: 'Watch'
     type: kibom
   - name: "Sensor"
     comment: "Reduced Watch PCB for sensing applications"
-    dir: 'Sensor'
+    out_dir: 'Sensor'
     type: kibom
     variant: Env
 
