@@ -4,16 +4,16 @@ kibot:
 variants:
   - name: "Watch"
     comment: "Regular Watch PCB"
-    out_dir: 'Watch'
+    out_dir: "../production/Export-%D/Watch"
     type: kibom
   - name: "Sensor"
     comment: "Reduced Watch PCB for sensing applications"
-    out_dir: 'Sensor'
+    out_dir: "../production/Export-%D/Sensor"
     type: kibom
     variant: Env
 
 global:
-  out_dir: "../production/Export-%D"
+  #out_dir: "../production/Export-%D"
   date_format: "%Y-%m-%d"
 
 outputs:
