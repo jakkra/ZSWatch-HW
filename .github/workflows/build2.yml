@@ -33,12 +33,6 @@ jobs:
 
       - name: Dependencies
         run: |
-          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.9.0-1/interactivehtmlbom.inti-cmnb_2.9.0-1_all.deb
-          sudo apt install ./interactivehtmlbom.inti-cmnb*_all.deb
-
-          wget https://github.com/INTI-CMNB/KiAuto/releases/download/v2.3.2/kiauto_2.3.2-1_all.deb
-          sudo apt install ./kiauto*_all.deb
-
           git clone https://github.com/Kampi/KiCad.git library
 
       - name: Extract branch name
