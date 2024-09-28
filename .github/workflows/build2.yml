@@ -42,7 +42,7 @@ jobs:
         uses: INTI-CMNB/KiBot@v2
         with:
           config: project/zswatch.kibot.yaml
-          variant: 'Watch;Sensor'
+          #variant: 'Watch;Sensor'
 
       - name: Upload Results
         uses: actions/upload-artifact@v4
