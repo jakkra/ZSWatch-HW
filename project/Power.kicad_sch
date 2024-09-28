@@ -3142,7 +3142,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -3187,7 +3187,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-0603YC105JAT2A"
+		(property "CONFIG" ""
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-0603YC105JAT2A"
 			(at 218.44 91.44 0)
 			(effects
 				(font
@@ -3359,7 +3359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/585/sems_s_a0006918008_1-2288745.pdf"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3404,7 +3404,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "187-CIGT201610EH2R2M"
+		(property "CONFIG" ""
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3413,7 +3413,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "187-CIGT201610EH2R2MNE"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3474,7 +3474,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -3519,7 +3519,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-0603YC105JAT2A"
+		(property "CONFIG" ""
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -3528,7 +3528,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-0603YC105JAT2A"
 			(at 113.03 44.45 0)
 			(effects
 				(font
@@ -3590,7 +3590,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -3635,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 184.15 109.22 0)
 			(effects
 				(font
@@ -3750,7 +3750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07150KL"
+		(property "CONFIG" ""
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -3759,7 +3759,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07150KL"
 			(at 82.55 134.62 0)
 			(effects
 				(font
@@ -3857,15 +3857,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 200.66 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -3999,7 +3990,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -4044,7 +4035,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -4053,7 +4044,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 193.04 91.44 0)
 			(effects
 				(font
@@ -4262,7 +4253,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-0747KL"
+		(property "CONFIG" ""
 			(at 80.01 134.62 0)
 			(effects
 				(font
@@ -4271,7 +4262,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-0747KL"
 			(at 80.01 134.62 0)
 			(effects
 				(font
@@ -4376,7 +4367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "949-NPM1300-QEAA-R7"
+		(property "CONFIG" ""
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -4385,7 +4376,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "949-NPM1300-QEAA-R7"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -4605,7 +4596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 191.77 63.5 0)
 			(effects
 				(font
@@ -4650,7 +4641,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 191.77 63.5 0)
 			(effects
 				(font
@@ -4659,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 191.77 63.5 0)
 			(effects
 				(font
@@ -4887,7 +4878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/585/sems_s_a0006918008_1-2288745.pdf"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4932,7 +4923,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "187-CIGT201610EH2R2M"
+		(property "CONFIG" ""
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4941,7 +4932,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "187-CIGT201610EH2R2MNE"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -5047,7 +5038,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "538-78171-0002"
+		(property "CONFIG" ""
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -5056,7 +5047,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "538-78171-0002"
 			(at 158.75 40.64 0)
 			(effects
 				(font
@@ -5219,7 +5210,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -5264,7 +5255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" ""
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -5273,7 +5264,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 135.89 63.5 0)
 			(effects
 				(font
@@ -5436,7 +5427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -5481,7 +5472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -5490,7 +5481,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 181.61 63.5 0)
 			(effects
 				(font
@@ -5552,7 +5543,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/cx5r_KGM-3223198.pdf"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -5597,7 +5588,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06036D225KAT2A"
+		(property "CONFIG" ""
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -5606,7 +5597,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06036D225KAT2A"
 			(at 140.97 44.45 0)
 			(effects
 				(font
@@ -5871,7 +5862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -5916,7 +5907,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -5925,7 +5916,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 200.66 132.08 0)
 			(effects
 				(font
@@ -6089,15 +6080,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 200.66 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 200.66 104.14 0)
 			(effects
 				(font
@@ -6367,7 +6349,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -6412,7 +6394,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -6421,7 +6403,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 128.27 44.45 0)
 			(effects
 				(font
@@ -6482,7 +6464,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -6527,7 +6509,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -6536,7 +6518,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 201.93 63.5 0)
 			(effects
 				(font
@@ -6800,15 +6782,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 200.66 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 200.66 86.36 0)
 			(effects
 				(font

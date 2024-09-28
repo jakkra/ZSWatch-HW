@@ -682,15 +682,9 @@
         },
         {
           "group_by": false,
-          "label": "Field-1",
-          "name": "Field-1",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Mfr.",
           "name": "Mfr.",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -700,34 +694,22 @@
         },
         {
           "group_by": false,
-          "label": "Order Number",
-          "name": "Order Number",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Device",
-          "name": "Sim.Device",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Sim.Pins",
-          "name": "Sim.Pins",
-          "show": false
-        },
-        {
-          "group_by": false,
           "label": "Beschreibung",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Order. No.",
+          "name": "Order. No.",
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Description"
     },
     "connection_grid_size": 50.0,
     "drawing": {

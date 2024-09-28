@@ -12438,7 +12438,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "612-TL6340AF160Q"
+		(property "CONFIG" ""
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -12447,7 +12447,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "612-TL6340AF160Q"
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -12854,15 +12854,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-PMZ550UNEYL"
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 250.19 36.83 0)
 			(effects
@@ -12872,7 +12863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field-1" ""
+		(property "Order. No." "771-PMZ550UNEYL"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -13111,15 +13102,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 387.35 163.83 0)
 			(effects
@@ -13223,7 +13205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "428-204291-MC01"
+		(property "CONFIG" ""
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -13232,7 +13214,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "428-204291-MC01"
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -13357,7 +13339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-04025C104KAT2A"
+		(property "CONFIG" "-ENV"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -13366,7 +13348,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "581-04025C104KAT2A"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -13464,15 +13446,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 215.9 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 215.9 212.09 0)
 			(effects
 				(font
@@ -13587,7 +13560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "490-CMT-322-65-SMTTR"
+		(property "CONFIG" "-ENV"
 			(at 393.7 219.71 0)
 			(effects
 				(font
@@ -13596,7 +13569,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "490-CMT-322-65-SMTTR"
 			(at 393.7 219.71 0)
 			(effects
 				(font
@@ -13699,7 +13672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "377-NORA-B106-00B"
+		(property "CONFIG" ""
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -13708,7 +13681,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "377-NORA-B106-00B"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -14054,7 +14027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100KL"
+		(property "CONFIG" ""
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -14063,7 +14036,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07100KL"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -14234,7 +14207,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "426-FIT0774"
+		(property "CONFIG" ""
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -14243,7 +14216,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "426-FIT0774"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -14346,7 +14319,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "595-DRV2603RUNT"
+		(property "CONFIG" "-ENV"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -14355,7 +14328,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "595-DRV2603RUNT"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -14441,7 +14414,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -14486,7 +14459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -14589,7 +14562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-NTS0104GU12115"
+		(property "CONFIG" "-ENV"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -14598,7 +14571,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "771-NTS0104GU12115"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -14800,7 +14773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100RL"
+		(property "CONFIG" ""
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14809,7 +14782,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07100RL"
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14871,7 +14844,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14916,7 +14889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "-ENV"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14925,7 +14898,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -15030,7 +15003,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "612-TL6340AF160Q"
+		(property "CONFIG" "-ENV"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -15039,7 +15012,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "612-TL6340AF160Q"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -15274,7 +15247,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "377-NORA-B106-00B"
+		(property "CONFIG" ""
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15283,7 +15256,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "377-NORA-B106-00B"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15584,7 +15557,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -15629,7 +15602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" ""
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -15638,7 +15611,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -15875,7 +15848,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07150KL"
+		(property "CONFIG" "-ENV"
 			(at 379.73 238.76 0)
 			(effects
 				(font
@@ -15884,7 +15857,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "603-RC0603FR-07150KL"
 			(at 379.73 238.76 0)
 			(effects
 				(font
@@ -15987,7 +15960,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "512-FAN5622SX"
+		(property "CONFIG" "-ENV"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15996,7 +15969,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "512-FAN5622SX"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -16111,7 +16084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "511-ESDALC6V1P5"
+		(property "CONFIG" ""
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -16120,7 +16093,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "511-ESDALC6V1P5"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -16227,15 +16200,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 218.44 212.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 218.44 212.09 0)
 			(effects
 				(font
@@ -16817,7 +16781,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-BC817W115"
+		(property "CONFIG" "-ENV"
 			(at 386.08 233.68 0)
 			(effects
 				(font
@@ -16826,7 +16790,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "771-BC817W115"
 			(at 386.08 233.68 0)
 			(effects
 				(font
@@ -16955,7 +16919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -17000,7 +16964,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "-ENV"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -17009,7 +16973,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -17114,7 +17078,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "612-TL6340AF160Q"
+		(property "CONFIG" "-ENV"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -17123,7 +17087,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "612-TL6340AF160Q"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -17293,7 +17257,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "595-TS3USB221A"
+		(property "Order. No." "595-TS3USB221A"
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -17424,7 +17388,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0402FR-074K7L"
+		(property "CONFIG" ""
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17433,7 +17397,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "-- verschiedene Werte --"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17540,15 +17504,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "821-BAS316RRG"
-			(at 386.08 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" "-ENV"
 			(at 386.08 219.71 90)
 			(effects
@@ -17558,16 +17513,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Device" "D"
-			(at 386.08 219.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
+		(property "Order. No." "821-BAS316RRG"
 			(at 386.08 219.71 0)
 			(effects
 				(font
@@ -17738,15 +17684,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" ""
-			(at 90.17 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 90.17 170.18 0)
 			(effects
@@ -17860,7 +17797,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "612-TL6340AF160Q"
+		(property "CONFIG" "-ENV"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -17869,7 +17806,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "612-TL6340AF160Q"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -18102,15 +18039,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" ""
-			(at 365.76 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" "-ENV"
 			(at 368.3 97.79 0)
 			(effects
@@ -18277,7 +18205,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "377-NORA-B106-00B"
+		(property "CONFIG" ""
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -18286,7 +18214,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "377-NORA-B106-00B"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -18735,7 +18663,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-074K7L"
+		(property "CONFIG" ""
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18744,7 +18672,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "-- verschiedene Werte --"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18848,7 +18776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-0712KL"
+		(property "CONFIG" "-ENV"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18857,7 +18785,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "603-RC0603FR-0712KL"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18919,7 +18847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18964,7 +18892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" "-ENV"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18973,7 +18901,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -19080,7 +19008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07270RL"
+		(property "CONFIG" ""
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -19089,7 +19017,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07270RL"
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -19297,7 +19225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0402FR-074K7L"
+		(property "CONFIG" ""
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19306,7 +19234,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "-- verschiedene Werte --"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19409,7 +19337,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RT0603FRE07220RL"
+		(property "CONFIG" "+ENV"
 			(at 370.84 224.79 0)
 			(effects
 				(font
@@ -19418,7 +19346,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+ENV"
+		(property "Order. No." "603-RT0603FRE07220RL"
 			(at 370.84 224.79 0)
 			(effects
 				(font
@@ -19610,7 +19538,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/54/cr-1858361.pdf"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19655,7 +19583,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "652-CR0603-J/-000ELF"
+		(property "CONFIG" ""
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19664,7 +19592,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "652-CR0603-J/-000ELF"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19834,7 +19762,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07180RL"
+		(property "CONFIG" "-ENV"
 			(at 375.92 233.68 0)
 			(effects
 				(font
@@ -19843,7 +19771,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "603-RC0603FR-07180RL"
 			(at 375.92 233.68 0)
 			(effects
 				(font
@@ -19947,7 +19875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "710-150060YS75003"
+		(property "CONFIG" "+ENV"
 			(at 361.95 224.79 0)
 			(effects
 				(font
@@ -19956,7 +19884,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "+ENV"
+		(property "Order. No." "710-150060YS75003"
 			(at 361.95 224.79 0)
 			(effects
 				(font
@@ -20344,7 +20272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20389,7 +20317,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-0603YC105JAT2A"
+		(property "CONFIG" "-ENV"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20398,7 +20326,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "581-0603YC105JAT2A"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20634,7 +20562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-074K7L"
+		(property "CONFIG" ""
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20643,7 +20571,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "-- verschiedene Werte --"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20879,15 +20807,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "771-PMZ550UNEYL"
-			(at 250.19 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 250.19 62.23 0)
 			(effects
@@ -20897,7 +20816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Field-1" ""
+		(property "Order. No." "771-PMZ550UNEYL"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -20960,7 +20879,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -21005,7 +20924,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -21014,7 +20933,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -21120,7 +21039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07100KL"
+		(property "CONFIG" ""
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -21129,7 +21048,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "603-RC0603FR-07100KL"
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -21298,7 +21217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "95-25U51245GZ4I00T"
+		(property "CONFIG" ""
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21307,7 +21226,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "95-25U51245GZ4I00T"
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21426,15 +21345,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 387.35 179.07 0)
 			(effects
 				(font

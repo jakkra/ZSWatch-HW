@@ -4751,7 +4751,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -4796,7 +4796,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -5062,7 +5062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5107,7 +5107,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5308,7 +5308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5353,7 +5353,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5423,7 +5423,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5468,7 +5468,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06033C224KAT2A"
+		(property "CONFIG" ""
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06033C224KAT2A"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5845,7 +5845,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "262-BMI270"
+		(property "CONFIG" ""
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5854,7 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "262-BMI270"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5952,7 +5952,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -5997,7 +5997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -6006,7 +6006,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -6114,7 +6114,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "621-DMG1013UW-7"
+		(property "CONFIG" "-ENV"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -6123,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "621-DMG1013UW-7"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -6231,7 +6231,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "630-APDS-9306-065"
+		(property "CONFIG" ""
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -6240,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "630-APDS-9306-065"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -6358,15 +6358,6 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" ""
-			(at 227.33 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "CONFIG" ""
 			(at 227.33 147.32 0)
 			(effects
@@ -6425,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6470,7 +6461,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6479,7 +6470,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6606,7 +6597,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6651,7 +6642,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6660,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6917,7 +6908,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -6962,7 +6953,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -6971,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -7069,15 +7060,6 @@
 			)
 		)
 		(property "Distributor" ""
-			(at 227.33 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
 			(at 227.33 152.4 0)
 			(effects
 				(font
@@ -7186,7 +7168,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "511-LIS2MDLTR"
+		(property "CONFIG" ""
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7195,7 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "511-LIS2MDLTR"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7529,7 +7511,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "603-RC0603FR-07150KL"
+		(property "CONFIG" "-ENV"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7538,7 +7520,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "603-RC0603FR-07150KL"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7903,7 +7885,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "262-BME688"
+		(property "CONFIG" ""
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -7912,7 +7894,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "262-BME688"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -8232,7 +8214,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "721-SPK0641HT4H-1"
+		(property "CONFIG" "-ENV"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -8241,7 +8223,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" "-ENV"
+		(property "Order. No." "721-SPK0641HT4H-1"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -8386,7 +8368,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8431,7 +8413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8440,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8675,7 +8657,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "262-BMP581"
+		(property "CONFIG" ""
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8684,7 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "262-BMP581"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8834,7 +8816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/KGM_X7R-3223212.pdf"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -8879,7 +8861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "581-06035C104KAT2A"
+		(property "CONFIG" ""
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -8888,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "581-06035C104KAT2A"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -9014,7 +8996,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -9059,7 +9041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order Number" "346-CM105X5R106M25AT"
+		(property "CONFIG" ""
 			(at 245.11 27.94 0)
 			(effects
 				(font
@@ -9068,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "Order. No." "346-CM105X5R106M25AT"
 			(at 245.11 27.94 0)
 			(effects
 				(font
