@@ -44,7 +44,10 @@ jobs:
 
       - name: Generate files
         run: |
-          kibot -c project/zswatch.kibot.yaml -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
+          cd project
+          kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
+          mkdir ../production/${{ matrix.device_type }}/ordering
+          mv ../production/PCBWay ../production/${{ matrix.device_type }}/ordering/PCBWay
 
       - name: Upload Results
         uses: actions/upload-artifact@v4
