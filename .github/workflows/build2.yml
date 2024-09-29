@@ -16,7 +16,7 @@ jobs:
 
     env:
       KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/library
-    
+
     strategy:
       matrix:
         device_type: [Watch, Sensor]
@@ -45,9 +45,7 @@ jobs:
       - name: Generate files
         run: |
           cd project
-          kibot -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
-          mkdir ../production/${{ matrix.device_type }}/ordering
-          mv ../production/PCBWay ../production/${{ matrix.device_type }}/ordering/PCBWay
+          kibot -c ../zswatch.kibot.yaml -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
 
       - name: Upload Results
         uses: actions/upload-artifact@v4
