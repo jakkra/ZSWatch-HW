@@ -44,7 +44,6 @@ jobs:
 
       - name: Generate files
         run: |
-          cd project
           kibot -c project/zswatch.kibot.yaml -g variant=${{ matrix.device_type }} -d ../production/${{ matrix.device_type }}
 
       - name: Upload Results
