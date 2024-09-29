@@ -5,16 +5,10 @@ variants:
   - name: "Watch"
     comment: "Regular Watch PCB"
     type: kibom
-    commands:
-      - mkdir -p ../production/Watch/ordering
-      - mv ../production/PCBWay ../production/Watch/ordering/PCBWay
   - name: "Sensor"
     comment: "Reduced Watch PCB for sensing applications"
     type: kibom
     variant: Env
-    commands:
-      - mkdir -p ../production/Sensor/ordering
-      - mv ../production/PCBWay ../production/Sensor/ordering/PCBWay
 
 global:
   out_dir: "../production/Export-%D"
