@@ -8,7 +8,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     permissions:
       contents: write
@@ -31,27 +32,10 @@ jobs:
           submodules: recursive
 
       - name: Dependencies
-        run: |
-          sudo apt update
-
-          wget https://github.com/INTI-CMNB/KiBot/releases/download/v1.7.0/kibot_1.7.0-1_all.deb
-          sudo apt install ./kibot*_all.deb
-
-          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.9.0-1/interactivehtmlbom.inti-cmnb_2.9.0-1_all.deb
-          sudo apt install ./interactivehtmlbom.inti-cmnb*_all.deb
-
-          wget https://github.com/INTI-CMNB/KiAuto/releases/download/v2.3.2/kiauto_2.3.2-1_all.deb
-          sudo apt install ./kiauto*_all.deb
-
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt install --install-recommends kicad
-
-          git clone https://github.com/Kampi/KiCad.git library
+        run: git clone https://github.com/Kampi/KiCad.git library
 
       - name: Extract branch name
-        shell: bash
         run: echo "branch=${GITHUB_HEAD_REF:-${GITHUB_REF#refs/heads/}}" >> $GITHUB_OUTPUT
-        id: extract_branch
 
       - name: Initialize
         run: |
@@ -69,12 +53,11 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: ${{ matrix.device_type }}
-          path: |
-            production
+          path: production
           if-no-files-found: ignore
 
-      - if: ${{ matrix.NewImage && (github.event.pull_request.merged == true) }}
-        name: Update image
+      - name: Update image
+        if: ${{ matrix.NewImage && (github.event.pull_request.merged == true) }}
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
@@ -82,5 +65,4 @@ jobs:
           git add docs/images/Image_Complete.png
           git commit -m "Add image from CI/CD action"
           git remote set-url origin https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
-          echo https://${{ github.actor }}:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}
           git push origin ${{ github.base_ref }}
