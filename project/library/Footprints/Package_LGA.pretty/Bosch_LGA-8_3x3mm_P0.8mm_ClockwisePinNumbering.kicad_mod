@@ -1,0 +1,278 @@
+(footprint "Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(tags "Bosch LGA NoLead")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "d1a200ef-ce94-44aa-8ef4-4038d2659eff")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "85924aea-0143-448c-b878-dadff7216ca7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "88bc828a-3377-4981-a4bc-f458f20488dd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45c8e287-e18d-4f25-86c4-193ea2b47375")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d357ffeb-5def-4123-ac55-7ead45ad0665")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.55 -1.55)
+		(end -1.55 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fe048c3d-bf33-48a5-abf1-9e5a0696e768")
+	)
+	(fp_line
+		(start -1.55 -1.55)
+		(end -1.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c64da238-ba40-4a53-8367-4773b0da370c")
+	)
+	(fp_line
+		(start -1.55 1.55)
+		(end -1.55 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "53c7413d-a5f5-4cc8-a71b-66bb19968940")
+	)
+	(fp_line
+		(start -1.55 1.55)
+		(end -1.25 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77ac0e79-9b8b-4f14-a22d-7eb36fa7bddd")
+	)
+	(fp_line
+		(start 1.55 -1.55)
+		(end 1.25 -1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "400640cb-52d3-4cda-8743-18aa113af0b2")
+	)
+	(fp_line
+		(start 1.55 -1.55)
+		(end 1.55 -1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3a0e899c-6e2c-48bf-ba2c-d7fbeb779e40")
+	)
+	(fp_line
+		(start 1.55 1.55)
+		(end 1.25 1.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "45a3c55d-199a-4664-9cf3-13ecd84a0d55")
+	)
+	(fp_line
+		(start 1.55 1.55)
+		(end 1.55 1.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6b81d2c0-2368-4373-a725-26c4dd1b75dd")
+	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b5d993df-df05-4c90-b140-d5d6314fa99d")
+	)
+	(fp_line
+		(start -1.5 -0.75)
+		(end -0.75 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e0100409-950c-40ef-824b-395515d6f7ac")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "626b4fea-2f2c-4086-ad9a-dd39b5160c1a")
+	)
+	(fp_line
+		(start -0.75 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5305d47a-9842-4087-a2c6-d3174c5971ef")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b441df49-2392-486a-a342-292fba43f22e")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5eb2d283-53fc-4cc7-8d8f-2e07fddabbab")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e397885e-0322-4d7b-bb32-5935b5fb5771")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.11)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 -1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2a236748-ff1f-4e88-841c-06cca5b059f7")
+	)
+	(pad "2" smd rect
+		(at -0.4 -1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6da6b0d1-987d-4f42-ae29-da5278552f55")
+	)
+	(pad "3" smd rect
+		(at 0.4 -1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "64937650-7435-4eec-bf2e-a7ede4096a85")
+	)
+	(pad "4" smd rect
+		(at 1.2 -1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bff2e055-dfb8-47fc-8433-a66ec5244acb")
+	)
+	(pad "5" smd rect
+		(at 1.2 1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4a1049ec-1798-4e88-8cec-29106568dc37")
+	)
+	(pad "6" smd rect
+		(at 0.4 1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "36ae2592-21ed-4cf9-a4d6-e3efefd32058")
+	)
+	(pad "7" smd rect
+		(at -0.4 1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "160d7c4c-b37a-4512-8548-5d8fc87f6db2")
+	)
+	(pad "8" smd rect
+		(at -1.2 1.1875)
+		(size 0.5 0.525)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f374ecbe-c59f-4f70-9930-f955beece9c7")
+	)
+	(model "${KICAD_LIBRARY}/3D/Bosch/BME680.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
