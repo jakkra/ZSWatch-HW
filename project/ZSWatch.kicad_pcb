@@ -9322,7 +9322,7 @@
 			(pintype "passive")
 			(uuid "1c6cb15f-b490-4053-9ced-713d9a879116")
 		)
-		(model "${KICAD_LIBRARY}/3D/Bosch/BMP581.stp"
+		(model "${ZSWATCH_PATH}/3D/Bosch/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -12203,7 +12203,7 @@
 			(pintype "power_in")
 			(uuid "c937c4fb-b40d-4cf6-bdf7-772603a482d0")
 		)
-		(model "${KICAD_LIBRARY}/3D/Bosch/BME680.stp"
+		(model "${ZSWATCH_PATH}/3D/Bosch/BME680.stp"
 			(offset
 				(xyz 0 0 0)
 			)
