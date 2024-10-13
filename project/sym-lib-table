@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "Bosch")(type "KiCad")(uri "${KIPRJMOD}/library/Symbols/Bosch.kicad_sym")(options "")(descr ""))
+  (lib (name "Knowles")(type "KiCad")(uri "${KIPRJMOD}/library/Symbols/Knowles.kicad_sym")(options "")(descr ""))
+  (lib (name "Micro Crystal")(type "KiCad")(uri "${KIPRJMOD}/library/Symbols/Micro Crystal.kicad_sym")(options "")(descr ""))
+  (lib (name "uBlox")(type "KiCad")(uri "${KIPRJMOD}/library/Symbols/uBlox.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,231 @@
+(footprint "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "35ab569e-804c-460f-acdf-382cbef446fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "RD90_LZH0230529-004_DJ-5PIN_PH2_54"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f957a37-3e1d-4473-b8f6-7345bc621775")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "84775023-dd73-49dd-a14f-293f6295d045")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c634b307-eec3-4295-99fc-359d3b81b002")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a51352d2-1a03-47db-acf0-1c929a75cdbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -12 -2.8)
+		(end 12 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "b170b470-f487-4a13-aa3f-2fc755cbbb08")
+	)
+	(fp_line
+		(start -9.1 -2.8)
+		(end 9.1 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "2a9e2296-e3dc-4afc-ab87-5c19873101b8")
+	)
+	(fp_line
+		(start -9.1 2.8)
+		(end 9.1 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "e02dfd90-77cf-4008-a22f-75ba240a5055")
+	)
+	(fp_arc
+		(start -9.1 2.8)
+		(mid -11.9 0)
+		(end -9.1 -2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b98160ab-3470-4c86-beb7-8538651c1536")
+	)
+	(fp_arc
+		(start 9.1 -2.8)
+		(mid 11.9 0)
+		(end 9.1 2.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "6d065383-2cb2-4930-9b14-cd41be7ac87e")
+	)
+	(fp_circle
+		(center -9 0)
+		(end -6.75 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "9cfa397d-7cda-4bab-be10-a96c2f0e698a")
+	)
+	(fp_circle
+		(center 9 0)
+		(end 11.25 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b92fc124-ea9f-45c8-8d93-a2841f682bf6")
+	)
+	(fp_text user "S"
+		(at 9.1 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "57b6cad4-9047-4f44-8f01-01544343549d")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.127 0.127 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a5b8e23b-5ade-4dd9-b58b-20771aa4a6ee")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text user "N"
+		(at -9 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b30b48d6-641a-4bab-9279-fd1559fa22fc")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.08 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5c9a3e37-e047-4fc3-ac62-e32d1f31ed09")
+	)
+	(pad "2" thru_hole circle
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "afad3119-900e-4a34-a91f-f4c453c71491")
+	)
+	(pad "3" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3bf96789-df95-47c9-bcc1-bd609e73444d")
+	)
+	(pad "4" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a9ca9853-5cb0-4ce5-bd5c-6cf5226cd49a")
+	)
+	(pad "5" thru_hole circle
+		(at 5.08 0)
+		(size 2 2)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b9aa4d9e-8d00-4abc-a257-9f96065727ae")
+	)
+	(model "${KICAD_LIBRARY}/3D/Pomagtor/RD90_LZH0230529-004_DJ-5PIN_PH2_54.stp"
+		(offset
+			(xyz 0 0 1.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)

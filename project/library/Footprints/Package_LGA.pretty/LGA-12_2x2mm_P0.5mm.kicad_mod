@@ -1,0 +1,331 @@
+(footprint "LGA-12_2x2mm_P0.5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "LGA12")
+	(tags "lga land grid array")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a5c1fca0-ca8c-4d6e-aee2-8c519b3a5e82")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "LGA-12_2x2mm_P0.5mm"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "305e1090-f4c0-4356-92b6-7a3543ccde2f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6ac74d2-820e-4cc8-bf6c-a6703a3a242a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "32caf205-9250-4647-8571-25ff636bf8a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8d015616-03c9-4fea-9285-3f5496ba2ec5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1.05 -1.05)
+		(end -1.05 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "3bbe627d-2209-4349-979b-ae502a07be84")
+	)
+	(fp_line
+		(start -1.05 -1.05)
+		(end -0.75 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "08278511-214a-424e-9825-7347c8c3e301")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -1.05 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "89b3ff64-0df4-4add-8da7-bebaf4586fd8")
+	)
+	(fp_line
+		(start -1.05 1.05)
+		(end -0.75 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "553945b5-08c6-4d91-87d2-6f25a6a1021e")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 0.75 -1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d2283a88-c22a-4377-8de4-747952a0a028")
+	)
+	(fp_line
+		(start 1.05 -1.05)
+		(end 1.05 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0996087d-2eaa-4091-83e4-aa4b3c4829a8")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end 0.75 1.05)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "eab620d5-9040-46e3-a4fb-be01c16a7446")
+	)
+	(fp_line
+		(start 1.05 1.05)
+		(end 1.05 0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ae16c816-6829-4a28-beda-fc0873fcafae")
+	)
+	(fp_line
+		(start -1 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "05ec96cb-8a80-4574-8945-79a91d06dea3")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "33573a0c-6340-4c5c-a730-b9c8f05e8d76")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "580ad7e5-e724-4c55-b0e7-c2f46c73b85f")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1.000001 1.000011)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56974bbb-60ce-458f-b479-8d9e6e5f65e4")
+	)
+	(fp_line
+		(start -1 -0.5)
+		(end -0.5 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "edf73c2a-5b81-4217-9d49-ab1e74b7965f")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 -0.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6c1cb476-d76c-4066-8517-8d3e70d7c2d5")
+	)
+	(fp_line
+		(start -0.5 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "26b10a87-bbed-423d-84b7-3c7d81a322d0")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1653d55f-2f07-4357-a8c0-07e2f423cf15")
+	)
+	(fp_line
+		(start 1 1)
+		(end -1 1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "66f69983-a5f4-4a88-bf87-5cae399b3bfb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "a26f52ec-08d7-4b9a-a429-d54e8977289c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.7625 -0.75)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2fa0337e-d24f-4a61-be6e-4b576b895c3a")
+	)
+	(pad "2" smd rect
+		(at -0.7625 -0.25)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "eccb3720-c62a-4fa8-a745-6baa45bf0427")
+	)
+	(pad "3" smd rect
+		(at -0.7625 0.25)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ba5063aa-5ba1-4c43-a71b-3e03cb75c59b")
+	)
+	(pad "4" smd rect
+		(at -0.7625 0.75)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd22ce38-d368-4464-9e95-f302940a3d5e")
+	)
+	(pad "5" smd rect
+		(at -0.25 0.7625 90)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a9456422-0f5e-4091-a831-6d2841723366")
+	)
+	(pad "6" smd rect
+		(at 0.25 0.7625 90)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "630ecc8f-7fd9-4e12-a61d-69f6fb0e7544")
+	)
+	(pad "7" smd rect
+		(at 0.7625 0.75)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ff139c05-94af-4cac-9fae-d2e5da42dfd3")
+	)
+	(pad "8" smd rect
+		(at 0.7625 0.25)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "dc919528-be8b-4425-9682-371d51e15d20")
+	)
+	(pad "9" smd rect
+		(at 0.7625 -0.25)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "c3f5d61a-5a02-4d18-b34f-9018c39940a1")
+	)
+	(pad "10" smd rect
+		(at 0.7625 -0.75)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4b29a2c9-7a88-4a1b-9a34-e51c367e908d")
+	)
+	(pad "11" smd rect
+		(at 0.25 -0.7625 90)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "bdd7facd-acfd-4b58-a93a-844c273ca548")
+	)
+	(pad "12" smd rect
+		(at -0.25 -0.7625 90)
+		(size 0.325 0.3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "03b925a9-9c2b-4ed7-be45-e17c80bde3f7")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
