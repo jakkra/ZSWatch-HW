@@ -5781,7 +5781,7 @@
 			(pintype "bidirectional")
 			(uuid "402aefd9-c1b7-435c-b9c9-b56618e7213b")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9756,7 +9756,7 @@
 			(pintype "no_connect")
 			(uuid "f17fd88b-4e78-4388-ba4c-d1e3e108d5a0")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
