@@ -35,7 +35,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 48.26) (xy 64.77 48.26)
+			(xy 92.71 48.26) (xy 138.43 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0311ab92-e491-405e-8522-fad955d1288c")
+	)
+	(wire
+		(pts
+			(xy 80.01 48.26) (xy 64.77 48.26)
 		)
 		(stroke
 			(width 0)
@@ -55,7 +65,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 54.61) (xy 74.93 99.06)
+			(xy 74.93 54.61) (xy 74.93 97.79)
 		)
 		(stroke
 			(width 0)
@@ -65,7 +75,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 87.63) (xy 64.77 87.63)
+			(xy 90.17 87.63) (xy 64.77 87.63)
 		)
 		(stroke
 			(width 0)
@@ -125,7 +135,17 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 44.45) (xy 92.71 44.45)
+			(xy 64.77 101.6) (xy 92.71 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37b014db-fc2c-41f8-9f8e-b0fe70538f5b")
+	)
+	(wire
+		(pts
+			(xy 138.43 44.45) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -135,7 +155,17 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 129.54) (xy 64.77 129.54)
+			(xy 92.71 101.6) (xy 92.71 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c90be78-2dc7-48d9-9f21-8c4eeeb3ecdb")
+	)
+	(wire
+		(pts
+			(xy 85.09 129.54) (xy 64.77 129.54)
 		)
 		(stroke
 			(width 0)
@@ -145,7 +175,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 93.98) (xy 64.77 93.98)
+			(xy 69.85 92.71) (xy 64.77 92.71)
 		)
 		(stroke
 			(width 0)
@@ -175,7 +205,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 41.91) (xy 90.17 41.91)
+			(xy 138.43 41.91) (xy 87.63 41.91)
 		)
 		(stroke
 			(width 0)
@@ -185,7 +215,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 99.06) (xy 64.77 99.06)
+			(xy 74.93 97.79) (xy 64.77 97.79)
 		)
 		(stroke
 			(width 0)
@@ -195,7 +225,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 127) (xy 64.77 127)
+			(xy 82.55 127) (xy 64.77 127)
 		)
 		(stroke
 			(width 0)
@@ -215,7 +245,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 96.52) (xy 72.39 57.15)
+			(xy 72.39 95.25) (xy 72.39 57.15)
 		)
 		(stroke
 			(width 0)
@@ -225,7 +255,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 124.46) (xy 82.55 48.26)
+			(xy 80.01 124.46) (xy 80.01 48.26)
 		)
 		(stroke
 			(width 0)
@@ -245,7 +275,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 43.18) (xy 87.63 43.18)
+			(xy 64.77 43.18) (xy 85.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -255,7 +285,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 43.18) (xy 87.63 129.54)
+			(xy 85.09 43.18) (xy 85.09 129.54)
 		)
 		(stroke
 			(width 0)
@@ -275,7 +305,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 59.69) (xy 69.85 93.98)
+			(xy 69.85 59.69) (xy 69.85 92.71)
 		)
 		(stroke
 			(width 0)
@@ -315,7 +345,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 124.46) (xy 82.55 124.46)
+			(xy 64.77 124.46) (xy 80.01 124.46)
 		)
 		(stroke
 			(width 0)
@@ -325,7 +355,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 96.52) (xy 72.39 96.52)
+			(xy 64.77 95.25) (xy 72.39 95.25)
 		)
 		(stroke
 			(width 0)
@@ -355,7 +385,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 45.72) (xy 85.09 127)
+			(xy 82.55 45.72) (xy 82.55 127)
 		)
 		(stroke
 			(width 0)
@@ -365,7 +395,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 44.45) (xy 92.71 87.63)
+			(xy 90.17 44.45) (xy 90.17 87.63)
 		)
 		(stroke
 			(width 0)
@@ -385,7 +415,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 85.09) (xy 64.77 85.09)
+			(xy 87.63 85.09) (xy 64.77 85.09)
 		)
 		(stroke
 			(width 0)
@@ -445,7 +475,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 41.91) (xy 90.17 85.09)
+			(xy 87.63 41.91) (xy 87.63 85.09)
 		)
 		(stroke
 			(width 0)
@@ -455,7 +485,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 45.72) (xy 85.09 45.72)
+			(xy 64.77 45.72) (xy 82.55 45.72)
 		)
 		(stroke
 			(width 0)
@@ -622,16 +652,6 @@
 				(justify left top)
 			)
 		)
-		(pin "VBUS-MCU" input
-			(at 64.77 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ef3521ab-bd96-4b94-9a8f-d46de8dcd0e2")
-		)
 		(pin "SENSOR-SCL" output
 			(at 64.77 116.84 0)
 			(effects
@@ -653,7 +673,7 @@
 			(uuid "dd8ef5e8-63ba-4fb4-bd0e-6f3a25da8155")
 		)
 		(pin "BMI270-INT2" input
-			(at 64.77 99.06 0)
+			(at 64.77 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -663,7 +683,7 @@
 			(uuid "b788b784-7b1b-46bd-a3d4-fdf38515cf84")
 		)
 		(pin "LIS2MDL-INT" input
-			(at 64.77 93.98 0)
+			(at 64.77 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -673,7 +693,7 @@
 			(uuid "07375f88-2e9c-4e51-b8c4-2084d7ed672d")
 		)
 		(pin "BMI270-INT1" input
-			(at 64.77 96.52 0)
+			(at 64.77 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -692,7 +712,7 @@
 			)
 			(uuid "354fc974-2449-4eb1-adfc-98c51b3a3a06")
 		)
-		(pin "VDD-Display" input
+		(pin "V_{DD}-Display" input
 			(at 64.77 106.68 0)
 			(effects
 				(font
@@ -742,7 +762,7 @@
 			)
 			(uuid "3ef54fdf-f668-429f-94bd-2fa670f6d799")
 		)
-		(pin "VSYS" input
+		(pin "V_{SYS}" input
 			(at 64.77 111.76 0)
 			(effects
 				(font
@@ -752,7 +772,7 @@
 			)
 			(uuid "994566da-5402-4323-8f9c-d9f1aa13c32e")
 		)
-		(pin "VBAT" input
+		(pin "V_{BAT}" input
 			(at 64.77 104.14 0)
 			(effects
 				(font
@@ -761,6 +781,26 @@
 				(justify right)
 			)
 			(uuid "1add8c76-9230-4e7e-915a-a571e5c70100")
+		)
+		(pin "V_{BUS}" output
+			(at 64.77 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1cff0615-9113-457c-9f8c-6378388a50b0")
+		)
+		(pin "V_{BUS}-MCU" input
+			(at 64.77 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "a54a2d5b-4a72-4014-be6d-db458621414d")
 		)
 		(instances
 			(project "ZSWatch"
@@ -800,7 +840,7 @@
 				(justify left top)
 			)
 		)
-		(pin "VBUS-MCU" output
+		(pin "V_{BUS}-MCU" output
 			(at 138.43 55.88 180)
 			(effects
 				(font
@@ -810,7 +850,7 @@
 			)
 			(uuid "68a3da9c-f518-443c-b3ee-9fbfe66da2a4")
 		)
-		(pin "VDD-Display" output
+		(pin "V_{DD}-Display" output
 			(at 138.43 53.34 180)
 			(effects
 				(font
@@ -860,7 +900,7 @@
 			)
 			(uuid "3302df2b-d5d1-427b-b41f-13579165105f")
 		)
-		(pin "VSYS" output
+		(pin "V_{SYS}" output
 			(at 138.43 58.42 180)
 			(effects
 				(font
@@ -870,7 +910,7 @@
 			)
 			(uuid "5e4558eb-ce2f-41b6-9832-9bbb640fd251")
 		)
-		(pin "VBAT" output
+		(pin "V_{BAT}" output
 			(at 138.43 50.8 180)
 			(effects
 				(font
@@ -879,6 +919,16 @@
 				(justify left)
 			)
 			(uuid "e9c720ee-7b58-408c-b334-d9d458d80a2c")
+		)
+		(pin "V_{BUS}" input
+			(at 138.43 48.26 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "75e390dd-a5ec-4c7a-ac5f-86265b6f9ac2")
 		)
 		(instances
 			(project "ZSWatch"

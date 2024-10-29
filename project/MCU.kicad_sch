@@ -1774,7 +1774,7 @@
 				(pin passive line
 					(at 20.32 3.81 180)
 					(length 2.54)
-					(name "~{HOLD(I}/O3)"
+					(name "~{HOLD}(I/O3)"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2113,7 +2113,7 @@
 				(pin power_in line
 					(at 0 13.97 270)
 					(length 2.54)
-					(name "VDD"
+					(name "V_{DD}"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2652,7 +2652,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "Q302"
+			(property "Reference" "Q"
 				(at 6.35 1.2701 0)
 				(effects
 					(font
@@ -2671,7 +2671,7 @@
 				)
 			)
 			(property "Footprint" "Package_SOT_SMD:SOT-883"
-				(at 5.08 -1.905 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2682,7 +2682,7 @@
 				)
 			)
 			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMZ550UNE.pdf"
-				(at 5.08 -3.81 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2692,60 +2692,6 @@
 				)
 			)
 			(property "Description" "0.59A Id, 30V Vds, N-Channel MOSFET, DFN-1006-3"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr." ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mfr. No." ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Distributor" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Order Number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "CONFIG" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Field-1" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -4141,9 +4087,9 @@
 		)
 		(symbol "power:+1V8"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4241,8 +4187,8 @@
 			(symbol "+1V8_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+1V8"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4261,9 +4207,9 @@
 		)
 		(symbol "power:+3V0"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4361,8 +4307,8 @@
 			(symbol "+3V0_1_1"
 				(pin power_in line
 					(at 0 0 90)
-					(length 0) hide
-					(name "+3V0"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4381,9 +4327,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -4457,128 +4403,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "power:VBUS"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "VBUS"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"VBUS\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "VBUS_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "VBUS_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0) hide
-					(name "VBUS"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6336,6 +6162,12 @@
 		(uuid "84a92bf4-4249-4da7-8d71-dc1a9449e6f7")
 	)
 	(junction
+		(at 256.54 20.32)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8525632b-91cf-4360-b963-11f0eac09951")
+	)
+	(junction
 		(at 383.54 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6450,10 +6282,10 @@
 		(uuid "cfb23f72-e4a7-4fe3-a62f-3685b86d54fc")
 	)
 	(junction
-		(at 290.83 17.78)
+		(at 290.83 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cfc64b2d-627e-4674-bc3f-4c6dc8700dad")
+		(uuid "d0a076f6-8b0f-414b-a85c-5a7be58f4875")
 	)
 	(junction
 		(at 77.47 125.73)
@@ -7229,16 +7061,6 @@
 	)
 	(wire
 		(pts
-			(xy 289.56 17.78) (xy 290.83 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32efb82b-5021-40a8-8920-82710f34faf2")
-	)
-	(wire
-		(pts
 			(xy 64.77 173.99) (xy 66.04 173.99)
 		)
 		(stroke
@@ -7599,7 +7421,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 31.75) (xy 290.83 17.78)
+			(xy 290.83 31.75) (xy 290.83 20.32)
 		)
 		(stroke
 			(width 0)
@@ -8209,16 +8031,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 171.45) (xy 115.57 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f137b39-5f8c-49c1-9204-bb3b8c1d8661")
-	)
-	(wire
-		(pts
 			(xy 77.47 118.11) (xy 77.47 120.65)
 		)
 		(stroke
@@ -8306,16 +8118,6 @@
 			(type default)
 		)
 		(uuid "7420343f-c464-4f46-9ac5-9debee0d7d4b")
-	)
-	(wire
-		(pts
-			(xy 95.25 175.26) (xy 115.57 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74aa9b32-786a-4501-aff2-56ac91cbf4ef")
 	)
 	(wire
 		(pts
@@ -9049,6 +8851,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 175.26) (xy 99.06 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a7c03042-a8e0-498f-8ff5-67b444e636c1")
+	)
+	(wire
+		(pts
 			(xy 353.06 106.68) (xy 354.33 106.68)
 		)
 		(stroke
@@ -9159,7 +8971,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 29.21) (xy 256.54 33.02)
+			(xy 256.54 20.32) (xy 256.54 33.02)
 		)
 		(stroke
 			(width 0)
@@ -9879,6 +9691,26 @@
 	)
 	(wire
 		(pts
+			(xy 234.95 20.32) (xy 256.54 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e81178cc-44f0-48cf-ab5a-7a7837eb0ff2")
+	)
+	(wire
+		(pts
+			(xy 290.83 20.32) (xy 290.83 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9360a98-2d7f-4fb0-9c22-09b26081e043")
+	)
+	(wire
+		(pts
 			(xy 29.21 87.63) (xy 30.48 87.63)
 		)
 		(stroke
@@ -9986,6 +9818,16 @@
 			(type default)
 		)
 		(uuid "ee303947-ac41-4f57-a839-c4273909485a")
+	)
+	(wire
+		(pts
+			(xy 256.54 20.32) (xy 290.83 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee3c1db6-4efd-4d14-95d0-41be3a0c4774")
 	)
 	(wire
 		(pts
@@ -12130,7 +11972,7 @@
 		)
 		(uuid "13a01760-d658-48b0-a333-c6b586400f0c")
 	)
-	(hierarchical_label "VDD-Display"
+	(hierarchical_label "V_{DD}-Display"
 		(shape input)
 		(at 374.65 73.66 0)
 		(fields_autoplaced yes)
@@ -12142,7 +11984,7 @@
 		)
 		(uuid "1d3796d8-af01-482c-b939-1e0f7436f221")
 	)
-	(hierarchical_label "VDD-Display"
+	(hierarchical_label "V_{DD}-Display"
 		(shape input)
 		(at 58.42 158.75 0)
 		(fields_autoplaced yes)
@@ -12154,7 +11996,7 @@
 		)
 		(uuid "1e617174-4842-4234-bd95-cb5a8f355c4c")
 	)
-	(hierarchical_label "VBAT"
+	(hierarchical_label "V_{BAT}"
 		(shape input)
 		(at 256.54 54.61 90)
 		(fields_autoplaced yes)
@@ -12178,7 +12020,19 @@
 		)
 		(uuid "30be52f1-3e30-4210-bb3b-b461534c2737")
 	)
-	(hierarchical_label "VDD-Display"
+	(hierarchical_label "V_{BUS}"
+		(shape output)
+		(at 99.06 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "34203fee-2d0f-40f5-adc7-0d2d3bd628c3")
+	)
+	(hierarchical_label "V_{DD}-Display"
 		(shape input)
 		(at 384.81 110.49 0)
 		(fields_autoplaced yes)
@@ -12190,7 +12044,7 @@
 		)
 		(uuid "473cab1c-670f-4f44-9aeb-9d20d98566fc")
 	)
-	(hierarchical_label "VBUS-MCU"
+	(hierarchical_label "V_{BUS}-MCU"
 		(shape input)
 		(at 245.11 204.47 180)
 		(fields_autoplaced yes)
@@ -12214,7 +12068,7 @@
 		)
 		(uuid "6715085b-5f0a-4762-8691-2fbac2d51cf0")
 	)
-	(hierarchical_label "VBUS-MCU"
+	(hierarchical_label "V_{BUS}-MCU"
 		(shape input)
 		(at 29.21 100.33 180)
 		(fields_autoplaced yes)
@@ -12226,7 +12080,7 @@
 		)
 		(uuid "785c94f8-63b8-4201-8b22-d0710817b566")
 	)
-	(hierarchical_label "VDD-Display"
+	(hierarchical_label "V_{DD}-Display"
 		(shape input)
 		(at 355.6 17.78 0)
 		(fields_autoplaced yes)
@@ -12238,21 +12092,9 @@
 		)
 		(uuid "7bfabb6a-782a-4038-a09e-fe0bd754a78d")
 	)
-	(hierarchical_label "VBAT"
+	(hierarchical_label "V_{BAT}"
 		(shape input)
-		(at 256.54 29.21 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9894b25b-c85a-4e47-ad94-9b71b8b32c8b")
-	)
-	(hierarchical_label "VBAT"
-		(shape input)
-		(at 289.56 17.78 180)
+		(at 234.95 20.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12260,7 +12102,7 @@
 			)
 			(justify right)
 		)
-		(uuid "a4e3eb20-c6cc-4c20-93e0-39a696f7dbb3")
+		(uuid "9894b25b-c85a-4e47-ad94-9b71b8b32c8b")
 	)
 	(hierarchical_label "BMI270-INT2"
 		(shape input)
@@ -12322,7 +12164,7 @@
 		)
 		(uuid "d10e5d95-96e3-4c8b-9f9c-53b79497e41b")
 	)
-	(hierarchical_label "VSYS"
+	(hierarchical_label "V_{SYS}"
 		(shape input)
 		(at 356.87 148.59 180)
 		(fields_autoplaced yes)
@@ -12517,7 +12359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -12533,108 +12375,6 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:VBUS")
-		(at 115.57 171.45 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "062e16cd-7f12-430b-bb8f-c0aa6c92ce6f")
-		(property "Reference" "#PWR0317"
-			(at 115.57 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 115.57 167.7416 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order Number" ""
-			(at 115.57 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c7ceed8a-bbad-42bf-bdee-e15d0c6ab563")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "#PWR0317")
 					(unit 1)
 				)
 			)
@@ -12685,7 +12425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 59.69 245.11 0)
 			(effects
 				(font
@@ -12751,7 +12491,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 29.21 74.93 0)
 			(effects
 				(font
@@ -12872,6 +12612,15 @@
 				(hide yes)
 			)
 		)
+		(property "Order No." ""
+			(at 250.19 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "749893d0-f99e-45d3-8926-f80b09f0187a")
 		)
@@ -12934,7 +12683,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 279.4 60.96 0)
 			(effects
 				(font
@@ -12999,7 +12748,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 368.3 124.46 0)
 			(effects
 				(font
@@ -13215,6 +12964,15 @@
 			)
 		)
 		(property "Order. No." "428-204291-MC01"
+			(at 290.83 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -14105,7 +13863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
 			(at 355.6 223.52 0)
 			(effects
 				(font
@@ -14669,7 +14427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 96.52 176.53 0)
 			(effects
 				(font
@@ -15080,7 +14838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 341.63 187.96 0)
 			(effects
 				(font
@@ -15147,7 +14905,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 276.86 0)
 			(effects
 				(font
@@ -15679,7 +15437,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 247.65 0)
 			(effects
 				(font
@@ -15744,7 +15502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 40.64 226.06 0)
 			(effects
 				(font
@@ -16276,7 +16034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 379.73 243.84 0)
 			(effects
 				(font
@@ -16341,7 +16099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 231.14 254 0)
 			(effects
 				(font
@@ -16406,7 +16164,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 53.34 185.42 0)
 			(effects
 				(font
@@ -16472,7 +16230,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 246.38 220.98 0)
 			(effects
 				(font
@@ -16574,7 +16332,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
 			(at 388.62 213.36 0)
 			(effects
 				(font
@@ -16639,7 +16397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 77.47 146.05 0)
 			(effects
 				(font
@@ -16861,7 +16619,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 388.62 243.84 0)
 			(effects
 				(font
@@ -17155,7 +16913,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 226.06 0)
 			(effects
 				(font
@@ -17581,7 +17339,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 92.71 226.06 0)
 			(effects
 				(font
@@ -17874,7 +17632,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 360.68 156.21 0)
 			(effects
 				(font
@@ -17939,7 +17697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 41.91 36.83 0)
 			(effects
 				(font
@@ -18523,7 +18281,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 364.49 72.39 0)
 			(effects
 				(font
@@ -19085,7 +18843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 233.68 220.98 0)
 			(effects
 				(font
@@ -19414,7 +19172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 355.6 31.75 0)
 			(effects
 				(font
@@ -19479,7 +19237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 219.71 254 0)
 			(effects
 				(font
@@ -19661,7 +19419,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 350.52 20.32 0)
 			(effects
 				(font
@@ -19952,7 +19710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 33.02 185.42 0)
 			(effects
 				(font
@@ -20018,7 +19776,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 250.19 54.61 0)
 			(effects
 				(font
@@ -20083,7 +19841,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 294.64 25.4 0)
 			(effects
 				(font
@@ -20148,7 +19906,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 16.51 226.06 0)
 			(effects
 				(font
@@ -20214,7 +19972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 250.19 29.21 0)
 			(effects
 				(font
@@ -20394,7 +20152,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 358.14 187.96 0)
 			(effects
 				(font
@@ -20459,7 +20217,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 351.79 62.23 0)
 			(effects
 				(font
@@ -20639,7 +20397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 290.83 60.96 0)
 			(effects
 				(font
@@ -20704,7 +20462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 347.98 31.75 0)
 			(effects
 				(font
@@ -21117,7 +20875,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+1V8\""
 			(at 81.28 245.11 0)
 			(effects
 				(font
@@ -21172,7 +20930,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.de/datasheet/2/819/MX25U51245G_2c_1_8V_2c_512Mb_2c_v1_4-3371129.pdf"
+		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-S25FS512S_512_Mb_1.8_V_Serial_Peripheral_Interface_with_Multi-I_O_Non-Volatile_Flash-DataSheet-v15_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ed681a356fe"
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21227,6 +20985,15 @@
 			)
 		)
 		(property "Order. No." "95-25U51245GZ4I00T"
+			(at 81.28 262.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 81.28 262.89 0)
 			(effects
 				(font
