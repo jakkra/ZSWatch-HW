@@ -1,0 +1,35 @@
+name: Diff
+
+on:
+  workflow_dispatch:
+  pull_request_target:
+    types:
+      - closed
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+
+    permissions:
+      contents: write
+
+    env:
+      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/library
+
+    steps:
+      - name: Checkout-Branch
+        uses: actions/checkout@v4
+        with:
+          path: modified
+          submodules: recursive
+
+      - name: Checkout-main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: original
+          submodules: recursive
+
+      - name: Dependencies
+        run: git clone https://github.com/Kampi/KiCad.git library
