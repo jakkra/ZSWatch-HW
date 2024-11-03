@@ -6,7 +6,7 @@
 	(paper "A3")
 	(title_block
 		(title "ZSWatch v2")
-		(date "2024-07-23")
+		(date "2024-11-03")
 		(rev "6")
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
@@ -13668,7 +13668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
+		(property "Footprint" "Vybronics:VZ30C1T8219732L"
 			(at 382.27 172.466 0)
 			(effects
 				(font
@@ -13722,7 +13722,7 @@
 				(hide yes)
 			)
 		)
-		(property "CONFIG" ""
+		(property "CONFIG" "-ENV"
 			(at 382.27 170.18 0)
 			(effects
 				(font

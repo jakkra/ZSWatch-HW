@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "ZSWatch v2")
-		(date "2024-07-23")
+		(date "2024-11-03")
 		(rev "6")
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
