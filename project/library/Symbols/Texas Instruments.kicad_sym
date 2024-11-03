@@ -2504,8 +2504,8 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 -13.97 90)
-				(length 2.54)
+				(at 0 -13.97 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font
@@ -2630,8 +2630,8 @@
 				)
 			)
 			(pin power_in line
-				(at 2.54 -13.97 90)
-				(length 2.54)
+				(at 0 -13.97 90)
+				(length 2.54) hide
 				(name "GND"
 					(effects
 						(font

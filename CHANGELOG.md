@@ -6,10 +6,13 @@
 
 **Added:**
 
+- Add new vibration motor
+
 **Changed:**
 
 - Move DISPLAY-CLK from P0.08 to P0.09
 - Move DISPLAY-DATA from P0.09 to P0.08
+- Move all components into a local KiCad library
 
 **Removed:**
 
