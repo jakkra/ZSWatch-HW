@@ -1604,7 +1604,151 @@
 				)
 			)
 		)
-		(symbol "Infineon:S25FS512SAGNFI010"
+		(symbol "Jumper:Jumper_2_Open"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Open"
+				(at 0 -2.286 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, open"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Jumper_2_Open_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_0_1"
+				(arc
+					(start 1.524 1.27)
+					(mid 0 1.778)
+					(end -1.524 1.27)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Open_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Macronix:MX25U51245GZ4I00"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -1616,7 +1760,7 @@
 					)
 				)
 			)
-			(property "Value" "S25FS512SAGNFI010"
+			(property "Value" "MX25U51245GZ4I00"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1633,7 +1777,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-S25FS512S_512_Mb_1.8_V_Serial_Peripheral_Interface_with_Multi-I_O_Non-Volatile_Flash-DataSheet-v15_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ed681a356fe"
+			(property "Datasheet" "https://www.mouser.de/datasheet/2/819/MX25U51245G_2c_1_8V_2c_512Mb_2c_v1_4-3371129.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1651,7 +1795,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "S25FS512SAGNFI010_1_1"
+			(symbol "MX25U51245GZ4I00_1_1"
 				(rectangle
 					(start -17.78 8.89)
 					(end 17.78 -8.89)
@@ -1818,150 +1962,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start 1.524 1.27)
-					(mid 0 1.778)
-					(end -1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3413,7 +3413,7 @@
 				)
 			)
 		)
-		(symbol "TexasInstruments_Kampi:DRV2603RUNT"
+		(symbol "Texas Instruments:DRV2603RUNT"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -3654,7 +3654,7 @@
 				)
 			)
 		)
-		(symbol "TexasInstruments_Kampi:TS3USB221A"
+		(symbol "Texas Instruments:TS3USB221A"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -13999,7 +13999,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TexasInstruments_Kampi:DRV2603RUNT")
+		(lib_id "Texas Instruments:DRV2603RUNT")
 		(at 358.14 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14087,6 +14087,15 @@
 			)
 		)
 		(property "Order. No." "595-DRV2603RUNT"
+			(at 358.14 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -14330,6 +14339,15 @@
 			)
 		)
 		(property "Order. No." "771-NTS0104GU12115"
+			(at 351.79 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -16935,7 +16953,7 @@
 		)
 	)
 	(symbol
-		(lib_id "TexasInstruments_Kampi:TS3USB221A")
+		(lib_id "Texas Instruments:TS3USB221A")
 		(at 231.14 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17016,6 +17034,24 @@
 			)
 		)
 		(property "Order. No." "595-TS3USB221A"
+			(at 231.14 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
+			(at 231.14 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "CONFIG" ""
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -20897,7 +20933,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Infineon:S25FS512SAGNFI010")
+		(lib_id "Macronix:MX25U51245GZ4I00")
 		(at 81.28 262.89 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20930,7 +20966,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-S25FS512S_512_Mb_1.8_V_Serial_Peripheral_Interface_with_Multi-I_O_Non-Volatile_Flash-DataSheet-v15_00-EN.pdf?fileId=8ac78c8c7d0d8da4017d0ed681a356fe"
+		(property "Datasheet" "https://www.mouser.de/datasheet/2/819/MX25U51245G_2c_1_8V_2c_512Mb_2c_v1_4-3371129.pdf"
 			(at 81.28 262.89 0)
 			(effects
 				(font

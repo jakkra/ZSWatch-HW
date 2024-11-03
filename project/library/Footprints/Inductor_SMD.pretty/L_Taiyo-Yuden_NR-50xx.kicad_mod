@@ -1,0 +1,250 @@
+(footprint "L_Taiyo-Yuden_NR-50xx"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "3c9813ca-7204-4c13-a0c8-001de2757886")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "L_Taiyo-Yuden_NR-50xx"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9a210181-80c2-4b81-9fbb-6d7d2e086a5a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c0e750fc-dfa6-4380-a4a6-92ff48a43384")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "eb758c8a-771e-401e-934b-ef9c58d413e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -0.1 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a08e7692-0264-4e72-a2c6-0f190d92b33c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.45 -2.55)
+		(end 3.45 -2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "faeef3c1-a8d9-49b5-909a-be71329d6347")
+	)
+	(fp_line
+		(start -3.45 2.55)
+		(end 3.45 2.55)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "36707232-c03a-477f-82f5-83d9dfc3cb22")
+	)
+	(fp_rect
+		(start -3.5 -2.55)
+		(end 3.5 2.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "e2ce1241-82a4-410e-a5ad-657ede985dac")
+	)
+	(fp_line
+		(start -2.45 -1.65)
+		(end -1.65 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5434ec0f-b211-476d-9441-f6124d16ca5c")
+	)
+	(fp_line
+		(start -2.45 0)
+		(end -2.45 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3c3657e9-a655-4f47-af73-72eba9c75a6c")
+	)
+	(fp_line
+		(start -2.45 0)
+		(end -2.45 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "808feb23-ac47-474a-8a7d-052cce11121c")
+	)
+	(fp_line
+		(start -2.45 1.65)
+		(end -1.65 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1b48ec97-98e2-4805-bea0-ab7a801a0477")
+	)
+	(fp_line
+		(start -1.65 -2.45)
+		(end 0 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f639ae1-d210-4352-bd35-a4dfcfc22186")
+	)
+	(fp_line
+		(start -1.65 2.45)
+		(end 0 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ba9a4d73-28b0-436a-a255-fc639d614d8c")
+	)
+	(fp_line
+		(start 1.65 -2.45)
+		(end 0 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8d2f7a50-72e4-4d86-a867-e152289c177a")
+	)
+	(fp_line
+		(start 1.65 2.45)
+		(end 0 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "d0773b9e-5041-4967-bf06-4eb965b088da")
+	)
+	(fp_line
+		(start 2.45 -1.65)
+		(end 1.65 -2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5253fbe7-4ff9-4070-9961-55a07c2fea6a")
+	)
+	(fp_line
+		(start 2.45 0)
+		(end 2.45 -1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1bdaf326-27d2-4aaf-9718-f4e3776c82c3")
+	)
+	(fp_line
+		(start 2.45 0)
+		(end 2.45 1.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6ec7863d-7a43-4430-97cd-3870922cd486")
+	)
+	(fp_line
+		(start 2.45 1.65)
+		(end 1.65 2.45)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76bc4a1d-ac6d-47cd-8a26-351d35e08ba4")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "72109005-fb2e-4dfb-a7e4-9572415134b2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.25 0)
+		(size 2.4 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "f916d530-638f-47e6-9314-0d35c84bfe2e")
+	)
+	(pad "2" smd rect
+		(at 2.25 0)
+		(size 2.4 4.2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "ab316594-89ec-4ab8-a380-6a37ae3264ae")
+	)
+	(model "${KIPRJMOD}/library/3D/Inductor/Taiyo Yuden/NRS5030.stp"
+		(offset
+			(xyz -2.5 2.3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 90)
+		)
+	)
+)

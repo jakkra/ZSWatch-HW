@@ -688,7 +688,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+			(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3242,7 +3242,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Kampi:L_0806_2016"
+		(property "Footprint" "Inductor_SMD:L_0806_2016"
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -3306,6 +3306,15 @@
 			)
 		)
 		(property "Order. No." "187-CIGT201610EH2R2MNE"
+			(at 173.99 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 173.99 106.68 0)
 			(effects
 				(font
@@ -4250,7 +4259,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm_ThermalVias"
+		(property "Footprint" "Package_DFN_QFN:QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm"
 			(at 132.08 107.95 0)
 			(effects
 				(font
@@ -4860,7 +4869,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Inductor_SMD_Kampi:L_0806_2016"
+		(property "Footprint" "Inductor_SMD:L_0806_2016"
 			(at 182.88 88.9 0)
 			(effects
 				(font
@@ -4924,6 +4933,15 @@
 			)
 		)
 		(property "Order. No." "187-CIGT201610EH2R2MNE"
+			(at 182.88 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 182.88 88.9 0)
 			(effects
 				(font

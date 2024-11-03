@@ -11,7 +11,7 @@
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
 	(lib_symbols
-		(symbol "Bosch_Kampi:BME688"
+		(symbol "Bosch:BME688"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -236,7 +236,7 @@
 				)
 			)
 		)
-		(symbol "Bosch_Kampi:BMI270"
+		(symbol "Bosch:BMI270"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -552,7 +552,7 @@
 				)
 			)
 		)
-		(symbol "Bosch_Kampi:BMP581"
+		(symbol "Bosch:BMP581"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -5765,7 +5765,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Bosch_Kampi:BMI270")
+		(lib_id "Bosch:BMI270")
 		(at 48.26 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -5855,6 +5855,15 @@
 			)
 		)
 		(property "Order. No." "262-BMI270"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -7114,7 +7123,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA_Kampi:LGA-12_2x2mm_P0.5mm"
+		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7178,6 +7187,15 @@
 			)
 		)
 		(property "Order. No." "511-LIS2MDLTR"
+			(at 248.92 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7807,7 +7825,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Bosch_Kampi:BME688")
+		(lib_id "Bosch:BME688")
 		(at 246.38 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7831,8 +7849,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 283.21 153.67 0)
+		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7841,7 +7859,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf"
-			(at 246.38 147.32 0)
+			(at 246.38 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7867,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "4-in-1 sensor, gas, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -7895,6 +7913,15 @@
 			)
 		)
 		(property "Order. No." "262-BME688"
+			(at 246.38 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -8579,7 +8606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Bosch_Kampi:BMP581")
+		(lib_id "Bosch:BMP581")
 		(at 121.92 63.5 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8603,8 +8630,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-10_2x2mm_P0.5mm_ClockwisePinNumbering"
-			(at 121.92 62.23 0)
+		(property "Footprint" "Package_LGA:Bosch_LGA-10_2x2mm_P0.5mm_ClockwisePinNumbering"
+			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8613,7 +8640,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmp581-ds004.pdf"
-			(at 121.92 62.23 0)
+			(at 121.92 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8667,6 +8694,15 @@
 			)
 		)
 		(property "Order. No." "262-BMP581"
+			(at 121.92 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Order No." ""
 			(at 121.92 63.5 0)
 			(effects
 				(font
