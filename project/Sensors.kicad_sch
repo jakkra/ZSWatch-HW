@@ -4805,7 +4805,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 252.73 27.94 0)
 			(effects
 				(font
@@ -5116,7 +5116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 118.11 36.83 0)
 			(effects
 				(font
@@ -5362,7 +5362,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 250.19 118.11 0)
 			(effects
 				(font
@@ -5477,7 +5477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06033C224KAT2A"
+		(property "Order No." "581-06033C224KAT2A"
 			(at 227.33 58.42 0)
 			(effects
 				(font
@@ -5854,16 +5854,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "262-BMI270"
-			(at 48.26 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "262-BMI270"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -6015,7 +6006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 125.73 36.83 0)
 			(effects
 				(font
@@ -6132,7 +6123,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "621-DMG1013UW-7"
+		(property "Order No." "621-DMG1013UW-7"
 			(at 80.01 146.05 0)
 			(effects
 				(font
@@ -6249,7 +6240,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "630-APDS-9306-065"
+		(property "Order No." "630-APDS-9306-065"
 			(at 24.13 180.34 0)
 			(effects
 				(font
@@ -6479,7 +6470,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 44.45 36.83 0)
 			(effects
 				(font
@@ -6660,7 +6651,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 242.57 118.11 0)
 			(effects
 				(font
@@ -6971,7 +6962,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 30.48 165.1 0)
 			(effects
 				(font
@@ -7186,16 +7177,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "511-LIS2MDLTR"
-			(at 248.92 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "511-LIS2MDLTR"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7538,7 +7520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07150KL"
+		(property "Order No." "603-RC0603FR-07150KL"
 			(at 71.12 142.24 0)
 			(effects
 				(font
@@ -7912,16 +7894,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "262-BME688"
-			(at 246.38 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "262-BME688"
 			(at 246.38 142.24 0)
 			(effects
 				(font
@@ -8250,7 +8223,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "721-SPK0641HT4H-1"
+		(property "Order No." "721-SPK0641HT4H-1"
 			(at 80.01 177.8 0)
 			(effects
 				(font
@@ -8449,7 +8422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 83.82 160.02 0)
 			(effects
 				(font
@@ -8693,16 +8666,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "262-BMP581"
-			(at 121.92 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "262-BMP581"
 			(at 121.92 63.5 0)
 			(effects
 				(font
@@ -8906,7 +8870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 52.07 36.83 0)
 			(effects
 				(font
@@ -9086,7 +9050,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "346-CM105X5R106M25AT"
+		(property "Order No." "346-CM105X5R106M25AT"
 			(at 245.11 27.94 0)
 			(effects
 				(font

@@ -11,116 +11,6 @@
 		(company "github.com/jakkra/ZSWatch-HW")
 	)
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x01"
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x01"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_1_1"
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Connector_Generic:Conn_01x05"
 			(pin_names
 				(offset 1.016) hide)
@@ -6108,12 +5998,6 @@
 		(uuid "52fc708b-cd99-4e74-92c2-502c0db01537")
 	)
 	(junction
-		(at 382.27 179.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "533539d0-045d-4610-87e0-afcae8c8ab0b")
-	)
-	(junction
 		(at 77.47 118.11)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6136,12 +6020,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6aeb12d1-4a1a-4912-83ba-d2d31b559ed0")
-	)
-	(junction
-		(at 382.27 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7022d587-51e1-4c79-b192-cc8da519d327")
 	)
 	(junction
 		(at 350.52 24.13)
@@ -12289,7 +12167,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "612-TL6340AF160Q"
+		(property "Order No." "612-TL6340AF160Q"
 			(at 71.12 218.44 0)
 			(effects
 				(font
@@ -12603,16 +12481,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "771-PMZ550UNEYL"
-			(at 250.19 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "771-PMZ550UNEYL"
 			(at 250.19 36.83 0)
 			(effects
 				(font
@@ -12770,109 +12639,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 387.35 163.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19b09cbe-b051-467d-b655-c52fd9d03735")
-		(property "Reference" "X303"
-			(at 389.89 162.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M+"
-			(at 389.89 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 387.35 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "45a3d28c-1ae1-4409-88ef-88d754899dd3")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "X303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Micro Crystal:RV-8263-C8")
 		(at 290.83 45.72 0)
 		(unit 1)
@@ -12963,16 +12729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "428-204291-MC01"
-			(at 290.83 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "428-204291-MC01"
 			(at 290.83 45.72 0)
 			(effects
 				(font
@@ -13106,7 +12863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-04025C104KAT2A"
+		(property "Order No." "581-04025C104KAT2A"
 			(at 294.64 21.59 0)
 			(effects
 				(font
@@ -13327,7 +13084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "490-CMT-322-65-SMTTR"
+		(property "Order No." "490-CMT-322-65-SMTTR"
 			(at 393.7 219.71 0)
 			(effects
 				(font
@@ -13439,7 +13196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "377-NORA-B106-00B"
+		(property "Order No." "377-NORA-B106-00B"
 			(at 54.61 109.22 0)
 			(effects
 				(font
@@ -13794,7 +13551,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07100KL"
+		(property "Order No." "603-RC0603FR-07100KL"
 			(at 59.69 250.19 0)
 			(effects
 				(font
@@ -13889,8 +13646,8 @@
 		(at 382.27 170.18 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
+		(in_bom yes)
+		(on_board yes)
 		(dnp no)
 		(uuid "3a7a70da-21c8-4d45-8ca1-32163354087e")
 		(property "Reference" "M302"
@@ -13902,7 +13659,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Vibrator DC Motor"
+		(property "Value" "Vibration Motor"
 			(at 386.08 172.72 0)
 			(effects
 				(font
@@ -13911,7 +13668,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Motors:Vybronics_VZ30C1T8219732L"
 			(at 382.27 172.466 0)
 			(effects
 				(font
@@ -13920,7 +13677,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.vybronics.com/wp-content/uploads/datasheet-files/Vybronics-VZ30C1T8219732L-datasheet.pdf"
 			(at 382.27 172.466 0)
 			(effects
 				(font
@@ -13938,7 +13695,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "DFRobot"
+		(property "Mfr." "Vybronics Inc"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13947,7 +13704,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr. No." "FIT0774"
+		(property "Mfr. No." "VZ30C1T8219732L"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13956,7 +13713,7 @@
 				(hide yes)
 			)
 		)
-		(property "Distributor" "Mouser"
+		(property "Distributor" "Digikey"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -13974,7 +13731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "426-FIT0774"
+		(property "Order No." "1670-VZ30C1T8219732LCT-ND"
 			(at 382.27 170.18 0)
 			(effects
 				(font
@@ -14086,16 +13843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "595-DRV2603RUNT"
-			(at 358.14 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "595-DRV2603RUNT"
 			(at 358.14 171.45 0)
 			(effects
 				(font
@@ -14226,7 +13974,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 233.68 217.17 0)
 			(effects
 				(font
@@ -14338,16 +14086,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "771-NTS0104GU12115"
-			(at 351.79 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "771-NTS0104GU12115"
 			(at 351.79 49.53 0)
 			(effects
 				(font
@@ -14558,7 +14297,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07100RL"
+		(property "Order No." "603-RC0603FR-07100RL"
 			(at 246.38 208.28 0)
 			(effects
 				(font
@@ -14674,7 +14413,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 355.6 27.94 0)
 			(effects
 				(font
@@ -14788,7 +14527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "612-TL6340AF160Q"
+		(property "Order No." "612-TL6340AF160Q"
 			(at 99.06 218.44 0)
 			(effects
 				(font
@@ -15032,7 +14771,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "377-NORA-B106-00B"
+		(property "Order No." "377-NORA-B106-00B"
 			(at 104.14 102.87 0)
 			(effects
 				(font
@@ -15387,7 +15126,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "652-CR0603-J/-000ELF"
+		(property "Order No." "652-CR0603-J/-000ELF"
 			(at 219.71 248.92 0)
 			(effects
 				(font
@@ -15633,7 +15372,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07150KL"
+		(property "Order No." "603-RC0603FR-07150KL"
 			(at 379.73 238.76 0)
 			(effects
 				(font
@@ -15745,7 +15484,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "512-FAN5622SX"
+		(property "Order No." "512-FAN5622SX"
 			(at 53.34 176.53 0)
 			(effects
 				(font
@@ -15869,7 +15608,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "511-ESDALC6V1P5"
+		(property "Order No." "511-ESDALC6V1P5"
 			(at 41.91 27.94 0)
 			(effects
 				(font
@@ -16566,7 +16305,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "771-BC817W115"
+		(property "Order No." "771-BC817W115"
 			(at 386.08 233.68 0)
 			(effects
 				(font
@@ -16749,7 +16488,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 360.68 152.4 0)
 			(effects
 				(font
@@ -16863,7 +16602,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "612-TL6340AF160Q"
+		(property "Order No." "612-TL6340AF160Q"
 			(at 22.86 218.44 0)
 			(effects
 				(font
@@ -17033,16 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "595-TS3USB221A"
-			(at 231.14 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "595-TS3USB221A"
 			(at 231.14 238.76 0)
 			(effects
 				(font
@@ -17191,7 +16921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "-- verschiedene Werte --"
+		(property "Order No." "-- verschiedene Werte --"
 			(at 256.54 60.96 0)
 			(effects
 				(font
@@ -17307,7 +17037,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "821-BAS316RRG"
+		(property "Order No." "821-BAS316RRG"
 			(at 386.08 219.71 0)
 			(effects
 				(font
@@ -17600,7 +17330,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "612-TL6340AF160Q"
+		(property "Order No." "612-TL6340AF160Q"
 			(at 46.99 218.44 0)
 			(effects
 				(font
@@ -18008,7 +17738,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "377-NORA-B106-00B"
+		(property "Order No." "377-NORA-B106-00B"
 			(at 154.94 121.92 0)
 			(effects
 				(font
@@ -18466,7 +18196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "-- verschiedene Werte --"
+		(property "Order No." "-- verschiedene Werte --"
 			(at 243.84 60.96 0)
 			(effects
 				(font
@@ -18579,7 +18309,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-0712KL"
+		(property "Order No." "603-RC0603FR-0712KL"
 			(at 36.83 179.07 0)
 			(effects
 				(font
@@ -18695,7 +18425,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 347.98 27.94 0)
 			(effects
 				(font
@@ -18811,7 +18541,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07270RL"
+		(property "Order No." "603-RC0603FR-07270RL"
 			(at 246.38 217.17 0)
 			(effects
 				(font
@@ -19028,7 +18758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "-- verschiedene Werte --"
+		(property "Order No." "-- verschiedene Werte --"
 			(at 256.54 35.56 0)
 			(effects
 				(font
@@ -19140,7 +18870,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RT0603FRE07220RL"
+		(property "Order No." "603-RT0603FRE07220RL"
 			(at 370.84 224.79 0)
 			(effects
 				(font
@@ -19386,7 +19116,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "652-CR0603-J/-000ELF"
+		(property "Order No." "652-CR0603-J/-000ELF"
 			(at 195.58 236.22 0)
 			(effects
 				(font
@@ -19565,7 +19295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07180RL"
+		(property "Order No." "603-RC0603FR-07180RL"
 			(at 375.92 233.68 0)
 			(effects
 				(font
@@ -19678,7 +19408,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "710-150060YS75003"
+		(property "Order No." "710-150060YS75003"
 			(at 361.95 224.79 0)
 			(effects
 				(font
@@ -20120,7 +19850,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-0603YC105JAT2A"
+		(property "Order No." "581-0603YC105JAT2A"
 			(at 55.88 163.83 0)
 			(effects
 				(font
@@ -20365,7 +20095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "-- verschiedene Werte --"
+		(property "Order No." "-- verschiedene Werte --"
 			(at 243.84 35.56 0)
 			(effects
 				(font
@@ -20610,7 +20340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "771-PMZ550UNEYL"
+		(property "Order No." "771-PMZ550UNEYL"
 			(at 250.19 62.23 0)
 			(effects
 				(font
@@ -20727,7 +20457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "581-06035C104KAT2A"
+		(property "Order No." "581-06035C104KAT2A"
 			(at 87.63 246.38 0)
 			(effects
 				(font
@@ -20842,7 +20572,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "603-RC0603FR-07100KL"
+		(property "Order No." "603-RC0603FR-07100KL"
 			(at 185.42 236.22 0)
 			(effects
 				(font
@@ -21020,16 +20750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Order. No." "95-25U51245GZ4I00T"
-			(at 81.28 262.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Order No." ""
+		(property "Order No." "95-25U51245GZ4I00T"
 			(at 81.28 262.89 0)
 			(effects
 				(font
@@ -21069,109 +20790,6 @@
 			(project "ZSWatch"
 				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
 					(reference "IC303")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x01")
-		(at 387.35 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fefbbf50-4876-48c4-b82f-0a75b5a95988")
-		(property "Reference" "X304"
-			(at 389.89 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "M-"
-			(at 389.89 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr." ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mfr. No." ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor" ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "CONFIG" ""
-			(at 387.35 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f78aa7ff-f39d-4d9e-a67f-d8a0afc05efe")
-		)
-		(instances
-			(project "ZSWatch"
-				(path "/d5742f03-3b1a-42e5-a384-018bd4b919aa/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7"
-					(reference "X304")
 					(unit 1)
 				)
 			)
