@@ -375,16 +375,6 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 106.68) (xy 97.79 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c16fa8bc-08ad-4c9a-89a5-cfeed4db5fd4")
-	)
-	(wire
-		(pts
 			(xy 82.55 45.72) (xy 82.55 127)
 		)
 		(stroke
@@ -435,16 +425,6 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 106.68) (xy 97.79 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d1837cfc-ce0a-400c-923f-77620576d62b")
-	)
-	(wire
-		(pts
 			(xy 107.95 119.38) (xy 107.95 66.04)
 		)
 		(stroke
@@ -452,16 +432,6 @@
 			(type default)
 		)
 		(uuid "db798099-4e06-40b1-8e6b-931363d0af0a")
-	)
-	(wire
-		(pts
-			(xy 97.79 53.34) (xy 138.43 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e33fcb3d-438f-4397-8b3f-3566018a4a89")
 	)
 	(wire
 		(pts
@@ -503,6 +473,28 @@
 			(justify left bottom)
 		)
 		(uuid "74fd2099-5f0c-4c03-8109-4757e272b327")
+	)
+	(text "Current consumptions @ 3V0\n----------------\nDisplay			40 mA\nBacklight		25 mA\nLevelshifter	2 uA\nVibration motor\nBuzzer			120 mA"
+		(exclude_from_sim no)
+		(at 13.716 196.342 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "af9a32d8-af4f-4315-8720-a89aae9434a5")
+	)
+	(text "Current consumptions @ 1V8\n----------------\nBMI270				1 mA\nBMP581				260 uA\nBME688				1.5 mA\nLIS2MDLTR			200 uA\nSPK0641HT4H-1		600 uA\nAPDS-9306-065		85 uA\nNTS0104GU12			0.1 uA\nMX25U51245GZ4I00	40 mA\nNORA-B106			30 mA"
+		(exclude_from_sim no)
+		(at 98.552 196.85 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+			(justify left bottom)
+		)
+		(uuid "fa2a0801-f12f-48e4-9b37-313e2dc8bb54")
 	)
 	(sheet
 		(at 25.4 25.4)
@@ -712,16 +704,6 @@
 			)
 			(uuid "354fc974-2449-4eb1-adfc-98c51b3a3a06")
 		)
-		(pin "V_{DD}-Display" input
-			(at 64.77 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "a4e3d4a5-4a6e-4b82-9d51-f1a83acc9e26")
-		)
 		(pin "PMIC-INT" input
 			(at 64.77 87.63 0)
 			(effects
@@ -849,16 +831,6 @@
 				(justify left)
 			)
 			(uuid "68a3da9c-f518-443c-b3ee-9fbfe66da2a4")
-		)
-		(pin "V_{DD}-Display" output
-			(at 138.43 53.34 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "af5c8cc4-838b-4828-9530-183070b142d4")
 		)
 		(pin "PMIC-INT" output
 			(at 138.43 44.45 180)

@@ -1954,16 +1954,6 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 127) (xy 203.2 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "214bd42c-3f5a-4886-9d9f-ff36c1f4bb78")
-	)
-	(wire
-		(pts
 			(xy 218.44 78.74) (xy 218.44 88.9)
 		)
 		(stroke
@@ -2947,18 +2937,6 @@
 			(justify left)
 		)
 		(uuid "a4d6e9ed-ad5c-4a84-88ab-777b9f2edb7f")
-	)
-	(hierarchical_label "V_{DD}-Display"
-		(shape output)
-		(at 203.2 127 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ae3d82e6-a0e9-4e8f-a5bb-6788ea482e92")
 	)
 	(hierarchical_label "V_{SYS}"
 		(shape input)
