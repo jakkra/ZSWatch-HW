@@ -60,7 +60,7 @@ jobs:
         with:
           issue-number: ${{ env.PR_NUMBER }}
           body: |-
-            ## Diff preview files are ready!
+            ## Diff ASDF preview files are ready!
 
             [![badge]]($JOB_PATH)
 
