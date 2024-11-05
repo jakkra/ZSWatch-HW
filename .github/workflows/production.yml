@@ -57,7 +57,7 @@ jobs:
           path: production
           if-no-files-found: ignore
 
-      - name: Update image
+      - name: Update image Test
         if: ${{ matrix.NewImage && (github.event.pull_request.merged == true) }}
         run: |
           git config --local user.name "github-actions[bot]"
