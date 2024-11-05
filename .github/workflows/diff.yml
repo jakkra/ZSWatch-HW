@@ -25,11 +25,11 @@ jobs:
 
       - name: Create schematics diff
         run: |
-          kicad-diff.py original/project/ZSWatch.kicad_sch modified/project/ZSWatch.kicad_sch --diff_mode red_green --all_pages --output_dir diff-schematics --no_reader --keep_pngs --resolution 500
+          kicad-diff.py original/project/ZSWatch.kicad_sch modified/project/ZSWatch.kicad_sch --diff_mode red_green --all_pages --output_dir diff-schematics --no_reader --keep_pngs
 
       - name: Create layout diff
         run: |
-          kicad-diff.py original/project/ZSWatch.kicad_pcb modified/project/ZSWatch.kicad_pcb --diff_mode red_green --all_pages --output_dir diff-layout --no_reader --keep_pngs --resolution 500
+          kicad-diff.py original/project/ZSWatch.kicad_pcb modified/project/ZSWatch.kicad_pcb --diff_mode red_green --all_pages --output_dir diff-layout --no_reader --keep_pngs
 
       - name: Upload Layout Diff
         uses: actions/upload-artifact@v4
