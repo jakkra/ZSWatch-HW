@@ -9,7 +9,8 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
 
     permissions:
       contents: write
@@ -34,18 +35,6 @@ jobs:
       - name: Dependencies
         run: |
           sudo apt update
-
-          wget https://github.com/INTI-CMNB/KiBot/releases/download/v1.7.0/kibot_1.7.0-1_all.deb
-          sudo apt install ./kibot*_all.deb
-
-          wget https://github.com/INTI-CMNB/InteractiveHtmlBom/releases/download/v2.9.0-1/interactivehtmlbom.inti-cmnb_2.9.0-1_all.deb
-          sudo apt install ./interactivehtmlbom.inti-cmnb*_all.deb
-
-          wget https://github.com/INTI-CMNB/KiAuto/releases/download/v2.3.2/kiauto_2.3.2-1_all.deb
-          sudo apt install ./kiauto*_all.deb
-
-          sudo add-apt-repository --yes ppa:kicad/kicad-8.0-releases
-          sudo apt install --install-recommends kicad
 
           git clone https://github.com/Kampi/KiCad.git library
 
