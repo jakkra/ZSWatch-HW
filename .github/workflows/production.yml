@@ -15,9 +15,6 @@ jobs:
     permissions:
       contents: write
 
-    env:
-      KICAD_LIBRARY: /home/runner/work/ZSWatch-HW/ZSWatch-HW/library
-
     strategy:
       matrix:
         device_type: [Watch, Sensor]
