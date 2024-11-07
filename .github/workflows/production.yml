@@ -34,8 +34,6 @@ jobs:
 
       - name: Dependencies
         run: |
-          sudo apt update
-
           git clone https://github.com/Kampi/KiCad.git library
 
       - name: Extract branch name
