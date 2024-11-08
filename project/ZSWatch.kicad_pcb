@@ -1344,7 +1344,7 @@
 			)
 			(uuid "bf1ee18b-eb58-4ed4-9262-8b192d1896a0")
 		)
-		(model "${ZSWATCH_PATH}/3D/Knowles/SPK0641HT4H.stp"
+		(model "${KIPRJMOD}/library/3D/Knowles/SPK0641HT4H.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -1944,7 +1944,7 @@
 			(roundrect_rratio 0.25)
 			(uuid "a3b1afd4-2f3b-4c4b-82be-0771236f5214")
 		)
-		(model "${ZSWATCH_PATH}/3D/Molex/781710002.stp"
+		(model "${KIPRJMOD}/library/3D/Molex/781710002.stp"
 			(offset
 				(xyz 0 0 1.5)
 			)
@@ -2648,7 +2648,7 @@
 			(pintype "input")
 			(uuid "4d216c67-ac0d-40a8-b029-6b84df100597")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/XQFN-12.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/XQFN-12.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -3678,7 +3678,7 @@
 			(pintype "passive")
 			(uuid "f962fb7d-1605-4c04-94be-f2e77d232d12")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm.step"
+		(model "${KIPRJMOD}/library/3D/Packages/QFN-32-1EP_5x5mm_P0.5mm_EP3.6x3.6mm.step"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -4513,7 +4513,7 @@
 			(remove_unused_layers no)
 			(uuid "1672ee42-180a-4179-8e0d-869e6b57acac")
 		)
-		(model "${ZSWATCH_PATH}/3D/E-Switch/TL6340AF160Q.stp"
+		(model "${KIPRJMOD}/library/3D/E-Switch/TL6340AF160Q.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -5781,7 +5781,7 @@
 			(pintype "bidirectional")
 			(uuid "402aefd9-c1b7-435c-b9c9-b56618e7213b")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -6886,7 +6886,7 @@
 			(remove_unused_layers no)
 			(uuid "a3d0b406-34aa-4e7f-a584-eb0bf4bfaccf")
 		)
-		(model "${ZSWATCH_PATH}/3D/E-Switch/TL6340AF160Q.stp"
+		(model "${KIPRJMOD}/library/3D/E-Switch/TL6340AF160Q.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -7474,7 +7474,7 @@
 			(pintype "input")
 			(uuid "d68db0d7-51a1-4d8b-b7e0-cb437c885798")
 		)
-		(model "${ZSWATCH_PATH}/3D/Micro Crystal/RV-8263-C8.stp"
+		(model "${KIPRJMOD}/library/3D/Micro Crystal/RV-8263-C8.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -8906,7 +8906,7 @@
 			(pintype "passive")
 			(uuid "2b179a59-9709-4456-bae5-8f8c291d1434")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/SOT-883.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/SOT-883.stp"
 			(offset
 				(xyz 0.75 -0.4 0.6)
 			)
@@ -9322,7 +9322,7 @@
 			(pintype "passive")
 			(uuid "1c6cb15f-b490-4053-9ced-713d9a879116")
 		)
-		(model "${ZSWATCH_PATH}/3D/Bosch/BMP581.stp"
+		(model "${KIPRJMOD}/library/3D/Bosch/BMP581.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -9756,7 +9756,7 @@
 			(pintype "no_connect")
 			(uuid "f17fd88b-4e78-4388-ba4c-d1e3e108d5a0")
 		)
-		(model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
+		(model "${KICAD8_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-12_2x2mm_P0.5mm.wrl"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -10769,7 +10769,7 @@
 			(pintype "input")
 			(uuid "82429b0f-394f-432c-81ba-0137070ebcb4")
 		)
-		(model "${ZSWATCH_PATH}/3D/EastRising/ER-CON0.4-24P.stp"
+		(model "${KIPRJMOD}/library/3D/EastRising/ER-CON0.4-24P.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11181,7 +11181,7 @@
 			(pintype "power_in")
 			(uuid "7f5f6bee-c25b-4766-9a78-9581a770558f")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/WQFN-10.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/WQFN-10.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11561,7 +11561,7 @@
 			(pintype "passive")
 			(uuid "9527345d-d31e-494a-95c9-239ebd876edb")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/WSON-8-8x6.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/WSON-8-8x6.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -11852,7 +11852,7 @@
 		(descr "Bosch  LGA, 8 Pin (https://ae-bst.resource.bosch.com/media/_tech/media/datasheets/BST-BME680-DS001-00.pdf#page=44), generated with kicad-footprint-generator ipc_noLead_generator.py")
 		(tags "Bosch LGA NoLead")
 		(property "Reference" "IC205"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.SilkS")
 			(uuid "c266280f-792d-427c-8c72-89d771a27cbf")
 			(effects
@@ -11863,7 +11863,7 @@
 			)
 		)
 		(property "Value" "BME688"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c1c57401-7057-4f07-9fa6-654f5cf680f3")
 			(effects
@@ -11874,7 +11874,7 @@
 			)
 		)
 		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "29dba402-3662-4f5c-a173-027e95147670")
@@ -11886,7 +11886,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme688-ds000.pdf"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e3803fad-a8e7-4e37-9372-223c7918c301")
@@ -11898,7 +11898,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "65004f1e-e29a-46f8-9ff6-7f76ff2bb63f")
@@ -12121,7 +12121,7 @@
 			(uuid "1cc2d733-a7ce-4be9-9e31-d5e2c5e6a922")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(layer "F.Fab")
 			(uuid "c085f66a-89a5-429a-b5fc-b3a24f6c90c5")
 			(effects
@@ -12203,7 +12203,7 @@
 			(pintype "power_in")
 			(uuid "c937c4fb-b40d-4cf6-bdf7-772603a482d0")
 		)
-		(model "${ZSWATCH_PATH}/3D/Bosch/BME680.stp"
+		(model "${KIPRJMOD}/library/3D/Bosch/BME680.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -13289,7 +13289,7 @@
 			(remove_unused_layers no)
 			(uuid "d6dd2877-09e9-4210-aa41-ea999d6165a2")
 		)
-		(model "${ZSWATCH_PATH}/3D/E-Switch/TL6340AF160Q.stp"
+		(model "${KIPRJMOD}/library/3D/E-Switch/TL6340AF160Q.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -15688,7 +15688,7 @@
 			(remove_unused_layers no)
 			(uuid "fab08ec2-f818-4075-b943-e415b22b9c1a")
 		)
-		(model "${ZSWATCH_PATH}/3D/E-Switch/TL6340AF160Q.stp"
+		(model "${KIPRJMOD}/library/3D/E-Switch/TL6340AF160Q.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -16023,7 +16023,7 @@
 			(pintype "passive")
 			(uuid "88ca7730-c1ed-418c-ae2f-bcee2f0763f2")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/SOT-883.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/SOT-883.stp"
 			(offset
 				(xyz 0.75 -0.4 0.6)
 			)
@@ -19138,7 +19138,7 @@
 				)
 			)
 		)
-		(path "/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/c66b6205-994e-4910-84eb-438fc910075c")
+		(path "/8c9f2ee7-84da-4a9a-b0dc-117e0b0a9ea7/6b4b5775-802d-4f65-8ea3-f1ad7a56059c")
 		(sheetname "MCU")
 		(sheetfile "MCU.kicad_sch")
 		(attr smd)
@@ -20093,7 +20093,7 @@
 				)
 			)
 		)
-		(model "${ZSWATCH_PATH}/3D/u-blox/NORA-B1x6.stp"
+		(model "${KIPRJMOD}/library/3D/u-blox/NORA-B1x6.stp"
 			(offset
 				(xyz -7.7 5.25 0.5)
 			)
@@ -20358,7 +20358,7 @@
 			(thermal_bridge_angle 45)
 			(uuid "86f0f341-edad-4de7-a13f-42ab30243458")
 		)
-		(model "${ZSWATCH_PATH}/3D/CUI Devices/CMT-322-65-SMT-TR.stp"
+		(model "${KIPRJMOD}/library/3D/CUI Devices/CMT-322-65-SMT-TR.stp"
 			(offset
 				(xyz -0.5 1.75 -0.5)
 			)
@@ -20682,7 +20682,7 @@
 			(pintype "power_in")
 			(uuid "1be60310-ece0-409d-86f1-26b37bc9cf5a")
 		)
-		(model "${ZSWATCH_PATH}/3D/Broadcom/APDS-9306-065.stp"
+		(model "${KIPRJMOD}/library/3D/Broadcom/APDS-9306-065.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -22444,7 +22444,7 @@
 			(pintype "power_in")
 			(uuid "c6034998-967b-469a-9ed2-93cfd14a8648")
 		)
-		(model "${ZSWATCH_PATH}/3D/Packages/UQFN-10.stp"
+		(model "${KIPRJMOD}/library/3D/Packages/UQFN-10.stp"
 			(offset
 				(xyz 0 0 0)
 			)
@@ -25069,7 +25069,7 @@
 			(pintype "passive")
 			(uuid "2066eff3-2ef6-4dfa-b41e-df4e688a35cd")
 		)
-		(model "${ZSWATCH_PATH}/3D/Pomagtor/RD90_LZH0230529-004_DJ-5PIN_PH2_54.stp"
+		(model "${KIPRJMOD}/library/3D/Pomagtor/RD90_LZH0230529-004_DJ-5PIN_PH2_54.stp"
 			(offset
 				(xyz 0 0 1.5)
 			)
