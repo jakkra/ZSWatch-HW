@@ -5847,7 +5847,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mfr." "ROHM Semiconductor"
+		(property "Mfr." "Diodes Incorporated"
 			(at 80.01 146.05 0)
 			(effects
 				(font

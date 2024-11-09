@@ -703,6 +703,12 @@
           "label": "Order No.",
           "name": "Order No.",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Order Number",
+          "name": "Order Number",
+          "show": false
         }
       ],
       "filter_string": "",

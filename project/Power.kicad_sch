@@ -4237,7 +4237,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://infocenter.nordicsemi.com/index.jsp?topic=%2Fstruct_pmic%2Fstruct%2Fnpm1300.html"
+		(property "Datasheet" "https://docs.nordicsemi.com/category/npm1300-category"
 			(at 132.08 110.49 0)
 			(effects
 				(font
