@@ -5791,7 +5791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
+		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -7132,7 +7132,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:LGA-12_2x2mm_P0.5mm"
+		(property "Footprint" "Package_LGA_Kampi:LGA-12_2x2mm_P0.5mm"
 			(at 248.92 50.8 0)
 			(effects
 				(font
@@ -7849,7 +7849,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
+		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-8_3x3mm_P0.8mm_ClockwisePinNumbering"
 			(at 283.21 153.67 0)
 			(effects
 				(font
@@ -8621,7 +8621,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_LGA:Bosch_LGA-10_2x2mm_P0.5mm_ClockwisePinNumbering"
+		(property "Footprint" "Package_LGA_Kampi:Bosch_LGA-10_2x2mm_P0.5mm_ClockwisePinNumbering"
 			(at 121.92 62.23 0)
 			(effects
 				(font
