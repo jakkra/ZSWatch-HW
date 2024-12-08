@@ -3,6 +3,9 @@
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 ![Badge](https://github.com/jakkra/zswatch-hw/actions/workflows/production.yml/badge.svg?color=yellow)
 
+> [!WARNING]  
+> This is the development branch of ZSWatch. Please use [main branch](https://github.com/jakkra/ZSWatch-HW/tree/main) for verified and tested PCB files.
+
 ## Table of Contents
 
 - [ZSWatch Hardware](#zswatch-hardware)
