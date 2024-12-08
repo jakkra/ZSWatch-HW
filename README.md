@@ -3,7 +3,13 @@
 [![License](https://img.shields.io/badge/License-GPL%203.0-blue.svg)](https://opensource.org/license/gpl-3-0/)
 ![Badge](https://github.com/jakkra/zswatch-hw/actions/workflows/production.yml/badge.svg?color=yellow)
 
-## Table of Contents
+> [!NOTE]
+> This is the release branch with tested PCB files.<br>
+> For hardware development branch go to [ZSWatch-HW/tree/2.0.6_Dev](https://github.com/jakkra/ZSWatch-HW/tree/2.0.6_Dev).<br>
+> For production files pick the [latest run here](https://github.com/jakkra/ZSWatch-HW/actions?query=event%3Apull_request_target) and scroll down to artifacts and pick `Watch`<br>
+> Although tested, there may still be unknown issues not yet discovered and ordering ZSWatch PCBs are on your own risk.
+
+## Table of Content
 
 - [ZSWatch Hardware](#zswatch-hardware)
   - [Table of Contents](#table-of-contents)
